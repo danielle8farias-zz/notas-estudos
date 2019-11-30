@@ -1,0 +1,60 @@
+# Navegando nos diretórios Linux
+Para saber em que diretório você se encontra, basta abrir o terminal e digitar:
+```
+$ pwd
+```
+A exibição de:
+```
+usuario@computador:~$
+```
+no terminal indica que você está no diretório /home.
+
+Para seguir até a pasta de downloads, basta digitar:
+```
+$ cd Downloads/
+```
+E no terminal será exibido:
+```
+usuario@computador:~/Downloads
+```
+Aqui vale a dica de iniciar a escrita do diretório desejado e utilizar a tecla 'tab' para a função de autocompletar.
+```
+$ cd Dow [pressione a telca 'tab' para completar]
+```
+Se houver mais de um diretório com as mesmas iniciais, será preciso apertar a tecla 'tab' duas vezes para que o terminal retorne o nome das pastas e você possa escolher qual precisa.
+```
+$ cd Do [pressionando o 'tab' duas vezes]
+Documentos/     /Downloads
+```
+Também é possível entrar no diretório citando o caminho completo.
+```
+$ cd /home/usuario/Downloads
+```
+Para retornar um diretório acima, digite:
+```
+$ cd ..
+```
+Para retornar a pasta /home, digite:
+```
+$ cd
+```
+Para retornar duas pastas acima, digite:
+```
+$ cd ../..
+```
+A exibição de:
+```
+usuario@computador:/$
+```
+no terminal indica que você está no diretório raiz.
+
+Para seguir diretamente para o diretório raiz bassta digitar:
+```
+$ cd /
+```
+Para diretórios com nomes compostos, usa-se a contrabarra (barra invertida) ao final de cada palavra. Exemplo:
+```
+$ cd Área\ de\ Trabalho
+```
+
+tags: linux, diretorio, cd, pastas
