@@ -62,3 +62,5 @@ Para visualizar o conteúdo de um arquivo com o número das linhas, adicione **-
 ```
 $ cat -n arquivo
 ```
+
+tags: linux, cat, concatenar, comando
