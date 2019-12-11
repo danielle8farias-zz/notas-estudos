@@ -1,4 +1,4 @@
-# Fazendo o commit
+# Enviando arquivos para o repositório Git
 
 Depois de usar o comando de adicionar arquivos no git
 ```
