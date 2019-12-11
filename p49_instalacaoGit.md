@@ -23,4 +23,15 @@ $ git config --global user.email <seu@email.com>
 ```
 Digite seu email sem os sinais de < e >.
 
-tags: git, linux, versionamento, instalacao
+Configurando o editor padrão:
+```
+$ git config --global core.editor nano
+```
+No meu caso, estou usando o **nano**.
+
+Para verificar as suas configurações:
+```
+$ git config --list
+```
+
+tags: git, linux, configuracao, instalacao
