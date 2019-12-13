@@ -12,7 +12,7 @@ $ git commit "sua mensagem aqui"
 
 Ou através de um atalho:
 ```
-git commit -a -m "commit e adição de modificação juntos"
+git commit -am "commit e adição de modificação juntos"
 ```
 O parâmetro **-a** adiciona todos os arquivos que foram modificados, sem a necessidade de adicionar cada um individualmente.
 

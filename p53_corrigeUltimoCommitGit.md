@@ -12,12 +12,25 @@ $ git commit -m "adicionando terceiro arquivo"
 ```
 Como é possível constatar, escrevi errado o segundo commit. Assim para modificá-lo fazemos:
 ```
-$ git commit --amend
+$ git commit --amend -m "adicionando segundo arquivo (edit)"
 ```
-O editor de texto que foi configurado como padrão será aberto e então será possível fazer a modificação do último commit.
 
 Podemos conferir a mudança através do comando:
 ```
-$ git log
+$ git log --oneline
 ```
+
+Um problema que pode ocorrer, que também é resolvido com o comando **--amend** é de adicionar um arquivo ao repositório, dar commit, e ainda ter faltado arquivo para esse commit anterior. Exxemplo:
+
+Temos os arquivos 1 e 2 que devem fazer parte de um mesmo commit
+```
+$ git add arquivo1
+$ git commit -m "atualização"
+```
+Adicionado o arquivo esquecido
+```
+$ git add arquivo2
+$ git commit --amend -m "atualização (edit)"
+```
+
 tags: git, log, commit, alteracao
