@@ -1,42 +1,43 @@
-# Removendo arquivos adicionados no Git
+# Removendo arquivos do index
 
 Vamos supor que temos dois arquivos:
 ```
 $ ls
 ```
 ```
-readme changelog
+arquivo1 arquivo2
 ```
 Ao adicionarmos os dois ao git
 ```
-$ git add readme changelog
+$ git add arquivo1 arquivo2
 ```
-percebemos que adicionamos o changelog sem querer.
+ou
+```
+$ git add .
+```
+percebemos que adicionamos o arquivo2 sem querer.
 
-Para removê-lo usamos o comando:
+Assim, removê-lo usamos o comando:
 ```
-$ git rm --cached changelog
+$ git reset HEAD arquivo2
 ```
 
-Assim ao verificarmos o estado do git,
+Ao verificarmos o estado do git,
 ```
 $ git status
 ```
 temos
 ```
 No ramo master
-No commits yet
-
 Mudanças a serem submetidas:
-  (utilize "git rm --cached <arquivo>..." para não apresentar)
+  (use "git reset HEAD <file>..." to unstage)
 
-	new file:   readme
+	new file:   arquivo1
 
 Arquivos não monitorados:
   (utilize "git add <arquivo>..." para incluir o que será submetido)
 
-	changelog
+	arquivo2
 ```
-O arquivo foi retirado do index.
 
-tags: git, rm, cached, index
+tags: git, reset, index, head
