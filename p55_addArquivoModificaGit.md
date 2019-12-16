@@ -1,6 +1,6 @@
 # Adicionando um arquivo modificado no Git
 
-Para adicionar um arquivo que foi que foi modificado ao repositório, existem dois caminhos.
+Para adicionar um arquivo que foi modificado ao repositório, existem dois caminhos.
 
 ```
 $ git add <nome do arquivo>

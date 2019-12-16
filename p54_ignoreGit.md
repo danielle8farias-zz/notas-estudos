@@ -12,7 +12,7 @@ Ocultando do git uma pasta e um diretório. Temos
 
 Assim temos uma pasta como primeiro item, pois ela termina com a barra.
 
-O terceito item estamos adicionando na lista qualquer arquivo que termine com a extensão **txt**.
+No terceiro item estamos adicionando na lista qualquer arquivo que termine com a extensão **txt**.
 
 É importante notas que devemos informar um tipo de arquivo por linha.
 

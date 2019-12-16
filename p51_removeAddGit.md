@@ -17,7 +17,7 @@ $ git add .
 ```
 percebemos que adicionamos o arquivo2 sem querer.
 
-Assim, removê-lo usamos o comando:
+Assim, para removê-lo usamos o comando:
 ```
 $ git reset HEAD arquivo2
 ```

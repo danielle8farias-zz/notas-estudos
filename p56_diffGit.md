@@ -33,7 +33,7 @@ Para verificar todos os commit feitos, usamos
 ```
 $ git log
 ```
-O retorno será o histórico de todos os commits e uma chave para cada um deles. É atraves dessa chave que fazemos a transição entre as versões do arquivo/projeto.
+O retorno será o histórico de todos os commits e uma chave para cada um deles. É através dessa chave que fazemos a transição entre as versões do arquivo/projeto.
 
 O comando
 ```
