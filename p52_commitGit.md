@@ -17,4 +17,6 @@ No ramo master
 nothing to commit, working tree clean
 ```
 
+![commit do git](./img/fluxoGit6.png)
+
 tags: git, commit, add, status

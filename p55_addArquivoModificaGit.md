@@ -1,5 +1,7 @@
 # Adicionando um arquivo modificado no Git
 
+![arquivo modificado](./img/fluxoGit7.png)
+
 Para adicionar um arquivo que foi modificado ao repositório, existem dois caminhos.
 
 ```

@@ -18,6 +18,8 @@ No commits yet
 nada para enviar (crie/copie arquivos e use "git add" para registrar)
 ```
 
+![fluxo inicial do git](./img/fluxoGit1.png)
+
 Vamos criar alguns arquivos para teste:
 ```
 $ touch readme changelog
@@ -35,6 +37,8 @@ Arquivos não monitorados:
 
 nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
 ```
+
+![working directory com dois arquivos](./img/fluxoGit2.png)
 
 Para adicionar os dois arquivos
 ```
@@ -67,6 +71,8 @@ Mudanças a serem submetidas:
 	new file:   changelog
 	new file:   readme
 ```
-Aqui, estamos na staging area. Algo como uma sala de espera do git.
+Aqui, estamos na staging area (index). Algo como uma sala de espera do git.
+
+![arquivos no index](./img/fluxoGit3.png)
 
 tags: git, init, add, status
