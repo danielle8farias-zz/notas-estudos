@@ -15,7 +15,7 @@ Então digite
 $ git merge <nome do ramo onde as alterações foram feitas>
 ```
 
-![merge](./img/branchGit1.png)
+![merge](./img/ramosGit2.png)
 
 Para visualizar os commits de merge:
 ```
