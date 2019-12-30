@@ -32,4 +32,9 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 Desse modo, é preciso primeiro resolver a situação conflitante e fazer o commit antes de conseguir unir os ramos.
 
+Caso deseje desfazer esse processo, digite:
+```
+$ git merge --abort
+```
+
 tags: git, conflito, merge, branch
