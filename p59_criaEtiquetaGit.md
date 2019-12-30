@@ -10,6 +10,8 @@ Exemplo:
 $ git tag -a v1.0 -m "versão 1.0"
 ```
 
+![etiqueta no git](./img/tagGit1.png)
+
 Para verificar todas as etiquetas digite
 ```
 $ git tag

@@ -22,7 +22,7 @@ nada para enviar (crie/copie arquivos e use "git add" para registrar)
 
 Vamos criar alguns arquivos para teste:
 ```
-$ touch readme changelog
+$ touch arquivo1 arquivo2
 ```
 Digitando novamente o git status, temos:
 ```
@@ -32,8 +32,8 @@ No commits yet
 Arquivos não monitorados:
   (utilize "git add <arquivo>..." para incluir o que será submetido)
 
-	changelog
-	readme
+	arquivo1
+	arquivo2
 
 nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
 ```
@@ -42,12 +42,12 @@ nada adicionado ao envio mas arquivos não registrados estão presentes (use "gi
 
 Para adicionar os dois arquivos
 ```
-$ git add readme
-$ git add changelog
+$ git add arquivo1
+$ git add arquivo2
 ```
 Ou
 ```
-$ git add readme changelog
+$ git add arquivo1 arquivo2
 ```
 
 Para adicionar todos os arquivos do diretório
@@ -68,10 +68,10 @@ No commits yet
 Mudanças a serem submetidas:
   (utilize "git rm --cached <arquivo>..." para não apresentar)
 
-	new file:   changelog
-	new file:   readme
+	new file:   arquivo1
+	new file:   arquivo2
 ```
-Aqui, estamos na staging area (index). Algo como uma sala de espera do git.
+Aqui, estamos no index (staging area). Algo como uma sala de espera do git.
 
 ![arquivos no index](./img/fluxoGit3.png)
 

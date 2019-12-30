@@ -1,7 +1,5 @@
 # Adicionando um arquivo modificado no Git
 
-![arquivo modificado](./img/fluxoGit7.png)
-
 Para adicionar um arquivo que foi modificado ao repositório, existem dois caminhos.
 
 ```
@@ -17,5 +15,7 @@ Ou através de um atalho:
 git commit -am "commit e adição de modificação juntos"
 ```
 O parâmetro **-a** adiciona todos os arquivos que foram modificados, sem a necessidade de adicionar cada um individualmente.
+
+![arquivo modificado](./img/fluxoGit9.png)
 
 tags: git, modificado, add, commit

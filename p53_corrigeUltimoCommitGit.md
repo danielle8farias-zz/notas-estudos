@@ -2,18 +2,23 @@
 
 Vamos supor que adicionei dois arquivos com os seguintes commits:
 ```
-$ git add readme
+$ git add arquivo1
 $ git commit -m "adicionando primeiro arquivo"
 ```
 E
 ```
-$ git add changelog
+$ git add arquivo2
 $ git commit -m "adicionando terceiro arquivo"
 ```
+
+![commit errado](./img/fluxoGit6.png)
+
 Como é possível constatar, escrevi errado o segundo commit. Assim para modificá-lo fazemos:
 ```
 $ git commit --amend -m "adicionando segundo arquivo (edit)"
 ```
+
+![commit corrigido](./img/fluxoGit7.png)
 
 Podemos conferir a mudança através do comando:
 ```

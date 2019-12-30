@@ -15,4 +15,11 @@ Então digite
 $ git merge <nome do ramo onde as alterações foram feitas>
 ```
 
+![merge](./img/branchGit1.png)
+
+Para visualizar os commits de merge:
+```
+ $ git log --merges 
+```
+
 tags: git, merge, checkout, branch

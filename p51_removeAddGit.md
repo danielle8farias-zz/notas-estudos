@@ -17,7 +17,7 @@ $ git add .
 ```
 percebemos que adicionamos o arquivo2 sem querer.
 
-![arquivos no index](./img/fluxoGit4.png)
+![arquivos no index](./img/fluxoGit3.png)
 
 Assim, para removê-lo usamos o comando:
 ```
@@ -42,6 +42,6 @@ Arquivos não monitorados:
 	arquivo2
 ```
 
-![arquivo removido do index](./img/fluxoGit5.png)
+![arquivo removido do index](./img/fluxoGit4.png)
 
 tags: git, reset, index, head

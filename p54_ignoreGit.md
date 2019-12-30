@@ -33,6 +33,8 @@ Arquivos não monitorados:
 nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
 ```
 
+![arquivos ignorados pelo git](./img/fluxoGit8.png)
+
 Os arquivos descritos dentro do arquivo .gitignore não aparece no estado atual do Git.
 
 tags: git, ignore, diretorio, arquivo

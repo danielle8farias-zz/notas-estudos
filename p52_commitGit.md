@@ -17,6 +17,7 @@ No ramo master
 nothing to commit, working tree clean
 ```
 
-![commit do git](./img/fluxoGit6.png)
+![commit do git](./img/fluxoGit5.png)
+> abaixo do nome do arquivo está escrito a chave (ou hash) que identifica o commit
 
 tags: git, commit, add, status
