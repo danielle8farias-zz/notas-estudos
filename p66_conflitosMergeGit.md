@@ -30,7 +30,7 @@ Mesclagem automática de <arquivo>
 CONFLITO (conteúdo): conflito de mesclagem em <arquivo>
 Automatic merge failed; fix conflicts and then commit the result.
 ```
-Desse modo, é preciso primeiro resolver a situação conflitante e fazer o commit antes de conseguir unir os ramos.
+Desse modo, é preciso primeiro resolver a situação conflitante e em seguida fazer o commit.
 
 Caso deseje desfazer esse processo, digite:
 ```
