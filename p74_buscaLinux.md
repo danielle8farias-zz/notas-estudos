@@ -80,7 +80,7 @@ Relembrando:
 - o colchete com a vírgula irá buscar todos os caracteres indicados.
 - o colchete com o traço irá buscar o intervalo fechado de caracteres.
 
-Se a minha buscar é de duas extensões de arquivos ao mesmo tempo, temos:
+Se a minha busca é de duas extensões de arquivos ao mesmo tempo, temos:
 ```
 $ ls /home/*.{conf,db}
 ```
