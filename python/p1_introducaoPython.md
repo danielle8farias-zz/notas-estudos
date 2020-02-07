@@ -1,4 +1,6 @@
-# História do Python
+# Introdução ao Python
+
+## História do Python
 
 ![logo do python](./img/Python.png)
 
@@ -9,5 +11,7 @@ O nome Python foi uma homenagem ao programa de TV Inglês, Monty Python Flying C
 Atualmente a linguagem é mantida por uma fundação sem fins lucrativos chamada **Python Software Foundation**, que é apoiada por várias empresas, entre elas o Google e a Microsoft.
 
 **Python** é uma linguagem multiplataforma, interpretada, de propósito geral, fácil e intuitiva.
+
+
 
 tags: python, historia
