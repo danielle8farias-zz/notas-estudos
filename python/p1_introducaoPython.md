@@ -10,8 +10,16 @@ O nome Python foi uma homenagem ao programa de TV Inglês, Monty Python Flying C
 
 Atualmente a linguagem é mantida por uma fundação sem fins lucrativos chamada **Python Software Foundation**, que é apoiada por várias empresas, entre elas o Google e a Microsoft.
 
-**Python** é uma linguagem multiplataforma, interpretada, de propósito geral, fácil e intuitiva.
+**Python** é uma linguagem multiplataforma, interpretada, de propósito geral, fácil e intuitiva. Seus principais usos são:
 
+- Desenvolvimento web (servidor);
+- Desenvolvimento de softwares em geral;
+- Análise de dados;
+- Inteligência Artificial;
+- Automação de tarefas;
+- Testes de software;
+- Scripting
 
+Está disponível para diversas plataformas, como Windows, Mac, Linux, Raspberry Pi, etc. E pode ser usada de modo procedural, orientada a objetos ou funcional.
 
-tags: python, historia
+tags: python, historia, aplicacao, programacao
