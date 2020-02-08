@@ -1,6 +1,14 @@
 # Declarando variável em Python
 
-Para fazer a declaração de uma variável em Python, basta digitar o nome da variável, seguido do sinal de igual (que em Python serve para fazer a atribuição) e o tipo de dado escolhido.
+Para entender o que são variáveis, podemos usar a analogia de que uma variável é uma caixa onde guardamos algo, mas onde só podemos guardar um único item.
+
+![analogia de uma variável com uma caixa](.img/variable.png)
+
+É preciso dar nome as caixas, para chamá-las posteriormente.
+
+Conceitualmente, variáveis são espaços na memória que serão reservados para guardar dados.
+
+Para fazer a declaração de uma variável em Python, basta digitar o nome da variável, seguido do sinal de **igual** (que em Python serve para fazer a atribuição) e o tipo de dado escolhido.
 
 Exemplo de variável do tipo **int**:
 
@@ -65,18 +73,22 @@ Para declarar uma constante, usa-se letras maiúsculas:
 PI = 3.14159
 ```
 
-Abaixo, um exemplo de programa que pede a data de nascimento:
+## Regras para nomear uma variável:
+
+- Deve iniciar com uma letra ou um underscore **_**;
+- Não pode começar com um número;
+- Após a primeira letra, pode conter números e underscores;
+- São case sensitive, isto é, uma variável chamada **nome** é diferente de Nome, NOME, NoMe e demais variações.
+
+### Boas práticas:
+
+Recomenda-se o uso de nomes de variáveis autoexplicativos. Por exemplo:
 
 ```py
-print('Programa data de nascimento')
-print()
-dia = int(input('Informe o dia do nascimento: '))
-mes = int(input('Informe o mês do nascimento: '))
-ano = int(input('Informe o ano do nascimento: '))
-print()
-print(f'Você nasceu no dia {dia} de {mes} de {ano}.')
+nome_planeta = "Júpiter"
+numero_posicao = 5
+numero_satelites = 79
+rotacao_horas = 9.8
 ```
-
-Como já vimos, a função **input()** recebe apenas strings, por isso, para que o valor recebido seja um inteiro, é preciso fazer a conversão de tipos com a função **int()**. Isso é necessário porque Python possui tipagem forte.
 
 tags: python, variavel, constante, tipos
