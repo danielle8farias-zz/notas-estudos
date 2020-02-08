@@ -1,4 +1,4 @@
-# Instalando e configurando o Git no Linux
+# Instalando, configurando e inicializando o Git no Linux
 
 Para instalar o Git no Linux, digite:
 ```
@@ -32,6 +32,15 @@ No meu caso, estou usando o **nano**.
 Para verificar as suas configurações:
 ```
 $ git config --list
+```
+
+Para inicializar o git no diretório desejado (caso ainda não o tenha feito), vá até o local onde você deseja fazer o controle de versionamento.
+```
+$ cd /home/user/your_repository
+```
+e digite
+```
+$ git init
 ```
 
 tags: git, linux, configuracao, instalacao
