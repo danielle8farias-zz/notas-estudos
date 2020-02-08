@@ -5,7 +5,7 @@ Do mesmo modo que operadores matemáticos são usados para resolver expressões 
 Desse modo, temos como principais operadores lógicos:
 
 - conectivo de conjunção **E**
-- conectivo de disjusção **OU**
+- conectivo de disjunção **OU**
 - conectivo de negação **NÃO**
 
 Respectivamente, no Python eles são escritos:
@@ -135,6 +135,6 @@ Desse modo, temos a tabela verdade:
 
 Substituindo **True** por **1** e **False** por **0**, temos:
 
-![tabela verdade com bits](img/tabelaVerdadeBit.png)
+![tabela verdade com bits](./img/tabelaVerdadeBit.png)
 
 tags: tabelaVerdade, operadorLogico, algebraBooleana, python
