@@ -33,10 +33,10 @@ O **#!** é a shebang propriamente dita, o **/usr/bin** é o endereço absoluto 
 Antes de executar é preciso dar as permissões através do comando no terminal
 
 ```
-$ chmod a-x nome_do_arquivo.py
+$ chmod a+x nome_do_arquivo.py
 ```
 
-O **chmod** vem de _change mode_ que é quem vai fazer as mudanças, o **a-x** significa _for **a**ll users, remove (**-**) the e*x*ecute permission_, ou seja, remova as permissões de execução para todos os usuários.
+O **chmod** vem de _change mode_ que é quem vai fazer as mudanças, o **a+x** significa _for **a**ll users, remove the e**x**ecute permission_, ou seja, remova as permissões de execução para todos os usuários.
 
 Para chamar o arquivo digite no terminal
 
