@@ -9,8 +9,8 @@ Faça um programa que some dois números dados pelo usuário.
 Primeiramente, precisamos pedir ao usuário os dois números a serem somados através da função **input**.
 
 ```py
-num1 = (input("Digite o primeiro número: "))
-num2 = (input("Digite o segundo número: "))
+num1 = input("Digite o primeiro número: ")
+num2 = input("Digite o segundo número: ")
 ```
 
 Aqui é importante lembrar que a função **input** só recebe **strings**. Então antes de fazer a soma, devemos fazer a conversão desses dados para **int** ou **float**. Se isso não for feito, haverá a concatenação de duas strings em vez da soma de dois números.
@@ -19,6 +19,8 @@ Aqui é importante lembrar que a função **input** só recebe **strings**. Ent�
 num1 = float(num1)
 num2 = float(num2)
 ```
+
+Escolhi usar o float pois o usuário pode escolher somar números inteiros e/ou decimais.
 
 É possível usar o mesmo nome das variáveis para atualizar os seus tipos, sem a necessidade de criar novas.
 
