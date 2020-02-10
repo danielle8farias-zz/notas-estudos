@@ -44,4 +44,4 @@ Para chamar o arquivo digite no terminal
 $ ./nome_do_arquivo.py
 ```
 
-tags: python, linux, shebang
+tags: python, linux, shebang, terminal
