@@ -1,4 +1,4 @@
-# [Exercícios com Python] Data de nascimento
+# [Exercícios com Python] Soma
 
 ## Enunciado
 
