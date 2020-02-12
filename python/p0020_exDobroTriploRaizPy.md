@@ -12,7 +12,7 @@ Primeiramente, precisamos pedir ao usuário um número através da função **in
 num = input('Digite um número: ')
 ```
 
-Aqui é importante lembrar que a função **input** só recebe **strings**. Então antes de fazer as operações, devemos fazer a conversão desses dados para **int** ou **float**. Se isso não for feito, haverá a concatenação de duas strings em vez da soma de dois números.
+Aqui é importante lembrar que a função **input** só recebe **strings**. Então antes de fazer as operações, devemos fazer a conversão desse dado para **int** ou **float**.
 
 ```py
 num = int(num)
