@@ -22,6 +22,8 @@ mes = int(mes)
 ano = int(ano)
 ```
 
+É possível usar o mesmo nome das variáveis para atualizar os seus tipos, sem a necessidade de criar novas.
+
 Outra maneira mais prática de realizar a conversão é fazê-la no momento da captura do dado. Assim:
 
 ```py
@@ -29,8 +31,6 @@ dia = int(input('Digite o dia do seu nascimento: '))
 mes = int(input('Digite o mês do seu nascimento: '))
 ano = int(input('Digite o ano do seu nascimento: '))
 ```
-
-É possível usar o mesmo nome das variáveis para atualizar os seus tipos, sem a necessidade de criar novas.
 
 Agora basta imprimir a mensagem na tela junto com os dados coletados.
 
