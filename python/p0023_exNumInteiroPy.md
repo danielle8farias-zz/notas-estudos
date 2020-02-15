@@ -18,7 +18,7 @@ Aqui é importante lembrar que a função **input** só recebe **strings**. Ent�
 num = float(num)
 ```
 
-É possível usar o mesmo nome da variávei para atualizar o seu tipo, sem a necessidade de criar uma nova.
+É possível usar o mesmo nome da variável para atualizar o seu tipo, sem a necessidade de criar uma nova.
 
 Outra maneira mais prática de realizar a conversão é fazê-la no momento da captura do dado. Assim:
 
