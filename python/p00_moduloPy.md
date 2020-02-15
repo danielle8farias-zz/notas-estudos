@@ -5,8 +5,9 @@ Módulos são um conjunto de códigos como funções, variáveis e outras instru
 Para criar um módulo basta criar um arquivo com ao extensão .py
 
 ```
-meu_modulo.py
+$ touch meu_modulo.py
 ```
+
 
 
 tags: python, modulo,
