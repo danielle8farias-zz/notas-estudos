@@ -2,8 +2,7 @@
 
 ## Enunciado
 
-Faça um programa que leia a altura e largura da parede em metros; calcule a área e a quantidade
-de tinta necessária para pintá-la, sabendo que cada litro pinta 2m².
+Faça um programa que leia a altura e largura da parede em metros; calcule a área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro pinta 2m².
 
 ## Resolução
 
