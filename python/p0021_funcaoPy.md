@@ -88,6 +88,29 @@ def subtracao(num1,num2):
 subtracao(10,7)
 ```
 
-Como pudemos notar é possível chamar uma função ao definir uma e chamar uma função dentro de outra.
+Como pudemos notar é possível chamar uma função ao definir uma e também chamar uma função dentro de outra.
 
-tags: python, funcao, parametro, return
+## Empacotar parâmetros
+
+Também é possível usar na função sem explicitar o número de parâmetros.
+
+```
+def nome_da_funcao(*parametro):
+    <bloco de código indentado ou com recuo>
+```
+
+Com o uso do asterisco antes da chamada dos parâmetros.
+
+Exemplo: Um programa que sorteia vários números num bingo.
+
+```py
+def sorteio(*num):
+    tamanho = len(num)
+    print(f'Foram sorteados {tamanho} números e são: {num}')
+
+sorteio(3,5,7)
+sorteio(11,13,15,21)
+sorteio(1,0,14,22,24,38)
+```
+
+tags: python, funcao, parametro, empacotamento
