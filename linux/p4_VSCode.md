@@ -25,7 +25,7 @@ $ sudo dpkg -i vscode.deb
 
 Caso precise corrigir dependências, digite o comando:
 ```
-$ apt install -f
+$ sudo apt install -f
 ```
 
 tags: linux, vscode, dpkg, instalacao
