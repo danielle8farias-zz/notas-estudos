@@ -85,7 +85,7 @@ print(f'Soma = {soma}')
 
 Queremos acrescentar a ele nosso cabeçalho e rodapé criados.
 
-Desse modo, no início do programa adicinamos o comando **import**.
+Desse modo, no início do programa adicionamos o comando **import**.
 
 ```py
 import meu_modulo
