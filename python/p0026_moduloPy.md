@@ -124,6 +124,17 @@ print(f'Soma = {soma}')
 fim()
 ```
 
-É importante que o script e o módulo estejam na mesma pasta/diretório.
+Para usar dessa maneira, é importante que o script e o módulo estejam na mesma pasta/diretório.
 
-tags: python, modulo, funcao, import
+Caso queira colocar os módulos criados em um diretório específico, é preciso adicionar alguns comandos. São eles:
+
+```py
+import sys
+sys.path.append('<caminho do seu diretório de módulos>')
+```
+
+O módulo **sys** provê informações cruciais sobre como seu script Python interage com o sistema operacional.
+
+A variável **sys.path** contém uma lista de strings que determina os caminhos de busca de módulos conhecidos pelo interpretador. Com a função **append**, estamos informando ao sistema onde encontrar os nossos módulos.
+
+tags: python, modulo, sys, import
