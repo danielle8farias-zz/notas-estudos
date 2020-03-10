@@ -68,4 +68,6 @@ rodape()
 
 Você pode fazer a importação das bibliotecas e módulos no meio do código, mas colocá-las no início é uma boa prática.
 
+> caso ache necessário, faça uma revisão de matemática sobre [Radianos](https://www.youtube.com/watch?v=kTMsXJUqzZo) e [Razão Trigonométrica](https://youtu.be/4sTUs4ll3dI).
+
 tags: python, trigonometria, modulo, biblioteca
