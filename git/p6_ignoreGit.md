@@ -1,9 +1,11 @@
 # Ignorando arquivos no Git
 
-Para arquivos dentro do diretório, os quais você não quer incluí-los no repositório, precisamos criar o seguinte arquivo:
+Caso você queira que o git não enxergue determinados arquivos dentro do mesmo diretório do repositório, precisamos criar o seguinte arquivo:
+
 ```
 $ touch .gitignore
 ```
+
 Abrindo esse arquivo, vamos digitar dentro dele o que queremos deixar de fora do repositório. Exemplo:
 
 Ocultando do git uma pasta e um diretório. Temos
@@ -16,13 +18,15 @@ No terceiro item estamos adicionando na lista qualquer arquivo que termine com a
 
 É importante notas que devemos informar um tipo de arquivo por linha.
 
-Dentro do diretório, temos:
+Dentro desse diretório exemplo, temos:
+
 ```
 $ ls
 changelog  readme  secreto/  secreto1  secreto2.txt
 ```
 
 Quando verificamos o estado do git teremos:
+
 ```
 No ramo master
 Arquivos não monitorados:
@@ -35,6 +39,6 @@ nada adicionado ao envio mas arquivos não registrados estão presentes (use "gi
 
 ![arquivos ignorados pelo git](./img/fluxoGit8.png)
 
-Os arquivos descritos dentro do arquivo .gitignore não aparece no estado atual do Git.
+Os arquivos descritos dentro do arquivo .gitignore não aparecem no estado atual do Git.
 
 tags: git, ignore, diretorio, arquivo
