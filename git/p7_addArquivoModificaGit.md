@@ -5,15 +5,19 @@ Para adicionar um arquivo que foi modificado ao repositório, existem dois camin
 ```
 $ git add <nome do arquivo>
 ```
+
 seguido do commit
+
 ```
-$ git commit "sua mensagem aqui"
+$ git commit -m "sua mensagem aqui"
 ```
 
 Ou através de um atalho:
+
 ```
 git commit -am "commit e adição de modificação juntos"
 ```
+
 O parâmetro **-a** adiciona todos os arquivos que foram modificados, sem a necessidade de adicionar cada um individualmente.
 
 ![arquivo modificado](./img/fluxoGit9.png)
