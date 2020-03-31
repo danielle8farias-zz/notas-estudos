@@ -89,6 +89,7 @@ from random import randint
 from time import sleep
 from mensagem import cabecalho, rodape, linha
 
+cabecalho('adivinhação')
 computador = randint(0, 5)
 linha()
 print('Por favor escolha um número de 0 a 5')
