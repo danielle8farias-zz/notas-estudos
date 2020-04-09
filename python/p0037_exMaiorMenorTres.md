@@ -267,7 +267,7 @@ num3 = int(input("Digite o 3º número inteiro: "))
 if (num1 == num2) and (num1 == num3) and (num2 == num3):
     print('Os valores são iguais!')
 
-# números diferents
+# números diferentes
 elif (num1 > num2) and (num1 > num3):
     print(f'O maior número é {num1} ',end='')
     if num2 > num3:
