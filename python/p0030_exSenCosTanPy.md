@@ -47,7 +47,7 @@ Essa formatação é um pouco mais elaborada, como podemos ver.
 - Em seguida colocamos um ponto **(.)**, pois não precisamos de espaços (isso é útil para alinhar colunas).
 - Por último vem o número de casas decimais que queremos, no caso **duas (2)**, seguido de **f** que indica ponto flutuante.
 
-No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](python/p0028_exCriandoModuloPy.md),
+No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](p0028_exCriandoModuloPy.md),
 
 ```py
 from mensagem import cabecalho, rodape

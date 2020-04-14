@@ -123,7 +123,7 @@ Muita atenção com as indentações nesse trecho!
 
 Deixamos a expressão lógica como comentário para fins de entendimento.
 
-No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](python/p0028_exCriandoModuloPy.md), temos
+No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](p0028_exCriandoModuloPy.md), temos
 
 ```py
 from mensagem import cabecalho, rodape

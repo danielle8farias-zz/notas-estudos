@@ -46,7 +46,7 @@ print(f'A raiz de {num} = {raiz}')
 
 A letra **f** logo após o primeiro parentese do print serve para indicar a formatação da string que aparecerá. Desse modo podemos chamar as variáveis entre chaves **{}** dentro da string.
 
-No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](python/p0028_exCriandoModuloPy.md),
+No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](p0028_exCriandoModuloPy.md),
 
 ```py
 from mensagem import cabecalho

@@ -46,7 +46,7 @@ print(f'Seu nome tem Silva? {"silva" in nome}')
 
 - A letra **f** logo após o primeiro parentese do print serve para indicar a formatação da string que aparecerá. E colocamos a expressão do operador lógico entre chaves **{}** dentro da string.
 
-No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](python/p0028_exCriandoModuloPy.md), temos
+No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](p0028_exCriandoModuloPy.md), temos
 
 ```py
 from mensagem import cabecalho, rodape

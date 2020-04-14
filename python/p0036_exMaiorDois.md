@@ -71,7 +71,7 @@ else:
 
 Devemos lembrar que o bloco de código indicado pelo **if** e **else** devem estar indentados, como mostrado acima.
 
-No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](python/p0028_exCriandoModuloPy.md), temos
+No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](p0028_exCriandoModuloPy.md), temos
 
 ```py
 from mensagem import cabecalho, rodape

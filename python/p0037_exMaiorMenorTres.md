@@ -253,7 +253,7 @@ else: # (num3 == num1) or (num3 == num2) :
         print(f'e o menor é {num1}')
 ```
 
-No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](python/p0028_exCriandoModuloPy.md), temos
+No código final, usando também o módulo que criamos no exercício [Criando cabeçalho e rodapé para os scripts Python](p0028_exCriandoModuloPy.md), temos
 
 ```py
 from mensagem import cabecalho, rodape
