@@ -15,7 +15,7 @@ num1 = input("Digite o 1º número inteiro: ")
 Aqui é importante lembrar que a função **input** só recebe **strings**. Então , devemos fazer a conversão desse dado para **int**.
 
 ```py
-num1 = int (num1)
+num1 = int(num1)
 ```
 
 É possível usar o mesmo nome da variável para atualizar seu tipo, sem a necessidade de criar uma nova.
