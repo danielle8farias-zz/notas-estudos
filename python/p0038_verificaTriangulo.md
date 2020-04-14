@@ -1,4 +1,4 @@
-# [Exercícios com Python] Verifica se forma triângulo
+# [Exercícios com Python] Verifica se retas formam triângulo
 
 ## Enunciado
 
