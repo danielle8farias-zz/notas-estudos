@@ -6,13 +6,13 @@ Todas as tecnologias que usamos atualmente necessitam de sistemas de numeração
 
 ### Sistema decimal
 
-![dez dedos](/img/numeroMaos.png)
+![dez dedos](img/numeroMaos.png)
 
 Possivelmente esse sistema de contagem surgiu porque nós possuímos 10 dedos nas mãos.
 
 Isso significa que para contar utilizamos uma técnica de agrupar as coisas de dez em dez, ou seja, separamos os números em grupos de dez. Por isso temos,
 
-![sistema decimal](/img/sistema-de-numeracao-decimal.png)
+![sistema decimal](img/sistema-de-numeracao-decimal.png)
 
 Com algarismo que vão de 0 a 9 para cada agrupamento.
 
@@ -40,6 +40,6 @@ ou ainda,
 
 Todos os algarismo do número foram representados na **base dez**, que pode ser descrito **(122154)<sub>10</sub>**
 
-![representação decimal](/img/representacao-decimal.png)
+![representação decimal](img/representacao-decimal.png)
 
 tags: notacao, posicional, decimal, numeracao
