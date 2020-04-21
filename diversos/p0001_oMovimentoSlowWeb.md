@@ -1,6 +1,6 @@
 # O movimento slow web
 
-![desenho lesma](img/lesminha.png)
+![desenho lesma](img/p0001-0.png)
 
 A Fast Web é sobre informação. A **Slow Web** é sobre conhecimento.
 
