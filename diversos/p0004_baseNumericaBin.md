@@ -59,11 +59,11 @@ Representado o número **19<sub>(10)</sub> = 1 0011<sub>(2)</sub>** na base dois
 
 16 + 0 + 0 + 2 + 1 = **19**
 
-![representação binário](img/representacao-binario.png)
+![representação binário](img/p0004-0.png)
 
 Que pode pode ser representado de maneira mais simplificada,
 
-![representação binária simplificada](img/representacao-binario-1.png)
+![representação binária simplificada](img/p0004-1.png)
 
 **16 + 2 + 1**
 
@@ -72,16 +72,16 @@ Perceba que as casas que recebem zero, eu não precisei calcular, já que a mult
 Exemplo: representando os números **128<sub>(10)</sub>** e **255<sub>(10)</sub>** no sistema binário.
 
 **128<sub>(10)</sub>**
-![128 em binário](img/bin128.png)
+![128 em binário](img/p0004-2.png)
 
 **255<sub>(10)</sub>**
-![255 em binário](img/bin255.png)
+![255 em binário](img/p0004-3.png)
 
 ### Convertendo decimal para binário
 
 Basta fazer a divisão inteira por dois sucessivamente até chegar em zero. Assim,
 
-![divisão por dois](img/div-bin.png)
+![divisão por dois](img/p0004-4.png)
 
 Dessa maneira, o número **binário** são os restos começando do último em direção ao primeiro, como mostrado na figura.
 
@@ -91,18 +91,18 @@ Para isso pegamos um número menor ou igual ao número que queremos converter, n
 
 Preenchemos com o número **1** a posição,
 
-![primeiro passo conversão](img/convert-bin.png)
+![primeiro passo conversão](img/p0004-5.png)
 
 Sabemos que essa posição vale **8** e é menor do que **13**, então ainda devemos preencher outra posição menor de valor menor do que **5**, pois **13 - 8 = 5**. Nesse caso, temos a posição de valor **4**.
 
-![segundo passo conversão](img/convert-bin-1.png)
+![segundo passo conversão](img/p0004-6.png)
 
 A soma **8 + 4 = 12**, então falta **1** para chegar ao número que queremos. Basta preencher a posição de valor **1**.
 
-![terceiro passo conversão](img/convert-bin-2.png)
+![terceiro passo conversão](img/p0004-7.png)
 
 E naquela que ficou vazia preencher com **zero**.
 
-![quarto passo conversão](img/convert-bin-3.png)
+![quarto passo conversão](img/p0004-8.png)
 
 tags: notacao, posicional, numeracao, binario
