@@ -8,15 +8,15 @@ Esse sistema tem base oito, ou seja, os algarismo vão de 0 a 7.
 
 Para representação mínima, temos
 
-![representação octal mínima](img/representacao-octal-min.png)
+![representação octal mínima](img/p0005-0.png)
 
 E para representação máxima, temos
 
-![representação octal máxima](img/representacao-octal-max.png)
+![representação octal máxima](img/p0005-1.png)
 
 Desse modo, para representar o número **137<sub>(8)</sub>**
 
-![137 octal](img/oct137.png)
+![137 octal](img/p0005-2.png)
 
 **137<sub>(8)</sub> = 1 x 8<sup>2</sup> + 3 x 8<sup>1</sup> + 7 x 8<sup>0</sup>**
 
@@ -28,7 +28,7 @@ Desse modo, para representar o número **137<sub>(8)</sub>**
 
 Basta fazer a divisão inteira por oito sucessivamente até chegar em zero. Assim,
 
-![divisão por oito](img/div-oct.png)
+![divisão por oito](img/p0005-3.png)
 
 Dessa maneira, o número **octal** são os restos começando do último em direção ao primeiro, como mostrado na figura.
 
@@ -38,7 +38,7 @@ Há duas maneiras de fazer essa conversão:
 
 Uma delas é usando o sistema **decimal** como intermediário. Assim,
 
-![conversão de octal, decimal, binário](img/convert-oct-dec-bin.png)
+![conversão de octal, decimal, binário](img/p0005-4.png)
 
 Outra maneira é, sabendo que **2<sup>3</sup> = 8**, podemos pegar cada posição do número octal e relacioná-la a 3 posições do sistema binário, assim, para realizar a conversão do número **375<sub>(8)</sub>**,
 
@@ -46,7 +46,7 @@ Outra maneira é, sabendo que **2<sup>3</sup> = 8**, podemos pegar cada posiçã
 **7<sub>(8)</sub> = 111<sub>(2)</sub>**
 **5<sub>(8)</sub> = 101<sub>(2)</sub>**
 
-![conversão de octal para binário](img/convert-oct-bin.png)
+![conversão de octal para binário](img/p0005-5.png)
 
 logo, **375<sub>(8)</sub> = 1111 1101<sub>(2)</sub>**
 
