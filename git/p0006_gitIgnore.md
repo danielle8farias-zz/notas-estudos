@@ -6,17 +6,20 @@ Caso você queira que o git não enxergue determinados arquivos dentro do mesmo 
 $ touch .gitignore
 ```
 
+- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+- o comando **touch** serve para criar arquivos no Linux.
+
 Abrindo esse arquivo, vamos digitar dentro dele o que queremos deixar de fora do repositório. Exemplo:
 
-Ocultando do git uma pasta e um diretório. Temos
+Ocultando do git uma pasta ou um diretório. Temos
 
-![git ignore](./img/gitignore.png)
+![git ignore](img/p0006-0.png)
 
 Assim temos uma pasta como primeiro item, pois ela termina com a barra.
 
 No terceiro item estamos adicionando na lista qualquer arquivo que termine com a extensão **txt**.
 
-É importante notas que devemos informar um tipo de arquivo por linha.
+É importante notar que devemos informar um tipo de arquivo por linha.
 
 Dentro desse diretório exemplo, temos:
 
@@ -37,8 +40,10 @@ Arquivos não monitorados:
 nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
 ```
 
-![arquivos ignorados pelo git](./img/fluxoGit8.png)
+No fluxo do Git temos,
 
-Os arquivos descritos dentro do arquivo .gitignore não aparecem no estado atual do Git.
+![arquivos ignorados pelo git](img/p0006-1.png)
+
+Os arquivos descritos dentro do arquivo **.gitignore** não aparecem no estado atual do Git.
 
 tags: git, ignore, diretorio, arquivo
