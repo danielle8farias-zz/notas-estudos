@@ -24,6 +24,7 @@ Conferindo o estado do git, temos algo como
 No fluxo do git,
 
 ![fluxo commit do git](img/p0004-1.png)
+
 > abaixo do nome do arquivo está escrito a chave (ou hash) que identifica o commit
 
 tags: git, commit, add, status

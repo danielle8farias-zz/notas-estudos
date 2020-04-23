@@ -7,6 +7,8 @@ $ git add arquivo1
 $ git commit -m "adicionando primeiro arquivo"
 ```
 
+- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
 E
 
 ```
@@ -14,7 +16,7 @@ $ git add arquivo2
 $ git commit -m "adicionando terceiro arquivo"
 ```
 
-![commit errado](./img/fluxoGit6.png)
+![commit errado](img/p0005-0.png)
 
 Como é possível constatar, escrevi errado o segundo commit. Assim para modificá-lo fazemos:
 
@@ -22,7 +24,7 @@ Como é possível constatar, escrevi errado o segundo commit. Assim para modific
 $ git commit --amend -m "adicionando segundo arquivo (edit)"
 ```
 
-![commit corrigido](./img/fluxoGit7.png)
+![commit corrigido](img/p0005-1.png)
 
 Podemos conferir a mudança através do comando:
 
@@ -46,6 +48,6 @@ $ git add arquivo2
 $ git commit --amend -m "atualização (edit)"
 ```
 
-Desse modo o commit foi corrigido.
+Desse modo o **commit** foi corrigido.
 
 tags: git, log, commit, alteracao
