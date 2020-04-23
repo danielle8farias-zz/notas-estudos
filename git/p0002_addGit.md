@@ -1,78 +1,80 @@
 # Adicionando arquivos no Git
 
 Entre na pasta a qual você pretende fazer o versionamento e no terminal digite:
+
 ```
 $ git init
 ```
+
+- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
 Desse modo a pasta **.git** será criada. É essa pasta que armazenará as imagens das versões do projetos criados.
 
 Para saber o estado atual do git, basta digitar:
+
 ```
 $ git status
 ```
-No nosso caso será
-```
-No ramo master
-No commits yet
 
-nada para enviar (crie/copie arquivos e use "git add" para registrar)
-```
+O retorno do terminal será:
 
-![fluxo inicial do git](./img/fluxoGit1.png)
+![retorno git status](img/p0002-0.png)
+
+No fluxo do git, temos:
+
+![fluxo inicial do git](img/p0002-1.png)
 
 Vamos criar alguns arquivos para teste:
+
 ```
 $ touch arquivo1 arquivo2
 ```
+
+- o comando **touch** serve para criar arquivos no Linux.
+
 Digitando novamente o git status, temos:
-```
-No ramo master
-No commits yet
 
-Arquivos não monitorados:
-  (utilize "git add <arquivo>..." para incluir o que será submetido)
+![arquivos não monitorados](img/p0002-2.png)
 
-	arquivo1
-	arquivo2
+No fluxo do git, temos: 
 
-nada adicionado ao envio mas arquivos não registrados estão presentes (use "git add" to registrar)
-```
+![working directory com dois arquivos](img/p0002-3.png)
 
-![working directory com dois arquivos](./img/fluxoGit2.png)
+Para adicionar os dois arquivos fazemos
 
-Para adicionar os dois arquivos
 ```
 $ git add arquivo1
 $ git add arquivo2
 ```
+
 Ou
+
 ```
 $ git add arquivo1 arquivo2
 ```
 
 Para adicionar todos os arquivos do diretório
+
 ```
 $ git add .
 ```
 
 Para adicionar todos os arquivos de uma determinada extensão
+
 ```
 $ git add *.txt
 ```
 
-Verificando o estado do git, temos
-```
-No ramo master
-No commits yet
+- supondo que a extensão aqui seja txt.
 
-Mudanças a serem submetidas:
-  (utilize "git rm --cached <arquivo>..." para não apresentar)
+Verificando o estado do git, temos:
 
-	new file:   arquivo1
-	new file:   arquivo2
-```
-Aqui, estamos no index (staging area). Algo como uma sala de espera do git.
+![arquivos monitorados](img/p0002-4.png)
 
-![arquivos no index](./img/fluxoGit3.png)
+Aqui, estamos no **index (staging area)**. Algo como uma sala de espera do git.
+
+![arquivos no index](img/p0002-5.png)
+
+É a partir daqui que poderemos realizar o **commit**.
 
 tags: git, init, add, status
