@@ -6,13 +6,14 @@ Para adicionar um arquivo que foi modificado ao repositório, existem dois camin
 $ git add <nome do arquivo>
 ```
 
-- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
-
-seguido do commit
+seguido do **commit**
 
 ```
 $ git commit -m "sua mensagem aqui"
 ```
+
+- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+- substitua o \<nome do arquivo> pelo nome do seu arquivo sem os sinais **<>**
 
 Ou através de um atalho:
 
