@@ -1,19 +1,25 @@
 # Deletando arquivo do repositório
 
-Ao apagar um arquivo de um diretório, também é preciso fazer a remoção dele no repositório.
+Para apagar um arquivo ou diretório no repositório Git, fazemos
 
-![deletando arquivo do working directory](./img/fluxoGit10.png)
-
-Assim, supondo que eu tenho um arquivo deletado. Para excluí-lo do git:
 ```
 $ git rm <arquivo>
 ```
-É possível remover mais de um arquivo ao mesmo tempo. Exemplo:
+
+- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
+No fluxo do Git, temos
+
+![deletando arquivo do working directory](img/p0010-0.png)
+
+![deletando arquivo do repositório](img/p0010-1.png)
+
+É possível remover mais de um arquivo ao mesmo tempo, basta colocar os nomes dos arquivos a serem removidos em sequência.
+
 ```
 $ git rm arquivo1 arquivo2
 ```
-Em seguida, faz-se o commit dessas remoções.
 
-![deletando arquivo do repositório](./img/fluxoGit11.png)
+Para finalizar, basta fazer o **commit** dessas remoções.
 
 tags: git, remove, rm, delete
