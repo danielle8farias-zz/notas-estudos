@@ -6,7 +6,7 @@ Vamos supor que temos dois arquivos:
 $ ls
 ```
 
-- o comando ls serve para que o terminal retorne os diretórios e arquivos contidos no local onde o terminal está.
+- o comando **ls** serve para que o terminal retorne os diretórios e arquivos contidos no local onde o terminal está.
 - o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
 Será exibido
