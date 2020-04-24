@@ -47,5 +47,6 @@ Também é possível utilizar o **revert** assim:
 $git revert HEAD~<número a partir de 1>
 ```
 
-tags: git, revert, commit, hash
+- substitua o \<número a partir de 1> por um número, sem os sinais **<>**, sendo o número 1 o último **commit**, o 2 o penúltimo, o 3 o antepenúltimo e assim por diante.
 
+tags: git, revert, commit, hash
