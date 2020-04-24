@@ -1,12 +1,12 @@
 # Desfazendo commits (revert)
 
-Outra maneira de desfazer commits é usando o comando **revert**.
+Outra maneira de desfazer **commits** é usando o comando **revert**.
 
-O que esse comando faz é basicamente desfazer tudo aquilo que foi feito dentro de um determinado commit (ou dentro de um intervalo de commits). Por exemplo: se em um commit adicionou um arquivo, o **revert** remove; se o commit editou algumas linhas, o **revert** volta essas linhas ao que eram antes da edição e assim por diante.
+O que esse comando faz é basicamente desfazer tudo aquilo que foi feito dentro de um determinado **commit** (ou dentro de um intervalo de commits). Por exemplo: se em um commit adicionou um arquivo, o **revert** remove; se o commit editou algumas linhas, o **revert** volta essas linhas ao que eram antes da edição e assim por diante.
 
 Vamos supor que temos a seguinte situação:
 
-![commits feitos até então](./img/gitRevert.png)
+![commits feitos até então](img/p0017-0.png)
 
 ![arquivo index antes do commando revert](./img/indexRevert.png)
 
