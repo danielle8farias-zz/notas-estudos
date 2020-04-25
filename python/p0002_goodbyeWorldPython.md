@@ -1,6 +1,6 @@
 # Goodbye World com Python
 
-![adeus mundo!](img/p0003-0.jpeg)
+![adeus mundo!](img/p0002-0.jpeg)
 
 É possível imprimir "Adeus, Mundo!" diretamente na tela, no modo interativo do interpretador.
 
@@ -16,7 +16,7 @@ Nesse caso, eu estou utilizando a versão 3.8 do **Python**.
 
 E então na tela, digite e aperte o enter.
 
-![interpretador python](img/p0003-1.png)
+![interpretador python](img/p0002-1.png)
 
 A função **print()** vai imprimir na tela o caractere que for inserido entre parenteses.
 
