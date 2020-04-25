@@ -62,7 +62,7 @@ False
 
 Ou seja, o conectivo **E** só irá retornar verdadeiro se as duas premissas forem verdadeiras.
 
-![tabela verdade and](./img/conectivoE.png)
+![tabela verdade and](img/p0013-0.png)
 
 ## or (ou)
 
@@ -110,7 +110,7 @@ False
 
 Ou seja, o conectivo **OU** só irá retornar falso se as duas premissas forem Falsas.
 
-![tabela verdade or](./img/conectivoOu.png)
+![tabela verdade or](img/p0013-1.png)
 
 ## not (não)
 
@@ -127,14 +127,14 @@ O resultado será
 False
 ```
 
-![tabela verdade not](.img/conectivoNot.png)
+![tabela verdade not](img/p0013-2.png)
 
 Desse modo, temos a tabela verdade:
 
-![tabela verdade](./img/tabelaVerdade.png)
+![tabela verdade](img/p0013-3.png)
 
 Substituindo **True** por **1** e **False** por **0**, temos:
 
-![tabela verdade com bits](./img/tabelaVerdadeBit.png)
+![tabela verdade com bits](img/p0013-4.png)
 
 tags: tabelaVerdade, operadorLogico, algebraBooleana, python

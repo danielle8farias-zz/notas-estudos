@@ -8,6 +8,9 @@ Para **criar um módulo** basta criar um arquivo com a extensão .py
 $ touch meu_modulo.py
 ```
 
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+- o **touch** serve para criar arquivos no Linux.
+
 Podemos criar um módulo que servirá para indicar o início e o fim de outros programas. Assim, escrevemos dentro do arquivo acima criado, por exemplo
 
 ```py
@@ -124,17 +127,31 @@ print(f'Soma = {soma}')
 fim()
 ```
 
+Ou simplificando a chamada em uma linha
+
+```py
+from meu_modulo import comeco, fim
+
+comeco()
+x = 5
+y = 3
+soma = x + y
+print(f'Soma = {soma}')
+fim()
+```
+
 Para usar dessa maneira, é importante que o script e o módulo estejam na mesma pasta/diretório.
 
 Caso queira colocar os módulos criados em um diretório específico, é preciso adicionar alguns comandos. São eles:
 
 ```py
 import sys
-sys.path.append('<caminho do seu diretório de módulos>')
+sys.path.append('caminho_do_seu_diretório_de_módulos')
 ```
 
-O módulo **sys** provê informações cruciais sobre como seu script Python interage com o sistema operacional.
-
-A variável **sys.path** contém uma lista de strings que determina os caminhos de busca de módulos conhecidos pelo interpretador. Com a função **append**, estamos informando ao sistema onde encontrar os nossos módulos.
+- O módulo **sys** provê informações cruciais sobre como seu script Python interage com o sistema operacional;
+- A função **sys.path** contém uma lista de strings que determina os caminhos de busca de módulos conhecidos pelo interpretador;
+- Com a função **append**, estamos informando ao sistema onde encontrar os nossos módulos;
+- é importante que o caminho do diretório para os módulos entre aspas e parenteses seja o **caminho absoluto (completo)**.
 
 tags: python, modulo, sys, import

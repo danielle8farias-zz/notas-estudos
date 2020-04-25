@@ -2,7 +2,7 @@
 
 Para entender o que são variáveis, podemos usar a analogia de que uma variável é uma caixa onde guardamos algo, mas onde só podemos guardar um único item.
 
-![analogia de uma variável com uma caixa](.img/variable.png)
+![analogia de uma variável com uma caixa](img/p0005-0.png)
 
 É preciso dar nome as caixas, para chamá-las posteriormente.
 

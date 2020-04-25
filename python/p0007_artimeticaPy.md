@@ -1,6 +1,6 @@
 # Aritmética elementar com Python
 
-![Professor Girafales](./img/diziaEuAritimetica.jpg)
+![Professor Girafales](img/p0007-0.jpg)
 
 Para fazer a operação de soma no Python, basta usar o operador **+**. No script abaixo, temos a soma de duas variáveis:
 

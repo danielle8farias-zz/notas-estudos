@@ -22,6 +22,6 @@ print('Fogo nos fascistas!',end='\n\n')
 
 O resultado será:
 
-![resultado do programa de ano novo](./img/contagemAnoNovo.png)
+![resultado do programa de ano novo](img/p0011-0.png)
 
 tags: 2019, 2020, anoNovo, python

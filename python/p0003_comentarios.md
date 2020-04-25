@@ -1,6 +1,6 @@
 # Inserindo comentários em códigos Python
 
-Para inserir comentários no Python, pode-se utilizar cerquilha **(#)** para cada linha.
+Para inserir comentários no Python utiliza-se cerquilha **(#)** para cada linha.
 
 ```py
 # você pode inserir seu comentário de uma linha aqui

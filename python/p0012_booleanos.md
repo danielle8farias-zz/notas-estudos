@@ -1,6 +1,6 @@
 # Tipos booleanos em Python
 
-![True or False](.img/trueFalse.jpg)
+![True or False](img/p0012-0.jpg)
 
 Os tipos booleanos são dois: True(verdadeiro) ou False(falso).
 

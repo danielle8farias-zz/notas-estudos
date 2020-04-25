@@ -1,6 +1,6 @@
 # Estruturas de tomada de decisão (desvio condicional) em Python
 
-![desvio condicional](./img/meme_carro_desvio.png)
+![desvio condicional](img/p0017-0.png)
 
 As estruturas de tomada de decisão são utilizadas quando o programa precisa decidir, entre mais de uma opção, qual caminho tomar.
 
@@ -37,7 +37,7 @@ O último print, com o valor da subtração, será sempre impresso, independente
 
 Além do **if**, a estrutura condicional composta usa o **else**.
 
-![condicional composta](./img/if_else.png)
+![condicional composta](img/p0017-1.png)
 
 Exemplo:
 

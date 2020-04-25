@@ -90,6 +90,25 @@ subtracao(10,7)
 
 Como pudemos notar é possível chamar uma função ao definir uma e também chamar uma função dentro de outra.
 
+## Parâmetro padrão
+
+Também é possível indicar valores padrões, caso nenhum parâmetro seja passado na chamada da função.
+
+Para isso basta atribuir o valor que deseja como padrão ao parâmetro, na definição da função.
+
+```py
+def funcao(x = 1, y = 1):
+```
+
+Exemplo:
+
+```py
+def subtracao(num1 = 0, num2 = 0):
+    return num1 - num2
+
+print(subtracao()) #chamando a função vazia
+```
+
 ## Empacotar parâmetros
 
 Também é possível usar na função sem explicitar o número de parâmetros.
