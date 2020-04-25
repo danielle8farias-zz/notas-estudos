@@ -1,6 +1,6 @@
 # Goodbye World com Python
 
-![adeus mundo!](./img/adeusMundo.jpeg)
+![adeus mundo!](img/adeusMundo.jpeg)
 
 É possível imprimir "Adeus, Mundo!" diretamente na tela com o comando:
 
