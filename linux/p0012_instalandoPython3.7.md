@@ -26,7 +26,7 @@ Agora você pode usar o interpretador no modo interativo com o comando:
 $ python3.7
 ```
 
-Ou se desejar executar um script com:
+Ou se desejar executar um **script** com:
 
 ```
 $ python3.7 nome_do_arquivo.py

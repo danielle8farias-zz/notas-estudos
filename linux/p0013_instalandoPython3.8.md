@@ -6,11 +6,13 @@ Antes de começar a instalação propriamente dita, é necessário verificar se 
 $ sudo apt install build-essential checkinstall
 ```
 
-**sudo** serve para pedir permissões de administrador temporariamente.
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
-**apt** do inglês, *Advanced Package Tool*, em português, Ferramenta de Empacotamento Avançada; é a ferramenta que nos ajuda na instalação, atualização e desinstalação de programas, entre outras funções.
+- **sudo** serve para pedir permissões de administrador temporariamente.
 
-**install** é o comando de instalar, indicando ao apt o que fazer.
+- **apt** do inglês, *Advanced Package Tool*, em português, Ferramenta de Empacotamento Avançada; é a ferramenta que nos ajuda na instalação, atualização e desinstalação de programas, entre outras funções.
+
+- **install** é o comando de instalar, indicando ao apt o que fazer.
 
 E também
 
@@ -24,6 +26,8 @@ Entre no diretório **opt**
 $ cd /opt
 ```
 
+- **cd** é o comando para navegar entre os diretório pelo terminal
+
 Esse diretório existe para abrigar pacotes de software opcionais e que, quando instalados, não causem incompatibilidade com outros programas mais antigos (no caso, outras versões do Python).
 
 Em seguida fazemos download do arquivo
@@ -31,6 +35,7 @@ Em seguida fazemos download do arquivo
 ```
 $ sudo wget https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz
 ```
+
 >para verificar a versão mais recente, visite o site [python.org](https://www.python.org/downloads/).
 
 Agora, vamos extrair o arquivo com o comando
@@ -39,9 +44,11 @@ Agora, vamos extrair o arquivo com o comando
 $ tar -xvf Python-3.8.2.tar.xz
 ```
 
-O **tar** é um software que permite unir dois ou mais arquivos em um. Ele é usado como um complemento para o compactador, mas não é o compactador.
+- **tar** é um software que permite unir dois ou mais arquivos em um. Ele é usado como um complemento para o compactador, mas não é o compactador.
 
-Os parâmetros **x** é o que extrai os arquivos, o **v** exibe os detalhes dessa operação e o **f** especifica o arquivo que será usado; seguido do nome do arquivo.
+- Os parâmetros **x** é o que extrai os arquivos, o **v** exibe os detalhes dessa operação e o **f** especifica o arquivo que será usado; seguido do nome do arquivo.
+
+- a extensão **xz** é o nosso compactador
 
 Entramos na pasta recém criada
 
@@ -63,11 +70,11 @@ Fazendo a compilação
 $ sudo make altinstall
 ```
 
-O comando **make** serve determinar automaticamente quais partes de um programa grande precisam ser recompiladas e emitir os comandos necessários para recompilá-las.
+- O comando **make** serve determinar automaticamente quais partes de um programa grande precisam ser recompiladas e emitir os comandos necessários para recompilá-las.
 
-O **altinstall** é usado para impedir que o programa compilado tome o lugar padrão do arquivo binário python em /usr/bin/python.
+- O **altinstall** é usado para impedir que o programa compilado tome o lugar padrão do arquivo binário python em /usr/bin/python.
 
-Verficando se a instalação foi feita corretamente:
+Verificando se a instalação foi feita corretamente:
 
 ```
 $ python3.8 -V
@@ -85,9 +92,9 @@ E remover o arquivo baixado
 $ sudo rm -f Python-3.8.2.tar.xz
 ```
 
-**rm** é o comando para deletar arquivos e diretórios.
+- **rm** é o comando para deletar arquivos e diretórios (muito cuidado com ele!).
 
-**-f**  exclui arquivos somente leitura imediatamente, sem qualquer confirmação.
+- **-f**  exclui arquivos somente leitura imediatamente, sem qualquer confirmação.
 
 ## Instalando o IDLE
 
@@ -96,5 +103,7 @@ No terminal, digite
 ```
 $ sudo apt install idle-python3.8
 ```
+
+Agora já temos tudo instalado e pronto para começar a programar com o **Python**! =)
 
 tags: python, instalacao, idle, linux

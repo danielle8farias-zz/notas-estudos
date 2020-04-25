@@ -24,7 +24,7 @@ Para inserir strings usa-se **aspas simples** ou **duplas**.
 
 Caso deseje fazer um **script** para executar, basta escrever (e salvar) o código acima no seu **[editor de texto](../linux/p0004_VSCode.md)** favorito.
 
-Para executá-lo, chame o interpretador do **Python**, seguido do nome do seu arquivo e a extensão.
+Para executá-lo, chame o interpretador do **Python**, seguido do nome do seu arquivo e sua extensão.
 
 Exemplo:
 
