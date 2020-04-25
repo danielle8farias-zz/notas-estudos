@@ -2,7 +2,7 @@
 
 ## História do Python
 
-![logo do python](./img/Python.png)
+![logo do python](img/p0001-0.png)
 
 **Python** foi criada na Holanda em 1989 pelo programador **Guido Van Hossum**, que trabalhava no Centro de Matemática e Ciência da Computação (CWI), em Amsterdam.
 
