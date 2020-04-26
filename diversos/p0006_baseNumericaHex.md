@@ -4,7 +4,7 @@
 
 ### Sistema hexadecimal
 
-Esse sistema é representado pelos algarismo de 0 a 9 (identicos ao decimal) e pelas letras A, B, C, D, E, F. Sendo que,
+Esse sistema é representado pelos algarismo de 0 a 9 (idênticos ao decimal) e pelas letras A, B, C, D, E, F. Sendo que,
 
 **A<sub>(16)</sub> = 10<sub>(10)</sub>**
 **B<sub>(16)</sub> = 11<sub>(10)</sub>**
@@ -50,7 +50,7 @@ Uma delas é usando o sistema **decimal** como intermediário. Assim,
 Outra maneira é, sabendo que **2<sup>4</sup> = 16**, podemos pegar cada posição do número hexadecimal e relacioná-la a 4 posições do sistema binário, assim, para realizar a conversão do número **1C<sub>(16)</sub>**,
 
 **1<sub>(16)</sub> = 0001<sub>(2)</sub>**
-**C<sub>(16)</sub> = 12<sub>(16)</sub> = 1100<sub>(2)</sub>**
+**C<sub>(16)</sub> = 12 = 1100<sub>(2)</sub>**
 
 ![conversão de hexadecimal para binário](img/p0006-5.png)
 
