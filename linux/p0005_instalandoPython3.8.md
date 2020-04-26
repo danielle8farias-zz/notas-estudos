@@ -14,13 +14,17 @@ $ sudo apt install build-essential checkinstall
 
 - **install** é o comando de instalar, indicando ao apt o que fazer.
 
-E também
+- **build-essential** é uma biblioteca que reúne diversas aplicações para compilar e instalar outros programas, que inclui, por exemplo, o make, automake, etc.
+
+- **checkinstall** é um programa que facilita e monitora o processo de instalação e desinstalação de programas compilados a partir da fonte (uso do make install).
+
+Vamos instalar também outras bibliotecas de desenvolvimento que nos ajudarão na compilação do código fonte:
 
 ```
 $ sudo apt install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
 ```
 
-Entre no diretório **opt**
+Agora entre no diretório **opt**
 
 ```
 $ cd /opt

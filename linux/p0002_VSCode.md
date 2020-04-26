@@ -44,6 +44,10 @@ Caso precise corrigir dependências, digite o comando:
 $ sudo apt install -f
 ```
 
+- **apt** do inglês, *Advanced Package Tool*, em português, Ferramenta de Empacotamento Avançada; é a ferramenta que nos ajuda na instalação, atualização e desinstalação de programas, entre outras funções.
+
+- **install** é o comando de instalar, indicando ao apt o que fazer.
+
 - o **-f** é um atalho para o comando **--fix-broken** que tenta fazer as correções de pacotes e dependências.
 
 tags: linux, vscode, dpkg, instalacao
