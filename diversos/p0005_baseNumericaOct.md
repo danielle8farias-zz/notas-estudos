@@ -16,7 +16,7 @@ Para representação mínima, temos
 
 O valor na parte de cima de cada quadradinho, significa o valor mínimo que cada posição representa, em decimal.
 
-> obviamente não estamos contando aqui com o zero, que possui a mesma representação em quaisquer bases numéricas.
+> obviamente não estamos contando aqui com o zero, que possui a mesma representação e valor em quaisquer bases numéricas.
 
 E para representação máxima, temos
 
