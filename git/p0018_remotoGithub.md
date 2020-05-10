@@ -59,4 +59,22 @@ Se tudo estiver certo o retorno será algo similar a:
 
 Fazendo a associação entre os branchs **master(local)** e **origin(remoto)**.
 
+## Verificando o repositório remoto
+
+Caso precise verificar se há um repositório remoto em algum diretório local, digite:
+
+```
+$ git remote
+```
+
+O retorno será o nome da branch.
+
+Para saber mais detalhes desse repositório remoto, digite no terminal:
+
+```
+$ git remote -v
+```
+
+E o retorno será o link para o repositório remoto.
+
 tags: git, github, repositorio, remoto
