@@ -2,13 +2,13 @@
 
 ## Notação Big O
 
-![Notação Big O](./img/alternativoBigO.jpg)
+![Notação Big O](img/p0004-0.jpg)
 
 A notação assintótica (Big O), em Ciência da Computação, é usada para classificar algoritmos em relação as mudanças de desempenho quanto ao tamanho da entrada. É um método de descrever o comportamento de limites, matematicamente falando.
 
 A ideia é usar a letra O seguida de uma função sobre n que descreva o crescimento de um algoritmo, no gráfico. Quanto mais rapidamente crescer o número de operações para processar os itens, pior será o desempenho do algoritmo.
 
-![gráfico de crescimento de complexidade](./img/graficoBigO.png)
+![gráfico de crescimento de complexidade](img/p0004-1.png)
 
 A complexidade **O(1) (constante)** é aquela em que não há crescimento do número de operações, pois não depende do volume de dados de entrada (n). Por exemplo: o acesso direto a um elemento de uma matriz.
 

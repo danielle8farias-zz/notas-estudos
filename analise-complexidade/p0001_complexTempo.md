@@ -14,7 +14,7 @@ A escolha do parâmetro deve levar em consideração as características das ent
 
 Na maioria das vezes, para entradas pequenas, é difícil distinguir qual algoritmo é mais rápido. Porém se olharmos a contagem para diferentes ordens de crescimento com entradas grandes, a diferença se torna óbvia.
 
-![ordem de crescimento da complexidade de tempo baseado na entrada de dados](./img/complexidadeTempo.png)
+![ordem de crescimento da complexidade de tempo baseado na entrada de dados](img/p0001-0.png)
 
 ### Operação básica
 
