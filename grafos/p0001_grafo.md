@@ -8,11 +8,11 @@ Na modelagem de um grafo, os elementos do conjunto que são desenhados como pont
 
 São elementos de um grafo:
 
-![representação de vértices](./img/vertices.png)
+![representação de vértices](img/p0001-0.png)
 
-![Arestas e Arcos](./img/arestasArcos.png)
+![Arestas e Arcos](img/p0001-1.png)
 
-![Ligações entre vértices](./img/ligacoesVertices.png)
+![Ligações entre vértices](img/p0001-2.png)
 
 ---
 
