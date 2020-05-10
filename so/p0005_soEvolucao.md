@@ -8,7 +8,7 @@ O sistema operacional precisa evoluir por diversos motivos. São eles:
 
 - **Correções**. Ao longo do tempo falhas podem ser descobertas e essas precisam de correções. Além do mais, a introdução de correções também pode produzir novas falhas.
 
-![introdução de novas falhas](./img/novosBugs.jpg)
+![introdução de novas falhas](img/p0005-0.jpg)
 
 ---
 
