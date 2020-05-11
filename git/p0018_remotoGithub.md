@@ -47,7 +47,7 @@ Logo após
 $ git push -u origin master
 ```
 
-Isso significa as modificações no **branch(ramo)** local, denominado **master** será **empurrado(push)** para o remoto chamado **origin**. O **-u** é uma atalho para o comando **--set-upstream**; ficando definido esse **branch** como uso padrão até que você o modifique novamente.
+Isso significa as modificações no **branch(ramo)** local, denominado **master** será **empurrado(push)** para o remoto chamado **origin**. O **-u** é uma atalho para o comando **--set-upstream**; ficando definido esse **branch** como uso padrão até que você o modifique novamente. Das próximas vezes em que você precisar empurrar seu código para o GitHub basta usar o comando **git push** para esse mesmo **branch**.
 
 Em seguida, será pedido seu **nome de usuária** e sua **senha do GitHub**:
 
