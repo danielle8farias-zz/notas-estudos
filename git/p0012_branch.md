@@ -34,6 +34,12 @@ Desse modo o **branch** será criado e em seguida irá transferi-lo para lá.
 Para listar todos os **branches**, usa-se o comando:
 
 ```
+$ git branch -a
+```
+
+Para saber em qual **branch** você está, digite:
+
+```
 $ git branch
 ```
 
