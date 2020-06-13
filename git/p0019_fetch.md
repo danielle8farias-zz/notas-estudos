@@ -16,6 +16,14 @@ $ git fetch
 
 Esse comando captura do repositório remoto todos os **branches** e **tags** novos sem fazer **merge** dessas alterações em seu repositório local.
 
+Caso você queira puxar as mudanças, mas sem que elas afetem seu branch principal:
+
+```
+$ git fetch origin nome_do_branch
+```
+
+> caso não lembre como criar branches, [clique aqui](git/p0012_branch.md).
+
 Para verificar as diferenças entre os códigos dos repositórios, digite:
 
 ```
