@@ -4,7 +4,7 @@
 
 0. [Instalando, configurando e inicializando o Git no Linux](git/p0000_instalacao_git_linux.md)
 
-
+1. [Instalando, configurando e inicializando o Git no Windows](git/p0001_instalacao_git_windows.md)
 
 2. [git add: Adicionando arquivos no Git](git/p0002_addGit.md)
 
