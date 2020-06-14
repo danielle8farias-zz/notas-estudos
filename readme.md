@@ -43,3 +43,6 @@
 20. [git pull: Puxando commits remotos](git/p0020_pull.md)
 
 21. [Acesso ao Github com SSH](git/p0021_ssh.md)
+
+22. [Reconfigurando diretório HTTPS para SSH](git/p0022_https_ssh.md)
+
