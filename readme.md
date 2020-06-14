@@ -2,7 +2,9 @@
 
 ## Git e GitHub
 
-1. [Instalando, configurando e inicializando o Git no Linux](git/p0001_instalacaoGit.md)
+0. [Instalando, configurando e inicializando o Git no Linux](git/p0000_instalacao_git_linux.md)
+
+
 
 2. [git add: Adicionando arquivos no Git](git/p0002_addGit.md)
 
