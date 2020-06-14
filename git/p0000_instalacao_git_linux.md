@@ -23,18 +23,18 @@ Você receberá o retorno da versão instalada.
 Antes de começar a usá-lo é preciso fazer as configurações iniciais. Assim,
 
 ```
-$ git config --global user.name <seu nome>
+$ git config --global user.name seu_nome_aqui
 ```
 
-Digite seu nome sem os sinais de < e >.
+Insira seu nome no local marcado; *seu_nome_aqui*.
 
 Em seguida:
 
 ```
-$ git config --global user.email <seu@email.com>
+$ git config --global user.email seu@email.com
 ```
 
-Digite seu email sem os sinais de < e >.
+Insira seu email no local marcado; *seu@email.com*.
 
 Configurando o editor padrão:
 
@@ -48,6 +48,14 @@ Para verificar as suas configurações:
 
 ```
 $ git config --list
+```
+
+Caso queira que as configurações sejam feitas apenas no diretório (não global) indicado, basta retirar dos comandos a flag **--global**. Assim:
+
+```
+$ git config user.name seu_nome_aqui
+$ git config user.email seu@email.com
+$ git config core.editor nano
 ```
 
 Para inicializar o git no diretório desejado (caso ainda não o tenha feito), vá até o local onde você deseja fazer o controle de versionamento.
