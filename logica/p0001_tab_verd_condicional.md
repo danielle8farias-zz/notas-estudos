@@ -29,8 +29,8 @@ E que ambas têm valor **verdadeiro**. Assim:
 
 A sentença é **verdadeira**.
 
-**Antecedente:** Se nasci no Amazonas,
-**Consequente:** então sou brasileira.
+**Antecedente (P):** Se nasci no Amazonas,
+**Consequente (Q):** então sou brasileira.
 
 O **antecedente** é sempre lido como **condição suficiente** e o **consequente** é sempre lido como **condição necessária**.
 
