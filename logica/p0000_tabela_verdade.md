@@ -146,6 +146,6 @@ False
 
 Desse modo, temos a tabela verdade:
 
-![tabela verdade](img/p0000-3.png)
+![tabela verdade e ou](img/p0000-3.png)
 
 tags: tabelaverdade, operadorlogico, algebrabooleana, logica
