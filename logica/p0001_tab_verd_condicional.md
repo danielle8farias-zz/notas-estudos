@@ -41,8 +41,6 @@ Agora vamos supor que P é **falso**:
 - P: **não** nasci no Amazonas
 - Q: sou brasileira
 
-**Se não** nasci no Amazonas, **então** sou brasileira.
-
 Essa sentença continua **verdadeira**, pois a pessoa pode não ter nascido no Amazonas e ser brasileira (ter nascido em qualquer outro estado).
 
 A seguir, vamos supor que P e Q têm valor **falso**:
@@ -50,16 +48,12 @@ A seguir, vamos supor que P e Q têm valor **falso**:
 - P: **não** nasci no Amazonas
 - Q: **não** sou brasileira
 
-**Se não** nasci no Amazonas, **então não** sou brasileira.
-
 Essa sentença é **verdadeira**, pois a pessoa pode não ter nascido no Amazonas e não ser brasileira. Ela pode ter nascido na Califórnia, por exemplo, ou qualquer outro local fora do Brasil.
 
 Agora vamos supor que P é **verdadeiro** e Q é **falso**:
 
 - P: nasci no Amazonas
 - Q: **não** sou brasileira
-
-**Se** nasci no Amazonas, **então não** sou brasileira.
 
 Essa sentença é **falsa**. Pois como já foi descrito anteriormente, não é possível nascer no Amazonas e não ser brasileira, visto que o estado do Amazonas pertence ao Brasil.
 

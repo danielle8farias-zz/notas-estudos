@@ -24,16 +24,12 @@ A seguir, vamos supor que Q tem valor **falso**:
 - P: entrar para a universidade
 - Q: **não** passar no ENEM
 
-Entrarei para a universidade **se, e somente se, não** passar no ENEM.
-
 A sentença é **falsa**. Pois, se não passar no ENEM, não pode entrar na universidade.
 
 Agora vamos supor que P tem valor **falso**:
 
 - P: **não** entrar para a universidade
 - Q: passar no ENEM
-
-**Não** entrarei para a universidade **se, e somente se** passar no ENEM.
 
 A sentença é **falsa**. Pois para não entrar na Universidade, deve-se reprovar no ENEM.
 
