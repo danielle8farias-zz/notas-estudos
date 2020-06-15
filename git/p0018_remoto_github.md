@@ -67,7 +67,7 @@ Caso precise verificar se há um repositório remoto em algum diretório local, 
 $ git remote
 ```
 
-O retorno será o nome da branch.
+O retorno será o nome do branch remoto.
 
 Para saber mais detalhes desse repositório remoto, digite no terminal:
 
