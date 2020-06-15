@@ -1,5 +1,16 @@
 # Notas de estudo
 
+## Bases numéricas
+
+0. [Decimal](bases_numericas/p0000_base_numerica_dec.md)
+
+1. [Binário](bases_numericas/p0001_base_numerica_bin.md)
+
+2. [Octal](bases_numericas/p0002_base_numerica_oct.md)
+
+3. [Hexadecimal](bases_numericas/p0003_base_numerica_hex.md)
+
+
 ## Git e GitHub
 
 0. [Instalando, configurando e inicializando o Git no Linux](git/p0000_instalacao_git_linux.md)
