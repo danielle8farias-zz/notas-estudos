@@ -65,3 +65,5 @@
 0. [Operadores lógicos e tabela verdade](logica/p0000_tabela_verdade.md)
 
 1. [Tabela verdade: condicional](logica/p0001_tab_verd_condicional.md)
+
+2. [Tabela verdade: bicondicional](logica/p0002_tab_verd_bicondicional.md)

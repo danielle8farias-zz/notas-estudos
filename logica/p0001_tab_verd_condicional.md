@@ -67,4 +67,4 @@ O conectivo condicional só será **falso** se o **antecedente for verdadeiro** 
 
 ![tabela verdade condicional](img/p0001-0.png)
 
-tags: tabelaVerdade, condicional, logica
+tags: tabela verdade, condicional, logica
