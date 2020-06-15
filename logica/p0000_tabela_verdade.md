@@ -16,14 +16,18 @@ Respectivamente, no Python eles são escritos:
 
 Eles funcionam da seguinte maneira:
 
-## and (e)
+## Conectivo de conjunção
 
-Supondo que temos duas premissas **a** e **b** e que ambas têm o valor **True**, assim:
+Representado pelo símbolo: **∧**
+
+Lê-se: **e**
+
+Supondo que temos duas premissas **P** e **Q** e que ambas têm o valor **verdadeiro**, assim:
 
 ```py
-a = True
-b = True
-print(a and b)
+P = True
+Q = True
+print(P and Q)
 ```
 
 O resultado será
@@ -32,12 +36,12 @@ O resultado será
 True
 ```
 
-Se uma delas têm o valor **False**:
+Se uma delas têm o valor **falso**:
 
 ```py
-a = True
-b = False
-print(a and b)
+P = True
+Q = False
+print(P and Q)
 ```
 
 A saída será
@@ -46,12 +50,12 @@ A saída será
 False
 ```
 
-Se ambas têm o valor **False**:
+Se ambas têm o valor **falso**:
 
 ```py
-a = False
-b = False
-print(a and b)
+P = False
+Q = False
+print(P and Q)
 ```
 
 Temos o resultado
@@ -64,14 +68,20 @@ Ou seja, o conectivo **E** só irá retornar verdadeiro se as duas premissas for
 
 ![tabela verdade and](img/p0000-0.png)
 
-## or (ou)
 
-Novamente temos duas premissas **a** e **b** e ambas têm o valor **True**, assim:
+
+## Conectivo de disjunção
+
+Representado pelo símbolo: **V**
+
+Lê-se: **ou**
+
+Novamente temos duas premissas **P** e **Q** e ambas têm o valor **verdadeiro**, assim:
 
 ```py
-a = True
-b = True
-print(a or b)
+P = True
+Q = True
+print(P or Q)
 ```
 
 O resultado será
@@ -80,12 +90,12 @@ O resultado será
 True
 ```
 
-Se uma delas têm o valor **False**:
+Se uma delas têm o valor **falso**:
 
 ```py
-a = True
-b = False
-print(a or b)
+P = True
+Q = False
+print(P or Q)
 ```
 
 A saída será
@@ -94,12 +104,12 @@ A saída será
 True
 ```
 
-Se ambas têm o valor **False**:
+Se ambas têm o valor **falso**:
 
 ```py
-a = False
-b = False
-print(a or b)
+P = False
+Q = False
+print(P or Q)
 ```
 
 Temos o resultado
@@ -112,13 +122,18 @@ Ou seja, o conectivo **OU** só irá retornar falso se as duas premissas forem F
 
 ![tabela verdade or](img/p0000-1.png)
 
-## not (não)
+
+## Conectivo de negação
+
+Representado pelo símbolo: **¬**
+
+Lê-se: **não**
 
 É o mais simples de todos. Basta inverter o valor da premissa dada.
 
 ```py
-a = True
-not a
+P = True
+not P
 ```
 
 O resultado será
@@ -132,9 +147,5 @@ False
 Desse modo, temos a tabela verdade:
 
 ![tabela verdade](img/p0000-3.png)
-
-Substituindo **True** por **1** e **False** por **0**, temos:
-
-![tabela verdade com bits](img/p0000-4.png)
 
 tags: tabelaverdade, operadorlogico, algebrabooleana, logica
