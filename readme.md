@@ -59,3 +59,7 @@
 
 22. [Reconfigurando diretório HTTPS para SSH](git/p0022_https_ssh.md)
 
+
+## Lógica
+
+0. [Operadores lógicos e tabela verdade](logica/p0000_tabela_verdade.md)
