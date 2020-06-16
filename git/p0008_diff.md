@@ -1,4 +1,4 @@
-# Verificando modificações no repositório
+# git diff: Verificando modificações no repositório
 
 Para saber o que foi modificado em um arquivo do repositório, mas que ainda não foi adicionado, usamos o comando:
 

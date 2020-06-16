@@ -1,15 +1,14 @@
-# Etiquetas (tags) no Git
+# git tag: Etiquetas no Git
 
 ## Criando etiquetas
 
 Etiquetas servem para melhor identificar os arquivos que estão sendo trabalhados. Para criar uma etiqueta usamos
 
 ```
-$ git tag -a <etiqueta> -m "insira sua mensagem aqui"
+$ git tag -a nome_da_etiqueta -m "insira sua mensagem aqui"
 ```
 
 - o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
-- substitua o \<etiqueta> pelo nome da sua etiqueta sem os sinais **<>**
 
 Exemplo:
 
@@ -30,10 +29,8 @@ E o retorno serão todas as etiquetas já criadas.
 É importante notar que a etiqueta é criada no **commit** atual. Para criar uma etiqueta em um **commit** passado fazemos
 
 ```
-$ git tag -a <etiqueta> <chave do commit> -m "insira sua mensagem aqui"
+$ git tag -a nome_da_etiqueta chave_do_commit -m "insira sua mensagem aqui"
 ```
-
-- substitua o \<chave do commit> pelo número da chave do **commit** desejado, sem os sinais **<>**
 
 Exemplo:
 
@@ -50,7 +47,7 @@ $ git log --oneline
 Para saber detalhes de uma etiqueta específica
 
 ```
-$ git show <etiqueta>
+$ git show nome_da_etiqueta
 ```
 
 ## Usando etiquetas (tags) no Git
@@ -58,7 +55,7 @@ $ git show <etiqueta>
 Para utilizar a etiqueta, usa-se o comando:
 
 ```
-$ git checkout <etiqueta>
+$ git checkout nome_da_etiqueta
 ```
 
 Desse modo é possível visualizar o projeto a partir do **commit** associado a essa etiqueta.
@@ -66,13 +63,13 @@ Desse modo é possível visualizar o projeto a partir do **commit** associado a 
 Para voltar ao estado original
 
 ```
-$ git checkout <nome do ramo original>
+$ git checkout nome_do_ramo_original
 ```
 
 Para excluir uma etiqueta, digite
 
 ```
-$ git tag -d <etiqueta>
+$ git tag -d nome_da_etiqueta
 ```
 
 tags: git, tag, etiqueta, show

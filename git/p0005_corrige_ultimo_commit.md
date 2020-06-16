@@ -1,4 +1,4 @@
-# Corrigindo o último commit
+# git commit --amend: Corrigindo o último commit
 
 Vamos supor que adicionei dois arquivos com os seguintes commits:
 

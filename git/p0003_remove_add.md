@@ -59,4 +59,10 @@ O que pode ser conferido através do comando
 $ git status
 ```
 
+Caso queira apenas remover um arquivo que já está sendo monitorado pelo git, basta digitar:
+
+```
+$ git rm nome_do_arquivo
+```
+
 tags: git, reset, index, head

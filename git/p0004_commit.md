@@ -1,13 +1,12 @@
-# Enviando arquivos para o repositório Git
+# git commit: Enviando arquivos para o repositório Git
 
 Depois de usar o comando de adicionar arquivos no git
 
 ```
-$ git add <arquivo>
+$ git add nome_do_arquivo
 ```
 
 - o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
-- substitua o <arquivo\> pelo nome do seu arquivo sem os sinais **<>**
 
 Para confirmar as alterações e enviar os arquivos para o seu repositório, fazemos
 

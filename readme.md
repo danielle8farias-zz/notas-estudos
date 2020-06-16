@@ -35,9 +35,9 @@
 
 10. [git rm: Deletando arquivo do repositório](git/p0010_deletar_arquivo.md)
 
-11. [Etiquetas (tags)](git/p0011_etiquetaTag.md)
+11. [git tag: Etiquetas](git/p0011_etiquetaTag.md)
 
-12. [O que são branches (ramos)](git/p0012_branch.md)
+12. [git branch: O que são branches (ramos)](git/p0012_branch.md)
 
 13. [git mv: Renomeando ou movendo arquivos](git/p0013_renomea_arquivo.md)
 

@@ -1,9 +1,9 @@
-# Deletando arquivo do repositório
+# git rm: Deletando arquivo do repositório
 
 Para apagar um arquivo ou diretório no repositório Git, fazemos
 
 ```
-$ git rm <arquivo>
+$ git rm nome_do _arquivo
 ```
 
 - o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.

@@ -1,9 +1,9 @@
-# Atualizando arquivo modificado no Git
+# git commit -am: Atualizando arquivo modificado no Git
 
 Para atualizar um arquivo que foi modificado no repositório, existem dois caminhos.
 
 ```
-$ git add <nome do arquivo>
+$ git add nome_do_arquivo
 ```
 
 seguido do **commit**
@@ -13,7 +13,6 @@ $ git commit -m "sua mensagem aqui"
 ```
 
 - o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
-- substitua o \<nome do arquivo> pelo nome do seu arquivo sem os sinais **<>**
 
 Ou através de um atalho:
 
