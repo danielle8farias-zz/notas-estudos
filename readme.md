@@ -43,11 +43,11 @@
 
 14. [Visualizando grafo de commits](git/p0014_grafo_commit.md)
 
-15. [Desfazendo commits (checkout)](git/p0015_desfaz_commit.md)
+15. [git checkout: Desfazendo commits](git/p0015_desfaz_commit.md)
 
-16. [Desfazendo commits (reset)](git/p0016_reset_commit.md)
+16. [git reset: Desfazendo commits](git/p0016_reset_commit.md)
 
-17. [Desfazendo commits (revert)](git/p0017_revert_commit.md)
+17. [git revert: Desfazendo commits](git/p0017_revert_commit.md)
 
 18. [Usando GitHub](git/p0018_remoto_github.md)
 

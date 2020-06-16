@@ -1,4 +1,4 @@
-# Desfazendo commits (checkout)
+# git checkout: Desfazendo commits
 
 Uma forma de desfazer **commits** é usando o **checkout**.
 
@@ -33,15 +33,13 @@ Após fazer os testes e/ou alterações, basta fazer o commit. Aqui será aprese
 Para não perder as informações é necessário criar um novo **branch**, desse jeito:
 
 ```
-$ git branch <nome do novo ramo> <chave do útimo commit>
+$ git branch nome_do_novo_ramo chave_do_útimo_commit
 ```
-
-- substitua o \<nome do novo ramo> e \<chave do último commit> por seus respectivos nome e chave, sem os sinais **<>**
 
 Em seguida basta ir até o novo **branch** criado com o comando
 
 ```
-$ git checkout <nome do novo ramo>
+$ git checkout nome_do_novo_ramo
 ```
 
 tags: checkout, git, commit, head

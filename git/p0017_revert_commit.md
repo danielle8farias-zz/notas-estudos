@@ -1,4 +1,4 @@
-# Desfazendo commits (revert)
+# git revert: Desfazendo commits
 
 Outra maneira de desfazer **commits** é usando o comando **revert**.
 
@@ -44,9 +44,9 @@ Para que o processo de reversão seja finalizado.
 Também é possível utilizar o **revert** assim:
 
 ```
-$git revert HEAD~<número a partir de 1>
+$git revert HEAD~número_a_partir_de_1
 ```
 
-- substitua o \<número a partir de 1> por um número, sem os sinais **<>**, sendo o número 1 o último **commit**, o 2 o penúltimo, o 3 o antepenúltimo e assim por diante.
+- substitua o **número_a_partir_de_1** por um número, sendo o número 1 o último **commit**, o 2 o penúltimo, o 3 o antepenúltimo e assim por diante.
 
 tags: git, revert, commit, hash

@@ -1,4 +1,4 @@
-# Enviando um projeto para o repositório remoto no GitHub
+# Usando o Github: Enviando um projeto para o repositório remoto
 
 ![Octocat](img/p0018-0.png)
 
@@ -27,13 +27,10 @@ Em seguida aparece uma tela com três opções:
 Sendo assim, dentro da pasta do nosso projeto, digitamos o comando:
 
 ```
-$ git remote add origin <link para o repositório do seu projeto>
+$ git remote add origin link_para_o_repositório_do_seu_projeto
 ```
 
 para fazer a ligação com o repositório remoto.
-
-- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
-- substitua o \<link para o repositório do seu projeto> pelo link sem os sinais **<>**
 
 No meu caso:
 

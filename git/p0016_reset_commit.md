@@ -1,4 +1,4 @@
-# Desfazendo commits (entendendo o reset)
+# git reset: Desfazendo commits
 
 O comando **reset** pode ser usado para retirar arquivos do index. Exemplo:
 
@@ -33,21 +33,19 @@ $ git reset HEAD~
 A mesma situação vale para o comando
 
 ```
-$ git reset <chave do commit>
+$ git reset chave_do_commit
 ```
-
-- substitua o \<chave do commit> pelo número da chave, sem os sinais **<>**
 
 Que é equivalente a
 
 ```
-$ git reset --mixed <chave do commit>
+$ git reset --mixed chave_do_commit
 ```
 
 Para alterar apenas o **head** usamos o comando:
 
 ```
-$ git reset --soft <chave do commit>
+$ git reset --soft chave_do_commit
 ```
 
 ![reset soft](img/p0016-4.png)
@@ -55,7 +53,7 @@ $ git reset --soft <chave do commit>
 Para alterar o **head**, o **index** e o **working directory** usamos:
 
 ```
-$ git reset --hard <chave do commit>
+$ git reset --hard chave_do_commit
 ```
 
 ![hard reset](img/p0016-5.png)

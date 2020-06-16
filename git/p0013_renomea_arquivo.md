@@ -1,4 +1,4 @@
-# Renomeando ou movendo arquivos no git
+# git mv: Renomeando ou movendo arquivos no git
 
 Para renomear um arquivo do repositório, basta digitar o comando:
 

@@ -1,4 +1,4 @@
-# Verificando commits remotos
+# git fetch: Verificando commits remotos
 
 Precisamos entender que, após criarmos um conta no **GitHub** e fazermos o upload do nosso código, temos dois repositórios: o local e o remoto.
 

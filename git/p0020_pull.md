@@ -1,4 +1,4 @@
-# Puxando commits remotos
+# git pull: Puxando commits remotos
 
 ```
 $ git pull
