@@ -59,6 +59,9 @@
 
 22. [Reconfigurando diretório HTTPS para SSH](git/p0022_https_ssh.md)
 
+23. [git clone: Copiando um repositório existente](git/p0023_clone.md)
+
+
 
 ## Lógica
 

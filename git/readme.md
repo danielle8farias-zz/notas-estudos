@@ -45,3 +45,5 @@
 21. [Acesso ao Github com SSH](p0021_ssh.md)
 
 22. [Reconfigurando diretório HTTPS para SSH](p0022_https_ssh.md)
+
+23. [git clone: Copiando um repositório existente](p0023_clone.md)
