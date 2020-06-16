@@ -50,4 +50,14 @@ $ git commit --amend -m "atualização (edit)"
 
 Desse modo o **commit** foi corrigido.
 
+Caso você tenha acabado de fazer um commit, mas precisou fazer uma pesquena alteração no arquivo logo em seguida
+
+```
+$ git commit --amend --no-edit
+```
+
+Agora seu último commit contém a alteração
+
+**Atenção: não usar esse comando com commits que já foram enviados para o repositório remoto.**
+
 tags: git, log, commit, alteracao

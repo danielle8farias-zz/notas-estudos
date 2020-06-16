@@ -68,4 +68,18 @@ De maneira resumida, temos:
 
 ![git reset](img/p0016-6.png)
 
+Além do comando
+
+```
+$ git log --oneline
+```
+
+para ter acesso as chaves dos commits; também há um comando que traz o registro de tudo o que você fez com o git, incluindo commits descartados, criação e troca de branches, merge, etc.
+
+```
+$ git reflog
+```
+
+Por padrão esse registro fica disponível por 30 dias.
+
 tags: git, reset, soft, hard
