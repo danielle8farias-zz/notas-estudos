@@ -61,6 +61,7 @@
 
 23. [git clone: Copiando um repositório existente](git/p0023_clone.md)
 
+24. [fork: Como colaborar com projetos de código aberto](git/p0024_fork.md)
 
 
 ## Lógica
