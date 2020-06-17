@@ -4,6 +4,18 @@
 $ git pull
 ```
 
+ou 
+
+```
+$ git pull origin nome_do_branch
+```
+
+Exemplo:
+
+```
+$ git pull origin master
+```
+
 O comando **git pull** é um atalho para "puxar" e unir as novas alterações no seu projeto.
 
 Com esse único comando estamos executando o **fetch** seguido do **merge**.
