@@ -110,7 +110,7 @@ A mensagem de retorno será algo como
 Caso deseje baixar as alterações de um repositório ao qual você fez o fork, clone ou contribuiu, digite:
 
 ```
-$ git remote update
+$ git pull upstream master
 ```
 
 tags: fork, git, pull request
