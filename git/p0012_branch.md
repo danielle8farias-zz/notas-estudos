@@ -50,6 +50,12 @@ Para excluir um **branch**, digite
 $ git branch -d nome_do_ramo
 ```
 
+## Excluindo branch remoto
+
+```
+$ git push origin --delete nome_do_ramo
+```
+
 ## Unindo branch
 
 Para unir todas as modificações que foram feitas em diferentes **branches**, ao ramo principal do projeto, digite
