@@ -12,4 +12,8 @@ Caso deseje copiar, além do branch padrão, algum outro branch do repositório,
 $ git fetch origin nome_do_branch_remoto:nome_que_deseja_dar_para_o_branch_local
 ```
 
+Para pegar o link, vá até o repositório remoto desejado e na parte direita clique no botão **clone or download**, como mostrado na imagem abaixo.
+
+![clone or download](img/p0023-0.png)
+
 tags: git, clone, fetch, repositorio
