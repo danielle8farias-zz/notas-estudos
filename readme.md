@@ -63,6 +63,9 @@
 
 24. [fork: Como colaborar com projetos de código aberto](git/p0024_fork.md)
 
+25. [git log: Ver o histórico de commits do git](git/p0025_log.md)
+
+
 
 ## Lógica
 

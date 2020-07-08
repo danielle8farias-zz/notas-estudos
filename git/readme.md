@@ -49,3 +49,5 @@
 23. [git clone: Copiando um repositório existente](p0023_clone.md)
 
 24. [fork: Como colaborar com projetos de código aberto](p0024_fork.md)
+
+25. [git log: Ver o histórico de commits do git](p0025_log.md)
