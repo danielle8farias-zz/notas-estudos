@@ -6,6 +6,8 @@ Vá até o diretório na sua máquina em que você deseja colocar o repositório
 $ git clone url_do_repositorio_que_deseja_copiar
 ```
 
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
 Caso deseje copiar, além do branch padrão, algum outro branch do repositório, digite:
 
 ```

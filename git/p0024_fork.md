@@ -26,13 +26,15 @@ Copie o link e digite no terminal:
 $ git clone link_do_repositorio
 ```
 
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
 No meu caso, será:
 
 ```
 $ git clone git@github.com:danielle8farias/challenges-algorithms.git
 ```
 
-Recomenda-se (boas práticas) criar uma branch para manter as suas alterações separadas
+Recomenda-se (boas práticas) criar um **branch** para manter as suas alterações separadas
 
 ```
 $ git checkout -b nome_do_novo_branch
@@ -100,7 +102,7 @@ Clique sobre ele e abrirá uma nova tela:
 
 ![criando pull request](img/p0024-6.png)
 
-Escreva sua mensagem e em **create pull request**.
+Escreva sua mensagem e clique em **create pull request**.
 
 A mensagem de retorno será algo como
 

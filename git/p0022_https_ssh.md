@@ -8,6 +8,8 @@ Vá até o repositório desejado e digite, no terminal:
 $ git remote -v
 ```
 
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
 O retorno será algo como:
 
 ```
