@@ -82,7 +82,7 @@ upstream	git@github.com:WoMakersCode/challenges-algorithms.git (fetch)
 upstream	git@github.com:WoMakersCode/challenges-algorithms.git (push)
 ```
 
-Agora, antes de empurar seu código, é uma boa prática ir até a página do repositório que você está colaborando e clicar na parte de **issues** para criar um tópico novo **(new issue)**, descrevendo sobre a sua colaboração, quais problemas você pretende solucionar, etc. Ou indo em um tópico já criado para ajudar a solucioná-lo.
+Agora, antes de empurrar seu código, é uma boa prática ir até a página do repositório que você está colaborando e clicar na parte de **issues** para criar um tópico novo **(new issue)**, descrevendo sobre a sua colaboração, quais problemas você pretende solucionar, etc. Ou indo em um tópico já criado para ajudar a solucioná-lo.
 
 ![issues](img/p0024-4.png)
 
@@ -107,7 +107,7 @@ A mensagem de retorno será algo como
 ![sucesso](img/p0024-7.png)
 
 
-Caso deseje baixar as alterações de um repositório ao qual você fez o fork, clone ou contribuiu, digite:
+Caso deseje baixar as alterações de um repositório ao qual você fez o **fork**, **clone** ou contribuiu, digite:
 
 ```
 $ git pull upstream master
