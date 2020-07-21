@@ -81,6 +81,18 @@
 
 4. [Terminal: Navegando nos diretórios Linux](linux/p0004_cd.md)
 
+5. [Terminal: Atualizando o sistema](linux/p0005_update.md)
+
+6. [Terminal: Removendo programas obsoletos](linux/p0006_autoremove.md)
+
+7. [Terminal: Limpando ao cache do APT](linux/p0007_autoclean.md)
+
+8. [Terminal: Corrigindo pacotes quebrados](linux/p0008_pacotes_quebrados.md)
+
+9. [Terminal: Criando diretório no Linux](linux/p0009_mkdir.md)
+
+10. [Terminal: Removendo arquivos e diretórios no Linux](linux/p0010_rmdir.md)
+
 
 
 ## Lógica
