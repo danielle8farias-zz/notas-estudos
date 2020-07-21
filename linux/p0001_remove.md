@@ -1,7 +1,7 @@
 # Terminal: Desinstalando programas no Linux
 
 
-Essa instrução serve para as distros Linux que usam o gerenciador de pacotes Debian (.deb).
+Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e derivados).
 
 ```
 $ sudo apt remove nome_do_programa
