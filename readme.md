@@ -77,6 +77,8 @@
 
 2. [Terminal: Limpando a tela](linux/p0002_clear.md)
 
+3. [Terminal: Listando arquivos e diretórios no Linux](linux/p0003_ls.md)
+
 
 
 ## Lógica
