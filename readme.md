@@ -71,11 +71,11 @@
 
 ## Linux
 
-0. [Terminal: Instalando programas no Linux](linux/p0000_instalacao_programas.md)
+0. [Terminal: Instalando programas no Linux](linux/p0000_install.md)
 
-1. [Terminal: Desinstalando programas no Linux](linux/p0001_desinstalacao_programas.md)
+1. [Terminal: Desinstalando programas no Linux](linux/p0001_remove.md)
 
-2. [Terminal: Limpando a tela](linux/p0002_limpar_tela.md)
+2. [Terminal: Limpando a tela](linux/p0002_clear.md)
 
 
 
