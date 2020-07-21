@@ -79,6 +79,8 @@
 
 3. [Terminal: Listando arquivos e diretórios no Linux](linux/p0003_ls.md)
 
+4. [Terminal: Navegando nos diretórios Linux](linux/p0004_cd.md)
+
 
 
 ## Lógica
