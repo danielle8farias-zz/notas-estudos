@@ -1,5 +1,6 @@
 # Notas de estudo
 
+
 ## Bases numéricas
 
 0. [Decimal](bases_numericas/p0000_base_numerica_dec.md)
@@ -9,6 +10,7 @@
 2. [Octal](bases_numericas/p0002_base_numerica_oct.md)
 
 3. [Hexadecimal](bases_numericas/p0003_base_numerica_hex.md)
+
 
 
 ## Git e GitHub
@@ -67,6 +69,12 @@
 
 
 
+## Linux
+
+0. [Terminal: Instalando programas no Linux](linux/p0000_instalacao_programas.md)
+
+
+
 ## Lógica
 
 0. [Operadores lógicos e tabela verdade](logica/p0000_tabela_verdade.md)
@@ -76,3 +84,9 @@
 2. [Tabela verdade: bicondicional](logica/p0002_tab_verd_bicondicional.md)
 
 3. [Tabela verdade: disjunção exclusiva](logica/p0003_disj_exclusiva.md)
+
+
+
+## Windows
+
+0. [O Windows Não Pode Ser Instalado Em Partições GPT](windows/p0000_format_particao_gpt.md)
