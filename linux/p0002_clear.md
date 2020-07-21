@@ -8,6 +8,8 @@
 $ clear
 ```
 
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
 Ou ainda, usar o atalho **Ctrl + L**.
 
 ![tela limpa](img/p0002-1.png)
