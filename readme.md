@@ -93,6 +93,8 @@
 
 10. [Terminal: Removendo arquivos e diretórios no Linux](linux/p0010_rmdir.md)
 
+11. [Terminal: O comando cat](linux/p0011_cat.md)
+
 
 
 ## Lógica
