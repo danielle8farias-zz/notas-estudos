@@ -95,6 +95,8 @@
 
 11. [Terminal: O comando cat](linux/p0011_cat.md)
 
+12. [Terminal: Comando touch](linux/p0012_touch.md)
+
 
 
 ## Lógica
