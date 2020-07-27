@@ -97,6 +97,11 @@
 
 12. [Terminal: Comando touch](linux/p0012_touch.md)
 
+13. [Terminal: Verificar informações da CPU](linux/p0013_lscpu.md)
+
+
+
+
 
 
 ## Lógica
