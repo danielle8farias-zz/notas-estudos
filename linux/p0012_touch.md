@@ -1,10 +1,13 @@
-# Comando touch
+# Terminal: Comando touch
+
 
 Um comando muito utilizado para criar arquivos(em branco) no Linux é o **touch**.
 
 ```
 $ touch arquivo
 ```
+
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
 É possível criar mais de um arquivo por vez.
 
