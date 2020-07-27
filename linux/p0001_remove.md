@@ -17,4 +17,14 @@ $ sudo apt remove nome_do_programa
 
 Provavelmente, após esse comando o sistema irá pedir a **senha** que você configurou no início da instalação do sistema operacional; além do pedido de confirmação da desinstalação.
 
-tags: linux, desinstalacao, apt, terminal
+Você também pode usar o **dpkg** para remover pacotes **.deb** assim,
+
+```
+$ sudo dpkg -r nome_do_pacote.deb
+```
+
+- **dpkg** do inglês, *Debian Package*, é uma ferramenta que gerencia pacotes .deb.
+
+- **r** é o comando de remover, indicando ao dpkg o que fazer.
+
+tags: linux, desinstalacao, apt, terminal, dpkg

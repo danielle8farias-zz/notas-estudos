@@ -23,4 +23,14 @@ Para fazer a instalação sem a pergunta de confirmação, basta acrescentar o *
 $ sudo apt install nome_do_programa -y
 ```
 
-tags: linux, instalacao, apt, terminal
+Caso você tenha um pacote **.deb** que deseja instalar, digite no terminal
+
+```
+$ sudo dpkg -i nome_do_pacote.deb
+```
+
+- **dpkg** do inglês, *Debian Package*, é uma ferramenta que gerencia pacotes .deb.
+
+- **i** é o comando de instalar, indicando ao dpkg o que fazer.
+
+tags: linux, instalacao, apt, terminal, dpkg
