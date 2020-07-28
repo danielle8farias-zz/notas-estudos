@@ -99,6 +99,8 @@
 
 13. [Terminal: Verificar informações da CPU](linux/p0013_lscpu.md)
 
+14. [Terminal: Verificar uso de espaço em disco](linux/p0014_df.md)
+
 
 
 
