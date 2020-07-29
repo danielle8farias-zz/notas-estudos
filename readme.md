@@ -103,6 +103,8 @@
 
 15. [Terminal: Desligando o computador](linux/p0015_shutdown.md)
 
+16. [Terminal: Histórico de comandos](linux/p0016_historico.md)
+
 
 
 
