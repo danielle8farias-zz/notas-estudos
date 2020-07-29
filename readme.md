@@ -101,6 +101,7 @@
 
 14. [Terminal: Verificar uso de espaço em disco](linux/p0014_df.md)
 
+15. [Terminal: Desligando o computador](linux/p0015_shutdown.md)
 
 
 
