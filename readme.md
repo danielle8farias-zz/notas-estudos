@@ -105,6 +105,8 @@
 
 16. [Terminal: Histórico de comandos](linux/p0016_historico.md)
 
+17. [Instalando o Python 3.8 e o IDLE no Linux](linux/p0017_instalando_python3.8.md)
+
 
 
 
