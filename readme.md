@@ -107,6 +107,10 @@
 
 17. [Instalando o Python 3.8 e o IDLE no Linux](linux/p0017_instalando_python3.8.md)
 
+18. [Buscando arquivo/diretórios no Linux](linux/p0018_busca.md)
+
+19. [Instalando o VS Code pelo terminal](linux/p0019_vscode.md)
+
 
 
 
