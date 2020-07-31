@@ -11,6 +11,12 @@ $ history
 
 - **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
+Para acessar um dos comando listado, digite:
+
+```
+$ !número_do_comando_desejado
+```
+
 Caso deseje limpar o histórico armazenado, basta digitar:
 
 ```
