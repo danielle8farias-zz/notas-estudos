@@ -3,6 +3,8 @@
 
 Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e derivados).
 
+## Usando o apt
+
 ```
 $ sudo apt install nome_do_programa
 ```
@@ -22,6 +24,8 @@ Para fazer a instalação sem a pergunta de confirmação, basta acrescentar o *
 ```
 $ sudo apt install nome_do_programa -y
 ```
+
+## Usando o dpkg
 
 Caso você tenha um pacote **.deb** que deseja instalar, digite no terminal
 

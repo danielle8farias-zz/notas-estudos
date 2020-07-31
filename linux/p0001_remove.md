@@ -3,6 +3,8 @@
 
 Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e derivados).
 
+## Usando o apt
+
 ```
 $ sudo apt remove nome_do_programa
 ```
@@ -16,6 +18,8 @@ $ sudo apt remove nome_do_programa
 - **remove** é o comando para remover, indicando ao apt o que fazer.
 
 Provavelmente, após esse comando o sistema irá pedir a **senha** que você configurou no início da instalação do sistema operacional; além do pedido de confirmação da desinstalação.
+
+## Usando o dpkg
 
 Você também pode usar o **dpkg** para remover pacotes **.deb** assim,
 
