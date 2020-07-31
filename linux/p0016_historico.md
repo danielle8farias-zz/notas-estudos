@@ -9,8 +9,6 @@ Outra maneira de verificar os comando já digitados é através do comando:
 $ history
 ```
 
-O qual trará uma lista dos comandos já utilizados.
-
 - **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
 Caso deseje limpar o histórico armazenado, basta digitar:
@@ -18,6 +16,8 @@ Caso deseje limpar o histórico armazenado, basta digitar:
 ```
 $ history -c
 ```
+
+- **-c** do inglês, **clear**, é o comando que vai limpar o nosso histórico.
 
 Também é possível acessar o histórico de comando através do ***reverse search***. Para ativá-lo basta pressionar **CTRL+R** no terminal.
 
