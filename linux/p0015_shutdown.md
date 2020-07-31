@@ -36,4 +36,6 @@ Para cancelar qualquer um desses desligamentos agendados, digite:
 $ shutdown -c
 ```
 
+- **-c** do inglês, *cancel*, para cancelar.
+
 tags: shutdown, linux, terminal
