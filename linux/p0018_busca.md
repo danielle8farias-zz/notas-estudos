@@ -136,4 +136,4 @@ Nesse caso, eu quero arquivos com qualquer nome, mas que tenham as extensões **
 
 Lembre-se que letras maiúsculas e minúsculas são caracteres diferentes aqui (case-sensitive).
 
-tags: linux, busca, curinga, referenciaGlobal
+tags: linux, busca, curinga, referencia global
