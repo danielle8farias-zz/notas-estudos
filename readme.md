@@ -113,9 +113,9 @@
 
 20. [Terminal: copiando arquivos e diretórios](linux/p0020_cp.md)
 
-12. [Terminal: Informações sobre o usuário](linux/p0021_whoami.md)
+21. [Terminal: Informações sobre o usuário](linux/p0021_whoami.md)
 
-13. [Terminal: movendo/renomeando arquivos e diretórios](linux/p0022_mv.md)
+22. [Terminal: movendo/renomeando arquivos e diretórios](linux/p0022_mv.md)
 
 
 
