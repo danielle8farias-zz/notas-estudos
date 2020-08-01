@@ -115,6 +115,7 @@
 
 12. [Terminal: Informações sobre o usuário](linux/p0021_whoami.md)
 
+13. [Terminal: movendo/renomeando arquivos e diretórios](linux/p0022_mv.md)
 
 
 
