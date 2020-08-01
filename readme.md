@@ -111,6 +111,8 @@
 
 19. [Instalando o VS Code pelo terminal](linux/p0019_vscode.md)
 
+20. [Terminal: copiando arquivos e diretórios](linux/p0020_cp.md)
+
 
 
 
