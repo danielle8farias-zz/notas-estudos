@@ -1,4 +1,4 @@
-# Terminal: Instalando programas no Linux
+# Terminal: Instalando programas
 
 
 Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e derivados).

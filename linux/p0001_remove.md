@@ -1,4 +1,4 @@
-# Terminal: Desinstalando programas no Linux
+# Terminal: Desinstalando programas
 
 
 Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e derivados).

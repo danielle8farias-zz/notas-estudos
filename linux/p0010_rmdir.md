@@ -1,4 +1,4 @@
-# Terminal: Removendo arquivos e diretórios no Linux
+# Terminal: Removendo arquivos e diretórios
 
 ## Removendo diretório vazio
 

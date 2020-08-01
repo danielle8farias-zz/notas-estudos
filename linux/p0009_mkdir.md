@@ -1,4 +1,4 @@
-# Terminal: Criando diretório no Linux
+# Terminal: Criando diretório
 
 
 No terminal digite:

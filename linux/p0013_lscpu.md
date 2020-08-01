@@ -1,5 +1,6 @@
 # Terminal: Verificar informações da CPU
 
+
 Você pode verificar informações específicas da CPU, como arquitetura, família, modelo, entre outras, através do comando 
 
 ```

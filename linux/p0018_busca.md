@@ -1,4 +1,4 @@
-# Buscando arquivo/diretórios no Linux
+# Terminal: Buscando arquivo/diretórios
 
 
 As vezes gostaríamos de buscar um arquivo e/ou diretório e não lembramos onde ele está, mas sabemos o nome ou parte do nome dele.
