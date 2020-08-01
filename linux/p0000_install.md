@@ -6,7 +6,7 @@ Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e 
 ## Usando o apt
 
 ```
-$ sudo apt install nome_do_programa
+$ sudo apt install <nome_do_programa>
 ```
 
 - **$** indica que você deve usar o **usuário comum** para fazer essa operação.
@@ -17,12 +17,14 @@ $ sudo apt install nome_do_programa
 
 - **install** é o comando de instalar, indicando ao apt o que fazer.
 
+- digite o nome do programa sem os sinais **< >**.
+
 Provavelmente, após esse comando o sistema irá pedir a **senha** que você configurou no início da instalação do sistema operacional.
 
 Para fazer a instalação sem a pergunta de confirmação, basta acrescentar o **-y** ao final do comando.
 
 ```
-$ sudo apt install nome_do_programa -y
+$ sudo apt install <nome_do_programa> -y
 ```
 
 ## Usando o dpkg
@@ -30,7 +32,7 @@ $ sudo apt install nome_do_programa -y
 Caso você tenha um pacote **.deb** que deseja instalar, digite no terminal
 
 ```
-$ sudo dpkg -i nome_do_pacote.deb
+$ sudo dpkg -i <nome_do_pacote>.deb
 ```
 
 - **dpkg** do inglês, *Debian Package*, é uma ferramenta que gerencia pacotes .deb.

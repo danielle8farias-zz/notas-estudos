@@ -4,10 +4,12 @@
 Um comando muito utilizado para criar arquivos(em branco) no Linux é o **touch**.
 
 ```
-$ touch arquivo
+$ touch <arquivo>
 ```
 
 - **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
+- digite o nome que deseja dar ao arquivo sem os sinais **< >**.
 
 ## Criando mais de um arquivo simultaneamente
 

@@ -8,17 +8,19 @@
 Para excluir uma pasta vazia, usamos o comando:
 
 ```
-$ rmdir nome_da_pasta
+$ rmdir <nome_da_pasta>
 ```
 
 - **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
 - **rmdir** do inglês,*remove directory*, é o comando que vai excluir a pasta/diretório.
 
+- digite o nome da pasta sem os sinais **< >**.
+
 Outra maneira de excluir um diretório vazio é usando o comando **rm** com o argumento **-d**, assim
 
 ```
-$ rm -d nome_do_diretório
+$ rm -d <nome_do_diretório>
 ```
 
 - **rmd** do inglês,*remove*, é o comando que vai excutar a remoção da pasta.
@@ -28,19 +30,19 @@ $ rm -d nome_do_diretório
 Para excluir um arquivo:
 
 ```
-$ rm nome_do_arquivo
+$ rm <nome_do_arquivo>
 ```
 
 Para excluir mais de um arquivo ao mesmo tempo:
 
 ```
-$ rm nome_do_arquivo1 nome_do_arquivo2 
+$ rm <nome_do_arquivo1> <nome_do_arquivo2> 
 ```
 
 Usando o argumento **-i** é o terminal pedirá a confirmação da remoção antes de fazê-la.
 
 ```
-$ rm -i nome_do_arquivo 
+$ rm -i <nome_do_arquivo>
 ```
 
 Isso é usado como medida de segurança.
@@ -50,7 +52,7 @@ Isso é usado como medida de segurança.
 Para remover um diretório e todos os arquivos dentro dele, digite: 
 
 ```
-$ rm -r nome_da_pasta
+$ rm -r <nome_da_pasta>
 ```
 
 - **-r**, vem de recursivo, pois será necessário percorrer a árvore do diretório recursivamente para apagar tudo o que houver dentro dele.

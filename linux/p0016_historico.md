@@ -1,6 +1,8 @@
 # Terminal: Histórico de comandos
 
 
+## Navegando pelos comandos digitados
+
 Para buscar comando que já foram digitados no bash, basta pressionar a tecla ***seta para cima***, assim os comando do mais recente ao mais antigo poderão ser selecionados novamente, sem a necessidade de escrevê-los de novo.
 
 Outra maneira de verificar os comando já digitados é através do comando:
@@ -14,8 +16,12 @@ $ history
 Para acessar um dos comando listado, digite:
 
 ```
-$ !número_do_comando_desejado
+$ !<número_do_comando_desejado>
 ```
+
+- digite o número sem os sinais **< >**.
+
+## Limpar o histórico
 
 Caso deseje limpar o histórico armazenado, basta digitar:
 
@@ -24,6 +30,8 @@ $ history -c
 ```
 
 - **-c** do inglês, **clear**, é o comando que vai limpar o nosso histórico.
+
+## Buscar por um comando
 
 Também é possível acessar o histórico de comando através do ***reverse search***. Para ativá-lo basta pressionar **CTRL+R** no terminal.
 
@@ -34,6 +42,8 @@ Assim, só é preciso digitar parte do comando ao qual se busca e o bash retorna
 Caso o comando que aparece não seja o desejado, pressione novamente **CTRL+R** quantas vezes forem necessárias, até encontrar o comando.
 
 Para cancelar o reverse search basta pressionar **CTRL+C** e você retornará a visualização anterior.
+
+## Exibindo data e hora em que os comandos foram usados
 
 Se você deseja exibir a data e hora em que os comandos foram usados, será necessário editar o arquivo **.bashrc**; assim:
 

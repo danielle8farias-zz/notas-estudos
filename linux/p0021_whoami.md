@@ -47,7 +47,9 @@ $ groups
 Para saber a quais grupos um determinado usuário pertence, digite:
 
 ```
-$ groups nome_do_usuário
+$ groups <nome_do_usuário>
 ```
+
+- digite o nome do usuário sem os sinais **< >**.
 
 tags: who, whomai, linux, terminal
