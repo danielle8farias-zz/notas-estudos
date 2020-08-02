@@ -3,6 +3,12 @@
 Primeiramente é preciso verificar a arquitetura do processador através do comando:
 
 ```
+$ arch
+```
+
+Ou
+
+```
 $ uname -m
 ```
 
