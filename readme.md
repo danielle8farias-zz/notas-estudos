@@ -117,6 +117,8 @@
 
 22. [Terminal: movendo/renomeando arquivos e diretórios](linux/p0022_mv.md)
 
+23. [Terminal: Verificando informações do sistema](linux/p0023_uname.md)
+
 
 
 
