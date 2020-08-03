@@ -21,6 +21,12 @@ $ sudo apt remove <nome_do_programa>
 
 Provavelmente, após esse comando o sistema irá pedir a **senha** que você configurou no início da instalação do sistema operacional; além do pedido de confirmação da desinstalação.
 
+Esse comando remove os pacotes, mas deixa os dados de configurações. Para removê-lo por completo, incluindo as configurações, utilize:
+
+```
+$ sudo apt purge <nome_do_programa>
+```
+
 ## Usando o dpkg
 
 Você também pode usar o **dpkg** para remover pacotes **.deb** assim,
