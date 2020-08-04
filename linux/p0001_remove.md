@@ -29,14 +29,22 @@ $ sudo apt purge <nome_do_programa>
 
 ## Usando o dpkg
 
-Você também pode usar o **dpkg** para remover pacotes **.deb** assim,
+Você também pode usar o **dpkg** para remover pacotes **.deb** que foram instalados. Assim,
 
 ```
-$ sudo dpkg -r <nome_do_pacote>.deb
+$ sudo dpkg -r <nome_do_programa>
 ```
 
 - **dpkg** do inglês, *Debian Package*, é uma ferramenta que gerencia pacotes .deb.
 
 - **r** é o comando de remover, indicando ao dpkg o que fazer.
+
+Para remover inclusive as configurações, digite:
+
+```
+$ sudo dpkg -P <nome_do_programa>
+```
+
+- **-P** do inglês, *purge*, para limpar.
 
 tags: linux, desinstalacao, apt, terminal, dpkg
