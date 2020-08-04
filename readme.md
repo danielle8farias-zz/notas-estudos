@@ -119,6 +119,10 @@
 
 23. [Terminal: Verificando informações do sistema](linux/p0023_uname.md)
 
+24. [Terminal: Verificando há quanto tempo o sistema está ligado](linux/p0024_uptime.md)
+
+25. [Terminal: Adicionando usuário](linux/p0025_adduser.md)
+
 
 
 
