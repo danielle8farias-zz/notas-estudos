@@ -15,6 +15,8 @@ $ sudo apt autoremove
 
 - **autoremove** remove versões antigas de programas já atualizados.
 
+![usando autoremove](img/p0006-0.gif)
+
 É importante frisar que as versões antigas do kernel também serão removidas com esse comando e, caso você tenha algum problema com o kernel atual, e deseje voltar ao kernel antigo, não será mais possível.
 
 tags: linux, terminal, autoremove
