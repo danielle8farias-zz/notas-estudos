@@ -1,8 +1,6 @@
 # Terminal: Limpando a tela
 
 
-![tela do terminal cheia de comandos e informações](img/p0002-0.png)
-
 É bem comum de acontecer do terminal ficar cheio de comandos, enquanto estamos usando-o. Caso precise limpar a tela, como se você tivesse acabado de abrir um terminal novo, basta digitar o comando
 
 ```
@@ -15,6 +13,6 @@ $ clear
 
 Ou ainda, usar o atalho **Ctrl + L**.
 
-![tela limpa](img/p0002-1.png)
+![limpando tela terminal](img/p0002-0.gif)
 
 tags: linux, terminal, clear, limpar
