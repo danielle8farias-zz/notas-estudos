@@ -13,7 +13,7 @@ $ sudo apt autoclean
 
 - **apt** do inglês, *Advanced Package Tool*, em português, Ferramenta de Empacotamento Avançada; é a ferramenta que nos ajuda na instalação, atualização e desinstalação de programas, entre outras funções.
 
-- **autoclean** limpa os dados armazenados pelo **apt**.
+- **autoclean** limpa os dados armazenados pelo **apt**, removendo versões antigas de pacotes ou que não são mais úteis.
 
 Esse cache do **apt** serve para otimizar algumas instalações.
 
