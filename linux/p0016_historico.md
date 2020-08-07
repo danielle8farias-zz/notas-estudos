@@ -13,6 +13,8 @@ $ history
 
 - **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
+![comando history](img/p0016-0.png)
+
 Para acessar um dos comando listado, digite:
 
 ```
@@ -20,6 +22,8 @@ $ !<número_do_comando_desejado>
 ```
 
 - digite o número sem os sinais **< >**.
+
+![histórico de comandos](img/p0016-1.gif)
 
 ## Limpar o histórico
 
@@ -35,13 +39,13 @@ $ history -c
 
 Também é possível acessar o histórico de comando através do ***reverse search***. Para ativá-lo basta pressionar **CTRL+R** no terminal.
 
-![reverse search em ação](img/p0016-0.jpeg)
-
 Assim, só é preciso digitar parte do comando ao qual se busca e o bash retornará alguma sugestão do histórico. Apertando **ENTER**, o comando é acionado.
 
 Caso o comando que aparece não seja o desejado, pressione novamente **CTRL+R** quantas vezes forem necessárias, até encontrar o comando.
 
-Para cancelar o reverse search basta pressionar **CTRL+C** e você retornará a visualização anterior.
+Para cancelar o reverse search basta pressionar **Esc** ou **CTRL+C** e você retornará a visualização anterior.
+
+![usando o reverse search](img/p0016-2.gif)
 
 ## Exibindo data e hora em que os comandos foram usados
 
@@ -73,6 +77,6 @@ Desse modo, o histórico que antes aparecia assim,
 
 Aparecerá assim,
 
-![histórico com data e hora](img/p0016-1.png)
+![histórico com data e hora](img/p0016-3.png)
 
 tags: historico, comandos, linux, terminal
