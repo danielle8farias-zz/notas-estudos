@@ -5,7 +5,7 @@ Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e 
 
 ## Baixando a lista de repositórios
 
-Para atualizar seu S.O., digite no terminal:
+Para atualizar os pacotes do seu sistema, digite no terminal:
 
 ```
 $ sudo apt update
@@ -22,6 +22,8 @@ $ sudo apt update
 > Os **repositórios** são servidores que hospedam os pacotes de software de cada distribuição Linux.
 
 Será mostrado na tela as atualizações existentes.
+
+![atualizando repositórios](img/p0005-0.gif)
 
 ## Instalando as atualizações
 
