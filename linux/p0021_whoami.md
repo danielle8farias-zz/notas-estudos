@@ -10,6 +10,8 @@ $ whoami
 
 - **whoami** comando que identifica o usuário.
 
+![who am I](img/p0021-0.png)
+
 Para verificar os usuários que estão conectados a máquina.
 
 ```
@@ -20,11 +22,15 @@ $ who
 
 É possível estar conectado e não ser o usuário (no caso de servidores).
 
+![who](img/p0021-1.png)
+
 Para verficar os dados do usuário e os grupos o qual ele faz parte, digite:
 
 ```
 $ id
 ```
+
+![id](img/p0021-2.png)
 
 Com o argumento **-u** temos o número de identificação do usuário atual.
 
@@ -32,17 +38,23 @@ Com o argumento **-u** temos o número de identificação do usuário atual.
 $ id -u
 ```
 
+![id -u](img/p0021-3.png)
+
 Com o argumento **-un** temos apenas o nome do usuário atual.
 
 ```
 $ id -un
 ```
 
+![id -un](img/p0021-4.png)
+
 Para saber a quais grupos o usuário atual pertence, digite:
 
 ```
 $ groups
 ```
+
+![groups](img/p0021-5.png)
 
 Para saber a quais grupos um determinado usuário pertence, digite:
 
