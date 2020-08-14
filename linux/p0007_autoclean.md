@@ -1,4 +1,4 @@
-# Terminal: Limpando ao cache do APT
+# Terminal: Limpando o cache do APT
 
 
 No terminal, digite:
