@@ -1,4 +1,4 @@
-# Excluindo usuário
+# Terminal: Excluindo usuário
 
 
 Para excluir um usuário do sistema, digite:

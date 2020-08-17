@@ -51,3 +51,5 @@
 24. [Terminal: Verificando há quanto tempo o sistema está ligado](p0024_uptime.md)
 
 25. [Terminal: Adicionando usuário](p0025_adduser.md)
+
+26. [Terminal: Excluindo usuário](p0026_userdel.md)

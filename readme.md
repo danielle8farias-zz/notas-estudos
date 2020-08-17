@@ -123,6 +123,7 @@
 
 25. [Terminal: Adicionando usuário](linux/p0025_adduser.md)
 
+26. [Terminal: Excluindo usuário](linux/p0026_userdel.md)
 
 
 
