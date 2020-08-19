@@ -125,6 +125,8 @@
 
 26. [Terminal: Excluindo usuário](linux/p0026_userdel.md)
 
+27. [Terminal: Mostrando o início ou fim de um arquivo texto](linux/p0027_head_tail.md)
+
 
 
 ## Lógica

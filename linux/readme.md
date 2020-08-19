@@ -53,3 +53,5 @@
 25. [Terminal: Adicionando usuário](p0025_adduser.md)
 
 26. [Terminal: Excluindo usuário](p0026_userdel.md)
+
+27. [Terminal: Mostrando o início ou fim de um arquivo texto](p0027_head_tail.md)
