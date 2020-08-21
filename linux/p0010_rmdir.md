@@ -25,7 +25,9 @@ Outra maneira de excluir um diretório vazio é usando o comando **rm** com o ar
 $ rm -d <nome_do_diretório>
 ```
 
-- **rmd** do inglês,*remove*, é o comando que vai excutar a remoção da pasta.
+- **rm** do inglês,*remove*, é o comando que vai executar a remoção.
+
+- **-d** do inglês, *directory*, indicando que é um diretório.
 
 ![deletando diretório vazio com rm -d](img/p0010-2.gif)
 
