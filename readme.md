@@ -127,6 +127,8 @@
 
 27. [Terminal: Mostrando o início ou fim de um arquivo texto](linux/p0027_head_tail.md)
 
+28. [Terminal: Gerenciando grupos](linux/p0028_groups.md)
+
 
 
 ## Lógica

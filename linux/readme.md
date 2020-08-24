@@ -55,3 +55,5 @@
 26. [Terminal: Excluindo usuário](p0026_userdel.md)
 
 27. [Terminal: Mostrando o início ou fim de um arquivo texto](p0027_head_tail.md)
+
+28. [Terminal: Gerenciando grupos](p0028_groups.md)
