@@ -129,6 +129,8 @@
 
 28. [Terminal: Gerenciando grupos](linux/p0028_groups.md)
 
+29. [Terminal: Contando palavras em um arquivo](linux/p0029_wc.md)
+
 
 
 ## Lógica

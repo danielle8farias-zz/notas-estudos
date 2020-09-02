@@ -57,3 +57,6 @@
 27. [Terminal: Mostrando o início ou fim de um arquivo texto](p0027_head_tail.md)
 
 28. [Terminal: Gerenciando grupos](p0028_groups.md)
+
+29. [Terminal: Contando palavras em um arquivo](p0029_wc.md)
+
