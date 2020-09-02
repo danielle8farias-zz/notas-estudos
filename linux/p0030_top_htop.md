@@ -185,7 +185,24 @@ Memória residente dividida pela memória total.
 
 Quanto tempo de uso desde da última inicialização do sistema.
 
+## Utilizando o HTOP
 
+Primeiro é preciso instalá-lo:
 
+```
+$ sudo apt install htop
+```
+
+> para ver mais informações sobre as [instalações de programas no linux, clique aqui](p0000_install.md).
+
+Em seguida chame o programa
+
+```
+$ htop
+```
+
+Serão mostradas as mesmas informações, porém com outro formato.
+
+![usando htop](img/p0030-26.gif)
 
 tags: linux, terminal, top, htop
