@@ -47,7 +47,7 @@ $ ls /home/[a,p]*
 
 ![buscando arquivos começam com 'a' ou 'p'](img/p0018-3.gif)
 
-É importante notas que o sistema Linux faz distinção entre caracteres maiúsculos e minúsculos.
+É importante notar que o sistema Linux faz distinção entre caracteres maiúsculos e minúsculos.
 
 ## Buscando por arquivo que termine com
 
@@ -57,7 +57,7 @@ Caso queira arquivos que terminem com uma determinada letra
 $ ls /home/*f
 ```
 
-Aqui o retorno será arquivos e/ou diretórios que terminam com a letra **f**. É importante notas que isso inclui também as letras da extensão do arquivo.
+Aqui o retorno será arquivos e/ou diretórios que terminam com a letra **f**. É importante notar que isso inclui também as letras da extensão do arquivo.
 
 ![arquivos que terminam com 'f'](img/p0018-4.png)
 
