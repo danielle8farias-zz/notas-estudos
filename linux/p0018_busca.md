@@ -45,7 +45,7 @@ Se eu quiser arquivo e/ou diretórios que comecem com **a** ou **p**:
 $ ls /home/[a,p]*
 ```
 
-![buscando arquivos comçam com 'a' ou 'p'](img/p0018-3.gif)
+![buscando arquivos começam com 'a' ou 'p'](img/p0018-3.gif)
 
 É importante notas que o sistema Linux faz distinção entre caracteres maiúsculos e minúsculos.
 
