@@ -31,4 +31,9 @@ As permissões são descritas com uma sequência de 10 caracteres.
 
 ![rw](img/p0031-3.png)
 
+![r](img/p0031-4.png)
+
+- O quinto, sexto e sétimo itens são referentes as permissões do grupo ao qual o arquivo pertence:
+
+![todas as permissões para o grupo](img/p0031-5.png)
 
