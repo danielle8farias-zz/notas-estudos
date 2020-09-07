@@ -41,4 +41,12 @@ As permissões são descritas com uma sequência de 10 caracteres.
 
 ![grupo só pode ler](img/p0031-7.png)
 
-- 
+- O oitavo, nono e décimo (último) itens são referentes as permissões do **usuário**:
+
+![todas as permissões para o usuário](img/p0031-8.png)
+
+![usuários pode ler e modificar](img/p0031-9.png)
+
+![usuário só pode ler](img/p0031-10.png)
+
+tags: linux, terminal, permissao
