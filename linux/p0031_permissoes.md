@@ -21,19 +21,24 @@ As permissões são descritas com uma sequência de 10 caracteres.
 
 ![usando comando ls -lh](img/p0031-0.png)
 
-- O primeiro item é referente ao diretório ou arquivo:
+- O primeiro item é referente ao **diretório ou arquivo**:
 
 ![item 1](img/p0031-1.png)
 
-- O segundo, terceiro e quarto itens são referentes as permissões do dono do arquivo:
+- O segundo, terceiro e quarto itens são referentes as permissões do **dono** do arquivo:
 
 ![todas a permissões para o dono](img/p0031-2.png)
 
-![rw](img/p0031-3.png)
+![dono pode ler e modificar](img/p0031-3.png)
 
-![r](img/p0031-4.png)
+![dono só pode ler](img/p0031-4.png)
 
-- O quinto, sexto e sétimo itens são referentes as permissões do grupo ao qual o arquivo pertence:
+- O quinto, sexto e sétimo itens são referentes as permissões do **grupo** ao qual o arquivo pertence:
 
 ![todas as permissões para o grupo](img/p0031-5.png)
 
+![grupo pode ler e modificar](img/p0031-6.png)
+
+![grupo só pode ler](img/p0031-7.png)
+
+- 
