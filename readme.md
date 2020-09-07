@@ -131,6 +131,11 @@
 
 29. [Terminal: Contando palavras em um arquivo](linux/p0029_wc.md)
 
+30. [Terminal: Visualizando processos](linux/p0030_top_htop.md)
+
+31. [Terminal: O sistema de permissões no Linux](linux/p0031_permissoes.md)
+
+
 
 
 ## Lógica
