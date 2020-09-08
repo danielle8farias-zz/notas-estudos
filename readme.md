@@ -152,4 +152,4 @@
 
 ## Windows
 
-0. [O Windows Não Pode Ser Instalado Em Partições GPT](windows/p0000_format_particao_gpt.md)
+0. [O Windows não pode ser instalado em partições GPT](windows/p0000_format_particao_gpt.md)
