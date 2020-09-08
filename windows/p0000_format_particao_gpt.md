@@ -1,4 +1,4 @@
-# O Windows Não Pode Ser Instalado Em Partições GPT
+# O Windows não pode ser instalado em partições GPT
 
 Erro comum durante a instalação do Windows 10 que está relacionado ao disco em estilo GPT.
 
