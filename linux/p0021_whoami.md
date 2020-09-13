@@ -24,7 +24,7 @@ $ who
 
 ![who](img/p0021-1.png)
 
-Para verficar os dados do usuário e os grupos o qual ele faz parte, digite:
+Para verificar os dados do usuário e os grupos o qual ele faz parte, digite:
 
 ```
 $ id
@@ -64,4 +64,4 @@ $ groups <nome_do_usuário>
 
 - digite o nome do usuário sem os sinais **< >**.
 
-tags: who, whomai, linux, terminal
+tags: who, whoami, linux, terminal
