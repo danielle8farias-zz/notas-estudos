@@ -31,13 +31,25 @@ $ sudo apt install <nome_do_programa> -y
 
 ![exemplo de instalação -y](img/p0000-1.gif)
 
-## Usando o dpkg
+## Instalando um pacote .deb
 
-Caso você tenha um pacote **.deb** que deseja instalar, vá até a pasta onde está o arquivo.
+Caso você tenha um pacote **.deb** que deseja instalar, vá até a pasta onde está o arquivo 
 
 ![ls cd](img/p0000-2.gif)
 
 e digite no terminal
+
+```
+$ sudo apt install ./<nome_do_pacote>.deb
+```
+
+Desse modo todas as dependências serão verificadas e instaladas.
+
+- **./** refere-se ao diretório onde você está.
+
+## Instalando um pacote .deb usando o dpkg
+
+Vá até a pasta onde está o arquivo **.deb** e digite no terminal:
 
 ```
 $ sudo dpkg -i <nome_do_pacote>.deb
@@ -50,5 +62,15 @@ $ sudo dpkg -i <nome_do_pacote>.deb
 Exemplo:
 
 ![dpkg](img/p0000-3.gif)
+
+Dessa maneira porém, as dependências não são instaladas, para corrigir isso, digite:
+
+```
+$ sudo apt install -f
+```
+
+- **-f** do inglês, *fix*, para corrigir o que falta.
+
+Caso haja algo que precise de reparo, será mostrado na tela, pedindo a confirmação do usuário.
 
 tags: linux, instalacao, apt, terminal, dpkg
