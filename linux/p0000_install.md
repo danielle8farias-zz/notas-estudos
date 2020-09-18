@@ -45,7 +45,11 @@ $ sudo apt install ./<nome_do_pacote>.deb
 
 Desse modo todas as dependências serão verificadas e instaladas.
 
-- **./** refere-se ao diretório onde você está.
+- O **ponto-barra** juntos serve para indicar o caminho do executável;
+
+- o **ponto** significa diretório atual;
+
+- a **barra** serve para separar o diretório do nome do arquivo
 
 ## Instalando um pacote .deb usando o dpkg
 
