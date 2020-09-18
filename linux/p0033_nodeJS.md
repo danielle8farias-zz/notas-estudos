@@ -1,5 +1,6 @@
 # Instalando o Node.JS e o Node Version Manager (NVM) no Linux (Ubuntu e derivados)
 
+
 Antes de começarmos a instalação, precisamos atualizar o sistema.
 
 > [saiba como atualizar seu Linux aqui.](p0005_update.md)
