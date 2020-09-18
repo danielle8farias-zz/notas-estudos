@@ -64,3 +64,5 @@
 
 31. [Terminal: O sistema de permissões no Linux](p0031_permissoes.md)
 
+32. [Instalando o Node.JS e o Node Version Manager (NVM) no Linux (Ubuntu e derivados)](p0033_nodeJS.md)
+
