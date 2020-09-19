@@ -1,0 +1,171 @@
+# Instalação e configuração LAMP (Linux, Apache, MariaDB e PHP) no Linux (Ubuntu e derivados)
+
+
+Antes de começarmos precisamos atualizar o sistema.
+
+> [saiba como atualizar seu Linux aqui.](p0005_update.md)
+
+## Apache
+
+Em seguida, vamos a instalação do servidor web Apache:
+
+```
+$ sudo apt install apache2
+```
+
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+
+- **sudo** serve para pedir permissões de administrador temporariamente.
+
+- **apt** do inglês, *Advanced Package Tool*, em português, Ferramenta de Empacotamento Avançada; é a ferramenta que nos ajuda na instalação, atualização e desinstalação de programas, entre outras funções.
+
+- **install** é o comando de instalar, indicando ao apt o que fazer.
+
+## Verificando a instalação do Apache
+
+Para verificar se a instalação foi correta, você pode digitar no terminal:
+
+```
+$ systemctl status apache2
+```
+
+- **systemctl** é o comando para habilitar, desabilitar, reiniciar, verificar o estado de um serviço, entre outras funções.
+
+- **status** é o parâmetro que passamos ao comando systemctl para verificar o estado de um serviço (no nosso caso, o Apache).
+
+A saída do comando deve ser algo como:
+
+![saída do comando systemctl](img/p0034-0.png)
+
+Para sair dessa tela, pressione **q**.
+
+Outra maneira de verificar a instalação do Apache é abrindo o navegador e digitando na barra de endereço ```127.0.0.1``` ou ```localhost```.
+
+A tela de retorno será:
+
+![tela do localhost](img/p0034-1.png)
+
+Se nenhuma dessas telas aparecer para você, pode ser que você precise iniciar o Apache manualmente através do comando:
+
+```
+$ sudo systemctl start apache2
+```
+
+- **start** é o parâmetro que passamos ao comando systemctl para iniciar um serviço (no nosso caso, o Apache).
+
+## Iniciando o Apache com o sistema
+
+Caso você queira iniciar o Apache junto com o sistema operacional no próximo boot, digite:
+
+```
+$ sudo systemctl enable apache2
+```
+
+- **enable** é o parâmetro que passamos ao comando systemctl para iniciar automaticamente o Apache ao iniciar o sistema.
+
+## Verificando a versão do Apache
+
+Para verificar a versão do Apache instalada no seu sistema, digite:
+
+```
+$ apache2 -v
+```
+
+- **-v** do inglês, *version*, vai retornar na tela a versão instalada.
+
+## MariaDB
+
+Agora vamos instalar o servidor de banco de dados:
+
+```
+$ sudo apt install mariadb-server
+```
+
+- **mariadb-server** é o nome do pacote do serviço de banco de dados que vamos instalar.
+
+## Verificando a instalação do MariaDB
+
+Para verificar se o serviço do banco de dados já foi iniciado, digite no terminal:
+
+```
+$ systemctl status mariadb
+```
+
+O retorno será:
+
+![retorno do estado do mariadb](img/p0034-2.png)
+
+Se o serviço não estiver ativo, pode ser que você precise iniciar o MariaDB manualmente através do comando:
+
+```
+$ sudo systemctl start mariadb
+```
+
+## Iniciando o MariaDB com o sistema
+
+Caso você queira iniciar o MariaDB junto com o sistema operacional no próximo boot, digite:
+
+```
+$ sudo systemctl enable mariadb
+```
+
+## Configurando o MariaDB
+
+No terminal digite:
+
+```
+$ sudo mysql_secure_installation
+```
+
+A seguinte tela será mostrada:
+
+![configuração inicial mariadb](img/p0034-3.png)
+
+Como ainda não temos senha para o root do MariaDB, pressionamos **ENTER**. Em seguida pressione y para cadastrar uma senha para o root:
+
+![cadastrando senha root](img/p0034-4.png)
+
+Definimos a senha e a repetimos em seguida para confirmação.
+
+Nas perguntas seguintes, eu respondi sim (**y**) para todas as perguntas, mas você pode fazer diferente, de acordo com a sua necessidade.
+
+![passos finais configuração mariadb](img/p0034-5.png)
+
+Agora, vamos fazer o login no servidor de banco de dados:
+
+```
+$ sudo mysql
+```
+
+E criar um usuário administrador no MariaDB, que será usado para se com o **phpMyAdmin**.
+
+No prompt do MariaBD, digite:
+
+```
+grant all privileges on *.* to <seu_usuario>@localhost identified by 'escolha_uma_senha';
+```
+
+- escolha um nome de usuário sem os sinais **< >**.
+
+```
+flush privileges;
+```
+
+e
+
+```
+exit
+```
+
+para sair.
+
+![criando administrador mariadb](img/p0034-6.png)
+
+## Verificando a versão do MariaDB
+
+Para verificar a versão do MariaDB instalada no seu sistema, digite:
+
+```
+$ mariadb -V
+```
+
