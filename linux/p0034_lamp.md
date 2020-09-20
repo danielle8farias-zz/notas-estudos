@@ -197,3 +197,38 @@ $ cd /var/www/html/
 
 > para saber mais sobre como navegar nos diretórios pelo terminal, [clique aqui](p0004_cd.md).
 
+E crie o arquivo **info.php**:
+
+```
+$ sudo nano info.php
+```
+
+- aqui precisamos invocar o **sudo** porque um usuário comum não tem permissão para escrever nesse diretório;
+
+> para saber sobre o sistema de permissões de diretórios do Linux, [clique aqui](p0031_permissoes.md).
+
+- estou utilizando o editor **nano**, mas você pode usar outro que preferir.
+
+Dentro do arquivo escreva:
+
+```php
+<?php
+phpinfo();
+```
+E salve o documento.
+
+Na barra de endereço do navegador, digite ```localhost/info.php```
+
+Se estiver tudo certo, veremos a tela a seguir
+
+![tela php funcionando](img/p0034-7.png)
+
+## phpMyAdmin
+
+Agora vamos fazer a instalação da ferramenta que vai fazer a administração do nosso servidor de banco de dados MariaDB.
+
+```
+$ sudo apt install phpmyadmin
+```
+
+
