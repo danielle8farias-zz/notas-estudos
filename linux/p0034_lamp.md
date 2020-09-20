@@ -139,7 +139,7 @@ $ sudo mysql
 
 E criar um usuário administrador no MariaDB, que será usado para se com o **phpMyAdmin**.
 
-No prompt do MariaBD, digite:
+No prompt do MariaDB, digite:
 
 ```
 grant all privileges on *.* to <seu_usuario>@localhost identified by 'escolha_uma_senha';
@@ -223,7 +223,21 @@ Se estiver tudo certo, veremos a tela a seguir
 
 ![tela php funcionando](img/p0034-7.png)
 
+## Verificando a versão do PHP
+
+Para verificar a versão do PHP instalada no seu sistema, digite:
+
+```
+$ php -v
+```
+
 ## phpMyAdmin
+
+Retorne a sua home com o comando
+
+```
+$ cd
+```
 
 Agora vamos fazer a instalação da ferramenta que vai fazer a administração do nosso servidor de banco de dados MariaDB.
 
@@ -231,4 +245,48 @@ Agora vamos fazer a instalação da ferramenta que vai fazer a administração d
 $ sudo apt install phpmyadmin
 ```
 
+A seguinte tela será apresentada:
 
+![configuração inicial phpmyadmin](img/p0034-8.png)
+
+## Configurando o phpMyAdmin
+
+Vá com a seta até a opção **apache2** e pressione a tecla de **espaço** para marcá-la.
+
+![selecionado apache](img/p0034-9.png)
+
+Pressione **TAB** para ir até botão **OK** e pressione **ENTER**.
+
+![botão ok](img/p0034-10.png)
+
+Na tela seguinte você deve pressionar **ENTER** na opção **sim** para configurar o bando de dados para o phpMyAdmin.
+
+![configurando bando de dados para o phpMyAdmin](img/p0034-11.png)
+
+Em seguida será pedido a criação de uma senha para o usuário padrão da aplicação (phpmyadmin) e a confirmação dela.
+
+![criando senha](img/p0034-12.png)
+
+![confirmando senha](img/p0034-13.png)
+
+## Verificando a instalação do phpMyAdmin
+
+Na barra de endereço do navegador, digite ```localhost/phpmyadmin```
+
+Ao entrar com o login **phpmyadmin** e a senha que fizemos há pouco,
+
+![entrando com o usuário padrão](img/p0034-14.png)
+
+E ao clicar em banco de dados, podemos perceber que não temos permissão para criar um novo banco.
+
+![sem privilégios para criar novo banco](img/p0034-15.png)
+
+Porém, ao inserirmos o usuário que criamos no prompt do MariaDB, vemos que temos esse privilégio:
+
+![usuário criado no maridb](img/p0034-16.png)
+
+![usuário com permissão de criar banco](img/p0034-17.png)
+
+LAMP configurado e pronto para ser usado! =)
+
+tags: lamp, php, apache, mariadb
