@@ -169,3 +169,31 @@ Para verificar a versão do MariaDB instalada no seu sistema, digite:
 $ mariadb -V
 ```
 
+## PHP
+
+Agora vamos instalar o PHP e tudo o que for referente a ele para a conexão com os serviços.
+
+```
+$ sudo apt install php php-mysql php-mbstring libapache2-mod-php
+```
+
+- **php** é a linguagem de script;
+
+- **php-mysql** é a ferramenta que faz a conexão da linguagem com o banco de dados;
+
+- **php-mbstring** é a ferramenta usada para a conversão de strings; necessaria para a ligação com o phpMyAdmin;
+
+- **libapache2-mod-php** é a ferramenta que faz a conexão com o Apache.
+
+## Verificando a instalação do PHP
+
+Vá até o diretório **/var/www/html/**,
+
+```
+$ cd /var/www/html/
+```
+
+- **cd** do inglês, *change directory*, serve para mudar de diretório/pasta.
+
+> para saber mais sobre como navegar nos diretórios pelo terminal, [clique aqui](p0004_cd.md).
+
