@@ -135,8 +135,11 @@
 
 31. [Terminal: O sistema de permissões no Linux](linux/p0031_permissoes.md)
 
-32. [Instalando o Node.JS e o Node Version Manager (NVM) no Linux (Ubuntu e derivados)](linux/p0033_nodeJS.md)
+32. [Terminal: Entendendo o sudo e o root](linux/p0032_root.md)
 
+33. [Instalando o Node.JS e o Node Version Manager (NVM) no Linux (Ubuntu e derivados)](linux/p0033_nodeJS.md)
+
+34. [Instalação e configuração LAMP (Linux, Apache, MariaDB e PHP) no Linux (Ubuntu e derivados)](linux/p0034_lamp.md)
 
 
 ## Lógica
