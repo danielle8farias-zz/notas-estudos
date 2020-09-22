@@ -21,3 +21,23 @@ $ git clone git@github.com:joomlagovbr/joomla-3.x.git
 
 > para saber mais sobre o comando git clone, [clique aqui](git/p0023_clone.md).
 
+Agora, vamos mover a pasta clonada do git para o diretório raiz da instalação do Apache.
+
+$ sudo mv joomla-3.x /var/www/html
+
+$ sudo mv /var/www/html/joomla-3.x/ /var/www/html/joomla/
+
+sudo gpasswd -a [seu usuário] www-data
+
+colocando seu usuário no grupo www-data
+
+sudo chown -R www-data:www-data /var/www/html/joomla
+
+mudando as permissões da pasta joomla e todos os arquivos dentro dela para o usuário www-data e grupo www-data
+
+sudo chmod -R 755 /var/www/html/joomla
+
+sudo systemctl restart apache2
+
+digite http://localhost/joomla para a instalação começar
+
