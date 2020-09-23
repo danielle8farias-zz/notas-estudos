@@ -55,12 +55,14 @@ $ sudo gpasswd -a <seu_usuário> www-data
 
 > para saber mais sobre o sistema de grupos no Linux, [clique aqui](linux/p0028_groups.md).
 
+E mudar o dono da pasta joomla e todos os arquivos dentro dela para o usuário **www-data** e grupo **www-data**:
 
+```
+$ sudo chown -R www-data:www-data /var/www/html/joomla
+```
 
+- **chown** do inglês, *change owner*, mudar de dono. 
 
-sudo chown -R www-data:www-data /var/www/html/joomla
-
-mudando as permissões da pasta joomla e todos os arquivos dentro dela para o usuário www-data e grupo www-data
 
 sudo chmod -R 755 /var/www/html/joomla
 
