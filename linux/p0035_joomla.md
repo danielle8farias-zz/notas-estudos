@@ -101,3 +101,8 @@ Clique no botão para remover a pasta *installation* e em seguida entre com o no
 
 ![removendo botão installation](img/p0035-4.png)
 
+Se tudo estiver correto, a tela do site vai carregar com o template.
+
+![template do governo](img/p0035-5.png)
+
+tags: joomla, template, governo, federal, configuração
