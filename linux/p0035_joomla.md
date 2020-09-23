@@ -87,3 +87,17 @@ A tela que vai aparecer é a seguinte:
 
 ![tela inicial instalação joomla](img/p0035-0.png)
 
+Preencha com os seus dados e siga para a próxima tela. Preencha também as configurações para o banco de dados e siga para a próxima tela.
+
+![banco dados joomla](img/p0035-1.png)
+
+Na aba três, será mostrado as configurações que você fez para esse ambiente. Marque a opção **sample_padrao_egov** para usar o template do governo federal.
+
+![marcando template governo](img/p0035-2.png)
+
+![resumo configurações](img/p0035-3.png)
+
+Clique no botão para remover a pasta *installation* e em seguida entre com o nome do usuário e senha que você configurou anteriormente.
+
+![removendo botão installation](img/p0035-4.png)
+
