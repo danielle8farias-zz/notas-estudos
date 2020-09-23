@@ -63,8 +63,20 @@ $ sudo chown -R www-data:www-data /var/www/html/joomla
 
 - **chown** do inglês, *change owner*, mudar de dono. 
 
+- **-R** quer dizer recursivo; o comando anterior será feito não apenas no diretório indicado, mas em todos os arquivos e subdiretórios dentro dele.
 
-sudo chmod -R 755 /var/www/html/joomla
+Agora devemos mudar as permissões da pasta:
+
+```
+$ sudo chmod -R 755 /var/www/html/joomla
+```
+
+- **chmod** do inglês, *change mode*, altera as permissões de acesso de arquivos e diretórios.
+
+- **755** usa a base octal para fazer as mudanças nas permissões. Aqui nesse caso, o diretório, subdiretórios e arquivos vão ficar com as seguintes permissões: **rwx r-x r-x**. O dono pode ler, escrever e executar os arquivos. O grupo e os outros usuários pode ler e executar os arquivos.
+
+
+
 
 sudo systemctl restart apache2
 
