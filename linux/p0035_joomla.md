@@ -75,10 +75,15 @@ $ sudo chmod -R 755 /var/www/html/joomla
 
 - **755** usa a base octal para fazer as mudanças nas permissões. Aqui nesse caso, o diretório, subdiretórios e arquivos vão ficar com as seguintes permissões: **rwx r-x r-x**. O dono pode ler, escrever e executar os arquivos. O grupo e os outros usuários pode ler e executar os arquivos.
 
+Em seguida vamos **reiniciar o Apache**:
 
+```
+$ sudo systemctl restart apache2
+```
 
+Abra o navegador e digite ```localhost/joomla``` para começar a instalação.
 
-sudo systemctl restart apache2
+A tela que vai aparecer é a seguinte:
 
-digite http://localhost/joomla para a instalação começar
+![tela inicial instalação joomla](img/p0035-0.png)
 
