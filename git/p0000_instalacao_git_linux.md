@@ -1,5 +1,6 @@
 # Instalando, configurando e inicializando o Git no Linux
 
+
 Para instalar o Git no Linux, digite no terminal:
 
 ```
@@ -7,10 +8,12 @@ $ sudo apt install git
 ```
 
 - o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
-- o **sudo** é o comando que dá permissões de super usuário temporariamente; assim é possível fazer a instalação de programas.
-- o **apt** do inglês, *Advanced Package Tool*, em português, Ferramenta de Empacotamento Avançada; é a ferramenta que nos ajuda na instalação, atualização e desinstalação de programas, entre outras funções.
-- o **install** é o comando de instalar, indicando ao apt o que fazer.
 
+- o **sudo** é o comando que dá permissões de super usuário temporariamente; assim é possível fazer a instalação de programas.
+
+- o **apt** do inglês, *Advanced Package Tool*, em português, Ferramenta de Empacotamento Avançada; é a ferramenta que nos ajuda na instalação, atualização e desinstalação de programas, entre outras funções.
+
+- o **install** é o comando de instalar, indicando ao apt o que fazer.
 
 Verifique se a instalação foi feita corretamente digitando:
 
@@ -61,15 +64,17 @@ $ git config core.editor nano
 Para inicializar o git no diretório desejado (caso ainda não o tenha feito), vá até o local onde você deseja fazer o controle de versionamento.
 
 ```
-$ cd /home/user/your_repository
+$ cd /home/seu_usuário/seu_repositório
 ```
 
-- o comando **cd** serve para mudar de diretório/pasta.
+- o comando **cd** serve para mudar de diretório/pasta; em seguida digite o caminho até a pasta.
 
 e digite
 
 ```
 $ git init
 ```
+
+A partir de agora, os arquivos serão rastreados pelo **Git**.
 
 tags: git, linux, configuracao, instalacao
