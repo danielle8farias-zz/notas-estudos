@@ -77,7 +77,7 @@ No nosso exemplo,
 ![fluxo antes da remoção do arquivo do index](img/p0003-7.png)
 
 ```
-$ git reset HEAD estilo3.css
+$ git reset HEAD estilo2.css
 ```
 
 ![depois do reset HEAD](img/p0003-8.png)
