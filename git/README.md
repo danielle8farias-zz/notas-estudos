@@ -1,12 +1,13 @@
 # Git e GitHub
 
+
 0. [Instalando, configurando e inicializando o Git no Linux](p0000_instalacao_git_linux.md)
 
 1. [Instalando, configurando e inicializando o Git no Windows](p0001_instalacao_git_windows.md)
 
 2. [git add: Adicionando arquivos no Git](p0002_add.md)
 
-3. [Removendo arquivos do index](p0003_remove_add.md)
+3. [git rm/reset: Removendo arquivos do index](p0003_remove_add.md)
 
 4. [git commit: Enviando arquivos para o repositório Git](p0004_commit.md)
 
