@@ -1,29 +1,42 @@
 # git commit: Enviando arquivos para o repositório Git
 
-Depois de usar o comando de adicionar arquivos no git
+
+Após adicionar arquivos no **index**, [clique aqui caso não saiba adicionar](p0002_add.md), precisamos levar esses arquivos para dentro do nosso repositório.
+
+Até agora temos:
+
+![arquivos monitorados](img/p0002-4.png)
+
+Enquanto no **fluxo** do git,
+
+![arquivos no index](img/p0003-0.png)
+
+Ao colocar os arquivos dentro no repositório, precisamos informar ao **Git** o motivo desses arquivos, com o comando:
 
 ```
-$ git add nome_do_arquivo
+$ git commit -m 'escreva sua mensagem aqui'
 ```
 
-- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
-Para confirmar as alterações e enviar os arquivos para o seu repositório, fazemos
+- pode-se usar aspas simples ou duplas para escrever a mensagem.
+
+No nosso exemplo, temos:
 
 ```
-$ git commit -m "escreva sua mensagem aqui"
+$ git commit -m 'commit inicial'
 ```
 
-A mensagem descrita entre aspas duplas serve para identificar a ação sobre os arquivos.
+![primeiro commit](img/p0004-0.png)
 
-Conferindo o estado do git, temos algo como
+Conferindo o **estado** do **Git**, temos:
 
-![status limpo](img/p0004-0.png)
+![status limpo](img/p0004-1.png)
 
-No fluxo do git,
+E no fluxo,
 
-![fluxo commit do git](img/p0004-1.png)
+![fluxo commit do git](img/p0004-2.png)
 
-> abaixo do nome do arquivo está escrito a chave (ou hash) que identifica o commit
+Esse conjunto de caracteres e números que aparece ao lado da palavra **commit** é a **chave (ou hash)** que identifica o próprio.
 
 tags: git, commit, add, status
