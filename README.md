@@ -22,7 +22,7 @@
 
 2. [git add: Adicionando arquivos no Git](git/p0002_add.md)
 
-3. [Removendo arquivos do index](git/p0003_remove_add.md)
+3. [git rm/reset: Removendo arquivos do index](git/p0003_remove_add.md)
 
 4. [git commit: Enviando arquivos para o repositório Git](git/p0004_commit.md)
 
