@@ -74,7 +74,6 @@
 
 ## Linux
 
-0. [Terminal: Instalando programas no Linux](linux/p0000_install.md)
 
 1. [Terminal: Desinstalando programas no Linux](linux/p0001_remove.md)
 
