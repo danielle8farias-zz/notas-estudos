@@ -1,5 +1,8 @@
-# Git e GitHub
+# Git e GitHub 
 
+![git logo](../img/git_logo.png) ![gitHub Logo](../img/github_log.png)
+
+---
 
 0. [Instalando, configurando e inicializando o Git no Linux](p0000_instalacao_git_linux.md)
 
