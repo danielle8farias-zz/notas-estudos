@@ -3,8 +3,6 @@
 
 ## Bases numéricas
 
-0. [Decimal](bases_numericas/p0000_base_numerica_dec.md)
-
 1. [Binário](bases_numericas/p0001_base_numerica_bin.md)
 
 2. [Octal](bases_numericas/p0002_base_numerica_oct.md)

@@ -41,5 +41,3 @@ ou ainda,
 Todos os algarismo do número foram representados na **base dez**, que pode ser descrito **(122154)<sub>10</sub>**
 
 ![representação decimal](img/p0000-2.png)
-
-tags: notacao, posicional, decimal, numeracao

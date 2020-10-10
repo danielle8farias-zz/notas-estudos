@@ -1,6 +1,5 @@
 # Bases numéricas
 
-0. [Decimal](p0000_base_numerica_dec.md)
 
 1. [Binário](p0001_base_numerica_bin.md)
 
