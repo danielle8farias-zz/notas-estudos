@@ -1,7 +1,7 @@
 # Terminal: Desinstalando programas
 
+Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e derivados) e que usam a ferramenta **apt**.
 
-Essa instrução serve para as distros Linux baseadas no Debian (Ubuntu, Mint e derivados).
 
 ## Usando o apt
 
@@ -51,4 +51,4 @@ $ sudo dpkg -P <nome_do_programa>
 
 - **-P** do inglês, *purge*, para limpar.
 
-tags: linux, desinstalacao, apt, terminal, dpkg
+tags: linux, desinstalação, apt, terminal, dpkg, remove
