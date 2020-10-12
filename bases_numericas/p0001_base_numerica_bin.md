@@ -105,4 +105,4 @@ E naquela que ficou vazia preencher com **zero**.
 
 ![quarto passo conversão](img/p0001-8.png)
 
-tags: notacao, posicional, numeracao, binario
+tags: notação posicional, sistema binário, bases numéricas

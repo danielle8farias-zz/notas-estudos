@@ -78,4 +78,4 @@ Para cada casa do número hexadecimal, fazemos a associação a com quatro posi�
 
 logo, **1C<sub>(16)</sub> = 1 1100<sub>(2)</sub>**
 
-tags: notacao, posicional, numeracao, hexadecimal
+tags: notação posicional, sistema hexadecimal, bases numéricas

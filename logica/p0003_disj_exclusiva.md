@@ -29,4 +29,4 @@ O conectivo de disjunção exclusiva será **falso** se as proposições tiverem
 
 ![dica tabela verdade](img/p0003-1.png)
 
-tags: tabela verdade, disjuncao exclusiva, logica
+tags: lógica, álgebra booleana, operador lógico, tabela verdade, disjunção exclusiva

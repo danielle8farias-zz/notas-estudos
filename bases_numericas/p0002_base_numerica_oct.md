@@ -70,4 +70,4 @@ Para cada casa do número octal, fazemos a associação a com três posições e
 
 logo, **375<sub>(8)</sub> = 1111 1101<sub>(2)</sub>**
 
-tags: notacao, posicional, numeracao, octal
+tags: notação posicional, sistema octal, bases numéricas

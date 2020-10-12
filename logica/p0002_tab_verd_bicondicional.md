@@ -44,4 +44,4 @@ O conectivo bicondicional só será **falso** se as proposições tiverem **valo
 
 ![tabela verdade bicondicional](img/p0002-0.png)
 
-tags: tabela verdade, bicondicional, logica
+tags: lógica, álgebra booleana, operador lógico, tabela verdade, bicondicional

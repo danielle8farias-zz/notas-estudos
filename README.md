@@ -1,7 +1,10 @@
 # Notas de estudo
 
+---
 
 ## Bases numéricas
+
+0. [Decimal](bases_numericas/p0000_base_numerica_decimal.md)
 
 1. [Binário](bases_numericas/p0001_base_numerica_bin.md)
 
@@ -14,7 +17,6 @@
 ## Git e GitHub
 
 ![git logo](img/git_logo.png) ![gitHub Logo](img/github_log.png)
-
 
 0. [Instalando, configurando e inicializando o Git no Linux](git/p0000_instalacao_git_linux.md)
 
@@ -68,10 +70,11 @@
 
 25. [git log: Ver o histórico de commits do git](git/p0025_log.md)
 
-
+---
 
 ## Linux
 
+0. [Terminal: Instalando programas](linux/p0000_install.md)
 
 1. [Terminal: Desinstalando programas no Linux](linux/p0001_remove.md)
 
@@ -144,6 +147,7 @@
 
 ## Lógica
 
+0. [Operadores lógicos e tabela verdade](logica/p0000_tabela_verd_e_ou_not.md)
 
 1. [Tabela verdade: condicional](logica/p0001_tab_verd_condicional.md)
 
