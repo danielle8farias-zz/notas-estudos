@@ -1,5 +1,6 @@
 # Bases numéricas
 
+![código binário](../img/binary_code.png) ![ábaco](../img/abaco.png)
 
 0. [Decimal](p0000_base_numerica_decimal.md)
 

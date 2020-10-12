@@ -1,5 +1,7 @@
 ## Linux
 
+![pc com linux](../img/pinguim_pc.png) ![linux mint](../img/linux-mint.png) ![pinguim](../img/pinguim.png)
+
 0. [Terminal: Instalando programas](p0000_install.md)
 
 1. [Terminal: Desinstalando programas no Linux](p0001_remove.md)
@@ -70,3 +72,4 @@
 
 34. [Instalação e configuração LAMP (Linux, Apache, MariaDB e PHP) no Linux (Ubuntu e derivados)](p0034_lamp.md)
 
+35. [Instalação do Joomla-3.x](p0035_joomla.md)

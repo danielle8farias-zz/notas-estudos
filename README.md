@@ -1,8 +1,12 @@
 # Notas de estudo
 
+![moça estudando no pc](img/womantech.png) ![caderno de notas](img/notebook.png) ![chapéu graduação](img/graduation_cap.png)
+
 ---
 
 ## Bases numéricas
+
+![código binário](img/binary_code.png) ![ábaco](img/abaco.png)
 
 0. [Decimal](bases_numericas/p0000_base_numerica_decimal.md)
 
@@ -74,6 +78,8 @@
 
 ## Linux
 
+![pc com linux](img/pinguim_pc.png) ![linux mint](img/linux-mint.png) ![pinguim](img/pinguim.png)
+
 0. [Terminal: Instalando programas](linux/p0000_install.md)
 
 1. [Terminal: Desinstalando programas no Linux](linux/p0001_remove.md)
@@ -144,8 +150,14 @@
 
 34. [Instalação e configuração LAMP (Linux, Apache, MariaDB e PHP) no Linux (Ubuntu e derivados)](linux/p0034_lamp.md)
 
+35. [Instalação do Joomla-3.x](linux/p0035_joomla.md)
+
+
+---
 
 ## Lógica
+
+![and](img/and.png) ![not](img/not.png) ![or](img/or.png)
 
 0. [Operadores lógicos e tabela verdade](logica/p0000_tabela_verd_e_ou_not.md)
 
@@ -156,7 +168,17 @@
 3. [Tabela verdade: disjunção exclusiva](logica/p0003_disj_exclusiva.md)
 
 
+---
+
+## VS Code
+
+0. [Erro ao usar a extensão Python Preview do VSCode](vscode/p0000_python_preview_problem.md)
+
+
+---
 
 ## Windows
+
+![laptop](img/laptop.png) ![windows os](img/windows_os.png)
 
 0. [O Windows não pode ser instalado em partições GPT](windows/p0000_format_particao_gpt.md)

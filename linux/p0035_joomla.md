@@ -1,5 +1,4 @@
-# Instalação do Joomla-3.x no Linux (Ubuntu e derivados)
-
+# Instalação do Joomla-3.x
 
 **Atenção!** Esse é um tutorial para um fork do governo federal. 
 
