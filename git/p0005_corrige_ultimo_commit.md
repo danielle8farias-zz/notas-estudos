@@ -9,12 +9,12 @@ $ git commit -m 'adicionando arquivo html e css'
 ```
 
 - **$** indica que você deve usar o **usuário comum** para fazer essa operação.
-- **add** para adicionar arquivos ao *index*.
-- **commit** é quem vai levar os arquivos do *index* para o *repositório git*.
-- **-m** indica que você irá escrever uma mensagem para registrar o *commit*.
+- **add** para adicionar arquivos ao **index**.
+- **commit** é quem vai levar os arquivos do **index** para o **repositório git**.
+- **-m** indica que você irá escrever uma mensagem para registrar o **commit**.
 - **' '** a mensagem vem entre aspas simples ou duplas.
 
-E em seguida, adiciono mais outro, mas com o commit errado:
+E em seguida, adiciono mais outro, mas com o **commit errado**:
 
 ```
 $ git add script.js
@@ -31,9 +31,9 @@ $ git log
 
 ![verificando as chaves dos commits feitos](img/p0005-0.png)
 
-Perceba que cada um tem sua própria chave.
+Perceba que cada um tem sua própria chave (a sequência de caracteres com letras e números ao lado da palavra commit).
 
-Vamos modificar o último commit com o seguinte comando:
+Vamos modificar o **último commit** com o seguinte comando:
 
 ```
 $ git commit --amend -m 'adicionando script js'
@@ -43,13 +43,25 @@ Agora, vamos usar utilizar o comando para ver os commits que foram feitos:
 
 ![commit corrigido](img/p0005-1.png)
 
-Observe que a chave do nosso último commit é diferente.
+Observe que a chave do nosso último commit é diferente da anterior (antes da correção).
 
-Para entender melhor o que aconteceu, vamos usar um outro comando, mais poderoso do que o *git log*.
+Para entender melhor o que aconteceu, vamos usar um outro comando, mais poderoso do que o **git log**.
 
 ```
 $ git reflog
 ```
+
+- **reflog** mantém o registro (de 30 dias) de cada posição do ponteiro HEAD do seu repositório.
+
+![registro reflog](img/p0005-2.png)
+
+Com ele podemos verificar o nosso commit errado e a sua correção.
+
+No **fluxo** do git, temos:
+
+![fluxo do git mostrando commit amend](img/p0005-3.png)
+
+
 
 
 
