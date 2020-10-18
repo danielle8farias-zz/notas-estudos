@@ -4,28 +4,58 @@
 Vamos supor que adicionei dois arquivos com os seguintes commits:
 
 ```
-$ git add arquivo1
-$ git commit -m "adicionando primeiro arquivo"
+$ git add index.html estilo.css
+$ git commit -m 'adicionando arquivo html e css'
 ```
 
-- o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+- **$** indica que você deve usar o **usuário comum** para fazer essa operação.
+- **add** para adicionar arquivos ao *index*.
+- **commit** é quem vai levar os arquivos do *index* para o *repositório git*.
+- **-m** indica que você irá escrever uma mensagem para registrar o *commit*.
+- **' '** a mensagem vem entre aspas simples ou duplas.
 
-E
-
-```
-$ git add arquivo2
-$ git commit -m "adicionando terceiro arquivo"
-```
-
-![commit errado](img/p0005-0.png)
-
-Como é possível constatar, escrevi errado o segundo commit. Assim para modificá-lo fazemos:
+E em seguida, adiciono mais outro, mas com o commit errado:
 
 ```
-$ git commit --amend -m "adicionando segundo arquivo (edit)"
+$ git add script.js
+$ git commit -m 'script python'
 ```
+
+Como é possível constatar, escrevi errado o commit desse arquivo.
+
+Antes de consertá-lo, vamos dar uma olhada nos commit feitos até agora:
+
+```
+$ git log
+```
+
+![verificando as chaves dos commits feitos](img/p0005-0.png)
+
+Perceba que cada um tem sua própria chave.
+
+Vamos modificar o último commit com o seguinte comando:
+
+```
+$ git commit --amend -m 'adicionando script js'
+```
+
+Agora, vamos usar utilizar o comando para ver os commits que foram feitos:
 
 ![commit corrigido](img/p0005-1.png)
+
+Observe que a chave do nosso último commit é diferente.
+
+Para entender melhor o que aconteceu, vamos usar um outro comando, mais poderoso do que o *git log*.
+
+```
+$ git reflog
+```
+
+
+
+
+
+
 
 Podemos conferir a mudança através do comando:
 
