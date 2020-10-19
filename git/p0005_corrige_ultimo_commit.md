@@ -1,6 +1,8 @@
 # git commit --amend: Corrigindo o último commit
 
 
+## Mensagem de commit errada
+
 Vamos supor que adicionei dois arquivos com os seguintes commits:
 
 ```
@@ -62,45 +64,45 @@ No **fluxo** do git, temos:
 ![fluxo do git mostrando commit amend](img/p0005-3.png)
 
 
+## Arquivo esquecido
+
+Outro problema que pode ocorrer, e que também é resolvido com o comando **--amend**, é de adicionar arquivos ao repositório, dar commit, mas ter faltado um arquivo que você queria que fizesse parte desse commit.
+
+Exemplo:
+
+![esquecendo de adicionar um arquivo](img/p0005-4.gif)
+
+No exemplo acima, esquecemos de adicionar o arquivo **playstation.html**.
+
+Usando o comando **git log**, temos:
+
+![log de commits antes da correção](img/p0005-5.png)
+
+Fazendo a correção:
+
+![usando amend para inserir arquivo esquecido](img/p0005-6.gif)
+
+Usando **git log** novamente:
+
+![log de commits após a correção da adição de arquivos](img/p0005-7.png)
 
 
+## Pequenas alterações no arquivo
 
-
-
-
-
-Podemos conferir a mudança através do comando:
+Caso você tenha acabado de fazer um **commit**, mas precisou fazer uma pequena alteração no arquivo logo em seguida, então digite:
 
 ```
-$ git log --oneline
+$ git add <nome_do_arquivo>
 ```
 
-Um problema que pode ocorrer, que também é resolvido com o comando **--amend** é de adicionar um arquivo ao repositório, dar commit, e ainda ter faltado arquivo para esse commit anterior. Exemplo:
-
-Temos os arquivos 1 e 2 que devem fazer parte de um mesmo commit
-
-```
-$ git add arquivo1
-$ git commit -m "atualização"
-```
-
-Adicionado o arquivo esquecido
-
-```
-$ git add arquivo2
-$ git commit --amend -m "atualização (edit)"
-```
-
-Desse modo o **commit** foi corrigido.
-
-Caso você tenha acabado de fazer um commit, mas precisou fazer uma pesquena alteração no arquivo logo em seguida
+Para colocar as alterações no **index** e em seguida:
 
 ```
 $ git commit --amend --no-edit
 ```
 
-Agora seu último commit contém a alteração
+Agora seu último **commit** contém a alteração do arquivo.
 
 **Atenção: não usar esse comando com commits que já foram enviados para o repositório remoto.**
 
-tags: git, log, commit, alteracao
+tags: git, log, commit, alteracao, amend
