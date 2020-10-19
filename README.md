@@ -4,6 +4,16 @@
 
 ---
 
+## Autômatos Finitos
+
+0. [O que é um autômato](automatos_finitos/p0000_que_e_automato_finito.md)
+
+1. 
+
+
+
+---
+
 ## Bases numéricas
 
 ![código binário](img/binary_code.png) ![ábaco](img/abaco.png)
