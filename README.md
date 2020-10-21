@@ -8,7 +8,7 @@
 
 0. [O que é um autômato](automatos_finitos/p0000_que_e_automato_finito.md)
 
-1. 
+1. [Definição formal de um autômato finito](automatos_finitos/p0001_definicao.md)
 
 
 
