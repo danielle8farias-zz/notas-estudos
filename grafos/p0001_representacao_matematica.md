@@ -5,7 +5,7 @@ Como já vimos anteriormente, um grafo é uma estrutura abstrata que representa 
 
 Denominamos de N o conjunto de vértices e de M o conjunto de arestas. Logo, temos que **G = (N, M)**.
 
-![Grafos diversos](img/p0002-0.jpeg)
+![Grafos diversos](img/p0001-0.jpeg)
 
 O grafo G1 não possui vértices rotulados. Logo, para G1 temos:
 
@@ -24,7 +24,7 @@ M = {1-2, 1-5, 2-3, 3-4, 4-5}
 
 Exemplo de uso de um grafo: A formação de um grafo a partir de um esquema de um circuito.
 
-![ grafo a partir de um esquema de um circuito.](img/p0002-1.jpeg)
+![ grafo a partir de um esquema de um circuito.](img/p0001-1.jpeg)
 
 ---
 

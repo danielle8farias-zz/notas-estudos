@@ -5,15 +5,15 @@
 
 Denominamos de **grafo simples**, um grafo qualquer que não possui **laços** nem **arestas paralelas**.
 
-![grafo simples](img/p0003-0.png)
+![grafo simples](img/p0002-0.png)
 
 Uma aresta que liga um vértice a ele mesmo é denominada de **laço**.
 
-![laço em um grafo](img/p0003-1.jpeg)
+![laço em um grafo](img/p0002-1.jpeg)
 
 Se duas ou mais arestas representam ligações diferentes entre vértices idênticos, são denominadas **arestas paralelas**.
 
-![arestas paralelas em um grafo](img/p0003-2.jpeg)
+![arestas paralelas em um grafo](img/p0002-2.jpeg)
 
 ---
 

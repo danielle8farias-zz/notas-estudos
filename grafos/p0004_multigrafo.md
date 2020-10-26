@@ -4,7 +4,7 @@
 
 Um grafo não direcionado que possui **pelo menos duas arestas paralelas** é denominado de **multigrafo**. Se o grafo for direcionado, então se chamará **multigrafo direcionado**.
 
-![multigrafo](img/p0005-0.jpeg)
+![multigrafo](img/p0004-0.jpeg)
 
 ---
 

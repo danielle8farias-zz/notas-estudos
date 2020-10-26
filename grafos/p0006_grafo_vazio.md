@@ -4,7 +4,7 @@
 
 É aquele que **só possui exclusivamente vértices**. 
 
-![grafo vazio](img/p0007-0.jpeg)
+![grafo vazio](img/p0006-0.jpeg)
 
 ---
 
