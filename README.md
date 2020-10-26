@@ -110,6 +110,10 @@
 
 8. [Tipos de grafo: grafo nulo](grafos/p0008_grafo_nulo.md)
 
+9. [Tipos de grafo: grafo rotulado](grafos/p0009_grafo_rotulado.md)
+
+10. [Grau de vértice (nó)](grafos/p0010_grau.md)
+
 
 ---
 

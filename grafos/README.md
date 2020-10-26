@@ -19,3 +19,7 @@
 7. [Tipos de grafo: grafo trivial](p0007_grafo_trivial.md)
 
 8. [Tipos de grafo: grafo nulo](p0008_grafo_nulo.md)
+
+9. [Tipos de grafo: grafo rotulado](p0009_grafo_rotulado.md)
+
+10. [Grau de vértice (nó)](p0010_grau.md)
