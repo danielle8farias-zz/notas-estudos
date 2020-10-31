@@ -47,7 +47,7 @@ Logo,
 
 ![descrição da função de transição](img/p0001-8.png)
 
-Possui um **estado inicial (q0)**, indicado pelo **ponteiro** em **q1**.
+Possui um **estado inicial (q0)**, indicado pela seta apontando para **q1** a partir do nada.
 
 ![q0](img/p0001-10.png)
 
@@ -58,5 +58,13 @@ Possui um conjunto de **estados de aceitação** ou **estados finais**.
 ![estado final](img/p0001-11.png)
 
 **F = {q2}**
+
+Sendo assim, **M1** é descrito da seguinte maneira:
+
+![definição M1](img/p0001-12.png)
+
+ou ainda
+
+![outra definição para M1](img/p0001-13.png)
 
 tags: definição, conjunto, autômato finito
