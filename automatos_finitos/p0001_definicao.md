@@ -70,7 +70,7 @@ ou ainda
 
 ----
 
-Exemplo: **M2**
+Considere o autômato finito **M2**:
 
 ![M2](img/p0001-14.png)
 
@@ -97,5 +97,38 @@ Possui um conjunto de **estados de aceitação**:
 Sendo assim, **M2** é descrito da seguinte maneira:
 
 ![definição M2](img/p0001-17.png)
+
+
+----
+
+Considere o autômato finito **M3**:
+
+![M3](img/p0001-18.png)
+
+Ele possui **2 estados** (os círculos). Logo seu **conjunto de estados** é:
+
+**Q = {q1, q2}**
+
+Possui **2 símbolos** permitidos de entrada (números nas setas), que constituem o seu **conjunto de alfabeto**.
+
+**Σ = {0, 1}**
+
+Possui a seguinte **função de transição**:
+
+![função de transição de M2](img/p0001-15.png)
+
+Possui um **estado inicial (q0)**, indicado pela seta apontando para **q1** a partir do nada.
+
+![estado inicial](img/p0001-19.png)
+
+Possui um conjunto de **estados de aceitação**:
+
+**F = {q1}**
+
+Sendo assim, **M3** é descrito da seguinte maneira:
+
+![definição M2](img/p0001-20.png)
+
+Note que, devido ao fato de que o **estado inicial** é também o **estado final**, **M3 aceita a cadeia vazia (ε)**.
 
 tags: definição, conjunto, autômato finito, estado inicial, estado final, estado de aceitação, função de transição
