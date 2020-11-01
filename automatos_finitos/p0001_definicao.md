@@ -127,7 +127,7 @@ Possui um conjunto de **estados de aceitação**:
 
 Sendo assim, **M3** é descrito da seguinte maneira:
 
-![definição M2](img/p0001-20.png)
+![definição M3](img/p0001-20.png)
 
 Note que, devido ao fato de que o **estado inicial** é também o **estado final**, **M3 aceita a cadeia vazia (ε)**.
 
