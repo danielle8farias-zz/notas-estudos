@@ -1,10 +1,11 @@
-# Linguagem
+# Linguagem regular
 
-Vamos usar como exemplo **M1**:
+
+Considere o autômato finito **M1**:
 
 ![diagrama de estados de M1](img/p0001-0.png)
 
-Alimentando **M1** com a **cadeia** de entrada **1101**, o processamento procede da seguinte forma:
+Alimentando **M1** com a **cadeia** de entrada **1101**, o processamento acontece da seguinte forma:
 
 1. Começamos pelo estado **q1**.
 
@@ -46,7 +47,44 @@ Se a máquina **não aceita nenhuma cadeia**, ela ainda reconhece uma linguagem:
 
 Sendo assim, para **M1** temos:
 
-A = {w | w termina com um 1 ou termina com um número par de 0's após o último 1.}
+**A = {w | w termina com um 1 ou termina com um número par de 0's após o último 1.}**
+
+
+----
+
+Considere o autômato finito **M2**:
+
+![M2](img/p0001-14.png)
+
+Alimentando **M2** com a **cadeia** de entrada **1100**, o processamento acontece da seguinte forma:
+
+1. Começamos pelo estado **q1**.
+
+![iniciando a leitura da cadeia](img/p0002-6.png)
+
+2. lê **1** e segue a **transição** de **q1 para q2**.
+
+![transição de q1 para q2](img/p0002-7.png)
+
+3. lê o próximo **1** e a **transição** ocorre sem mudança de estado, por causa do laço. Permanece em **q2**.
+
+![entrada no laço em q2](img/p0002-8.png)
+
+4. lê **0** e segue a **transição** de **q2 para q1**.
+
+![transição de q2 para q1](img/p0002-9.png)
+
+5. lê o próximo **0** e a **transição** ocorre sem mudança de estado, por causa do laço. Permanece em **q1**.
+
+![entrada no laço em q1](img/p0002-10.png)
+
+6. A cadeia é **rejeitada**, pois ela **não terminou** em um **estado marcado como de aceitação**.
+
+![cadeia rejeitada](img/p0002-11.png)
+
+Após fazer alguns testes, é possível perceber que **M2 aceita todas as cadeias que terminam com um 1**. Logo,
+
+**L(M2) = {w | w termina com um 1.}**
 
 
 tags: autômatos, linguagem, cadeia, aceita, reconhece
