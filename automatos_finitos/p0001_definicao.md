@@ -158,38 +158,38 @@ Possui um conjunto de **estados de aceitação**:
 
 Sendo assim, **M4** é descrito da seguinte maneira:
 
-![definição M3](img/p0001-24.png)
+![definição M4](img/p0001-24.png)
 
 
 ----
 
 Considere o autômato finito **M5**:
 
-![M4](img/p0001-21.png)
+![M5](img/p0001-25.png)
 
-Ele possui **5 estados** (os círculos). Logo seu **conjunto de estados** é:
+Ele possui **3 estados** (os círculos). Logo seu **conjunto de estados** é:
 
-**Q = {s, q1, q2, r1, r2}**
+**Q = {q0, q1, q2}**
 
-Possui **2 símbolos** permitidos de entrada (letras nas setas), que constituem o seu **conjunto de alfabeto**.
+Possui **4 símbolos** permitidos de entrada (números nas setas e a palavra \<reset>), que constituem o seu **conjunto de alfabeto**. Tratamos **\<reset>** como um único símbolo.
 
-**Σ = {a, b}**
+**Σ = {\<reset>, 0, 1, 2}**
 
 Possui a seguinte **função de transição**:
 
-![função de transição de M4](img/p0001-22.png)
+![função de transição de M5](img/p0001-26.png)
 
-Possui um **estado inicial (q0)**, indicado pela seta apontando para **s** a partir do nada.
+Possui um **estado inicial (q0)**, indicado pela seta apontando para **q0** a partir do nada.
 
-![estado inicial](img/p0001-23.png)
+![estado inicial](img/p0001-27.png)
 
 Possui um conjunto de **estados de aceitação**:
 
-**F = {q1, r1}**
+**F = {q0}**
 
-Sendo assim, **M4** é descrito da seguinte maneira:
+Sendo assim, **M5** é descrito da seguinte maneira:
 
-![definição M3](img/p0001-24.png)
+![definição M5](img/p0001-28.png)
 
 
 ----
