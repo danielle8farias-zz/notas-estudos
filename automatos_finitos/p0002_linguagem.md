@@ -125,4 +125,46 @@ Após fazer alguns testes, é possível perceber que **M3 aceita todas as cadeia
 
 **L(M2) = {w | w é a cadeia vazia ε ou termina com um 0.}**
 
+
+----
+
+Considere o autômato finito **M4**:
+
+![M4](img/p0001-21.png)
+
+Alimentando **M4** com a **cadeia** de entrada **abaa**, o processamento acontece da seguinte forma:
+
+1. Começamos pelo estado **s**.
+
+![iniciando a leitura da cadeia](img/p0002-18.png)
+
+2. lê **a** e segue a **transição** de **s para q1**.
+
+![transição de q1 para q2](img/p0002-13.png)
+
+3. lê **0** e segue a **transição** de **q2 para q1**.
+
+![transição de q2 para q1](img/p0002-14.png)
+
+4. lê **1** e segue a **transição** de **q1 para q2**.
+
+![transição de q1 para q2](img/p0002-15.png)
+
+5. lê **0** e segue a **transição** de **q2 para q1**.
+
+![transição de q2 para q1](img/p0002-16.png)
+
+6. A cadeia é **aceita**, pois ela **terminou** em um **estado marcado como de aceitação**.
+
+![cadeia aceita](img/p0002-17.png)
+
+Note que, devido ao fato de que o **estado inicial** é também o **estado final**, **M3 aceita a cadeia vazia (ε)**.
+
+Após fazer alguns testes, é possível perceber que **M3 aceita todas as cadeias que terminam com um 0**. Logo,
+
+**L(M2) = {w | w é a cadeia vazia ε ou termina com um 0.}**
+
+
+----
+
 tags: autômatos, linguagem, cadeia, aceita, reconhece
