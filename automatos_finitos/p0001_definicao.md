@@ -115,7 +115,7 @@ Possui **2 símbolos** permitidos de entrada (números nas setas), que constitue
 
 Possui a seguinte **função de transição**:
 
-![função de transição de M2](img/p0001-15.png)
+![função de transição de M3](img/p0001-15.png)
 
 Possui um **estado inicial (q0)**, indicado pela seta apontando para **q1** a partir do nada.
 
@@ -129,6 +129,38 @@ Sendo assim, **M3** é descrito da seguinte maneira:
 
 ![definição M3](img/p0001-20.png)
 
-Note que, devido ao fato de que o **estado inicial** é também o **estado final**, **M3 aceita a cadeia vazia (ε)**.
+
+----
+
+Considere o autômato finito **M4**:
+
+![M4](img/p0001-21.png)
+
+Ele possui **5 estados** (os círculos). Logo seu **conjunto de estados** é:
+
+**Q = {s, q1, q2, r1, r2}**
+
+Possui **2 símbolos** permitidos de entrada (letras nas setas), que constituem o seu **conjunto de alfabeto**.
+
+**Σ = {a, b}**
+
+Possui a seguinte **função de transição**:
+
+![função de transição de M4](img/p0001-22.png)
+
+Possui um **estado inicial (q0)**, indicado pela seta apontando para **s** a partir do nada.
+
+![estado inicial](img/p0001-23.png)
+
+Possui um conjunto de **estados de aceitação**:
+
+**F = {q1, r1}**
+
+Sendo assim, **M4** é descrito da seguinte maneira:
+
+![definição M3](img/p0001-24.png)
+
+
+----
 
 tags: definição, conjunto, autômato finito, estado inicial, estado final, estado de aceitação, função de transição
