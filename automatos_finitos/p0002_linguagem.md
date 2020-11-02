@@ -165,4 +165,41 @@ Após fazer alguns testes, é possível perceber que, **M4 aceita todas as cadei
 
 ----
 
+Considere o autômato finito **M5**:
+
+![M5](img/p0001-25.png)
+
+Alimentando **M4** com a **cadeia** de entrada **abaa**, o processamento acontece da seguinte forma:
+
+1. Começamos pelo estado **s**.
+
+![iniciando a leitura da cadeia](img/p0002-18.png)
+
+2. lê **a** e segue a **transição** de **s para q1**.
+
+![transição de s para q1](img/p0002-19.png)
+
+3. lê **b** e segue a **transição** de **q1 para q2**.
+
+![transição de q1 para q2](img/p0002-20.png)
+
+4. lê **a** e segue a **transição** de **q2 para q1**.
+
+![transição de q2 para q1](img/p0002-21.png)
+
+5. lê o próximo **a** e a **transição** ocorre sem mudança de estado, por causa do laço. Permanece em **q1**.
+
+![entrada no laço em q1](img/p0002-22.png)
+
+6. A cadeia é **aceita**, pois ela **terminou** em um **estado marcado como de aceitação**.
+
+![cadeia aceita](img/p0002-23.png)
+
+Após fazer alguns testes, é possível perceber que, **M4 aceita todas as cadeias que começam com 'a' e terminam com um 'a'** ou **as cadeias que começam com 'b' e terminam com 'b'**. Logo,
+
+**L(M4) = {w | w é a cadeia que começa e termina com o mesmo símbolo.}**
+
+
+----
+
 tags: autômatos, linguagem, cadeia, aceita, reconhece
