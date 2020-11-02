@@ -123,7 +123,7 @@ Note que, devido ao fato de que o **estado inicial** é também o **estado final
 
 Após fazer alguns testes, é possível perceber que **M3 aceita todas as cadeias que terminam com um 0**. Logo,
 
-**L(M2) = {w | w é a cadeia vazia ε ou termina com um 0.}**
+**L(M3) = {w | w é a cadeia vazia ε ou termina com um 0.}**
 
 
 ----
@@ -140,29 +140,27 @@ Alimentando **M4** com a **cadeia** de entrada **abaa**, o processamento acontec
 
 2. lê **a** e segue a **transição** de **s para q1**.
 
-![transição de q1 para q2](img/p0002-13.png)
+![transição de s para q1](img/p0002-19.png)
 
-3. lê **0** e segue a **transição** de **q2 para q1**.
+3. lê **b** e segue a **transição** de **q1 para q2**.
 
-![transição de q2 para q1](img/p0002-14.png)
+![transição de q1 para q2](img/p0002-20.png)
 
-4. lê **1** e segue a **transição** de **q1 para q2**.
+4. lê **a** e segue a **transição** de **q2 para q1**.
 
-![transição de q1 para q2](img/p0002-15.png)
+![transição de q2 para q1](img/p0002-21.png)
 
-5. lê **0** e segue a **transição** de **q2 para q1**.
+5. lê o próximo **a** e a **transição** ocorre sem mudança de estado, por causa do laço. Permanece em **q1**.
 
-![transição de q2 para q1](img/p0002-16.png)
+![entrada no laço em q1](img/p0002-22.png)
 
 6. A cadeia é **aceita**, pois ela **terminou** em um **estado marcado como de aceitação**.
 
-![cadeia aceita](img/p0002-17.png)
+![cadeia aceita](img/p0002-23.png)
 
-Note que, devido ao fato de que o **estado inicial** é também o **estado final**, **M3 aceita a cadeia vazia (ε)**.
+Após fazer alguns testes, é possível perceber que, **M4 aceita todas as cadeias que começam com 'a' e terminam com um 'a'** ou **as cadeias que começam com 'b' e terminam com 'b'**. Logo,
 
-Após fazer alguns testes, é possível perceber que **M3 aceita todas as cadeias que terminam com um 0**. Logo,
-
-**L(M2) = {w | w é a cadeia vazia ε ou termina com um 0.}**
+**L(M4) = {w | w é a cadeia que começa e termina com o mesmo símbolo.}**
 
 
 ----
