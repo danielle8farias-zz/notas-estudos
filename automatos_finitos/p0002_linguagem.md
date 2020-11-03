@@ -1,6 +1,8 @@
 # Linguagem regular
 
 
+Uma **linguagem** é chamada de **linguagem regular** se algum autômato a reconhece.
+
 Considere o autômato finito **M1**:
 
 ![diagrama de estados de M1](img/p0001-0.png)
