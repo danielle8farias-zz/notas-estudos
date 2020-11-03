@@ -169,37 +169,58 @@ Considere o autômato finito **M5**:
 
 ![M5](img/p0001-25.png)
 
-Alimentando **M4** com a **cadeia** de entrada **abaa**, o processamento acontece da seguinte forma:
+Alimentando **M5** com a **cadeia** de entrada **012\<reset>01221**, o processamento acontece da seguinte forma:
 
-1. Começamos pelo estado **s**.
+1. Começamos pelo estado **q0**.
 
-![iniciando a leitura da cadeia](img/p0002-18.png)
+![iniciando a leitura da cadeia](img/p0002-24.png)
 
-2. lê **a** e segue a **transição** de **s para q1**.
+2. lê **0** e a **transição** ocorre sem mudança de estado, por causa do laço. Permanece em **q0**.
 
-![transição de s para q1](img/p0002-19.png)
+![entrada do laço em q0](img/p0002-25.png)
 
-3. lê **b** e segue a **transição** de **q1 para q2**.
+3. lê **1** e segue a **transição** de **q0 para q1**.
 
-![transição de q1 para q2](img/p0002-20.png)
+![transição de q0 para q1](img/p0002-26.png)
 
-4. lê **a** e segue a **transição** de **q2 para q1**.
+4. lê **2** e segue a **transição** de **q1 para q0**.
 
-![transição de q2 para q1](img/p0002-21.png)
+![transição de q1 para q0](img/p0002-27.png)
 
-5. lê o próximo **a** e a **transição** ocorre sem mudança de estado, por causa do laço. Permanece em **q1**.
+5. lê **\<reset>** e a **transição** ocorre sem mudança de estado, por causa do laço. Permanece em **q0**.
 
-![entrada no laço em q1](img/p0002-22.png)
+![entrada no laço em q0](img/p0002-28.png)
 
-6. A cadeia é **aceita**, pois ela **terminou** em um **estado marcado como de aceitação**.
+6. lê **0** e a **transição** ocorre sem mudança de estado, por causa do laço. Permanece em **q0**.
 
-![cadeia aceita](img/p0002-23.png)
+![entrada do laço em q0](img/p0002-29.png)
 
-Após fazer alguns testes, é possível perceber que, **M4 aceita todas as cadeias que começam com 'a' e terminam com um 'a'** ou **as cadeias que começam com 'b' e terminam com 'b'**. Logo,
+7. lê **1** e segue a **transição** de **q0 para q1**.
 
-**L(M4) = {w | w é a cadeia que começa e termina com o mesmo símbolo.}**
+![transição de q0 para q1](img/p0002-30.png)
 
+8. lê **2** e segue a **transição** de **q1 para q0**.
+
+![transição de q1 para q0](img/p0002-31.png)
+
+9. lê o próximo **2** e segue a **transição** de **q0 para q2**.
+
+![transição de q0 para q2](img/p0002-32.png)
+
+10. lê **1** e segue a **transição** de **q2 para q0**.
+
+![transição de q2 para q0](img/p0002-33.png)
+
+11. A cadeia é **aceita**, pois ela **terminou** em um **estado marcado como de aceitação**.
+
+![cadeia aceita](img/p0002-34.png)
+
+Após fazer alguns testes, é possível perceber que, **M5 aceita todas as cadeias em que a soma de todos os números após o último \<reset> seja um número divisível por 3**. Logo,
+
+**L(M5) = {w | a soma dos símbolos em w é 0 módulo 3, exceto que \<reset> zera a soma à esquerda dele.}**
+
+Podemos observar que, o estado **q0** significa que a **soma até esse estado, mod 3 tem resto 0**. O estado **q1** significa que a **soma até esse estado, mod 3 tem resto 1**. O estado **q2** significa que a **soma até esse estado, mod 3 tem resto 2**.
 
 ----
 
-tags: autômatos, linguagem, cadeia, aceita, reconhece
+tags: autômatos, linguagem, cadeia, aceita, reconhece, transição, laço
