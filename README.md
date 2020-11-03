@@ -12,6 +12,10 @@
 
 1. [Definição formal de um autômato finito](automatos_finitos/p0001_definicao.md)
 
+2. [Linguagem regular](automatos_finitos/p0002_linguagem.md)
+
+3. [Projetando autômatos finitos](automatos_finitos/p0003_projetando_automato.md)
+
 
 
 ---
