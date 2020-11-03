@@ -225,4 +225,38 @@ Podemos observar que, o estado **q0** significa que a **soma até esse estado, m
 
 ----
 
+Usando **M5** para um **M6**, que seja múltiplo de 100; teríamos que fazer uma máquina com 100 estados, o que é inviável.
+
+É nesse momento que usamos a definição.
+
+Temos A100, que é a nossa máquina **M6**, usando o mesmo alfabeto e o mesmo estado inicial e final.
+
+Assim
+
+**A100 = ( {q0, q1, q2, ..., q99}, {0, 1, 2, \<reset>}, δ, q0, {q0} )**
+
+Com a seguinte **função de transição**:
+
+**δ(qi, \<reset>) = q0**, para todo i = 0, 1, ..., 99.
+
+Lê-se: estando em qualquer estado e tendo recebido \<reset>, ocorre a transição de qi para q0.
+
+**δ(qi, a) = q{ (i+a) mod 100}**, para todo i = 0, 1, ..., 99 e para todo a = 0, 1, 2.
+
+Lê-se: estando em qualquer estado e tendo recebido 0, 1 ou 2, ocorre a transição de qi para um q que é o resto da divisão por 100.
+
+Para ilustrar esse último, vamos fazer i = 15, então temos
+
+qi = q15
+
+e fazemos a = 2, então
+
+**δ(q15, 2) = q{ (15+2) mod 100}**
+**δ(q15, 2) = q{ (17) mod 100}**
+**17 mod 100 = 17**
+**δ(q15, 2) = q17**
+
+
+----
+
 tags: autômatos, linguagem, cadeia, aceita, reconhece, transição, laço
