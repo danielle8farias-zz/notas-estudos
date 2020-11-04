@@ -52,3 +52,21 @@ Neste caso o estado inicial corresponde ao estado qpar porque 0 é um número pa
 
 ![apontando o estado inicial](img/p0003-6.png)
 
+Finalmente chegamos ao diagrama de estado de **M7**.
+
+
+----
+
+L8 = {w ∈ {0,1}\* | o número de 1's em w é ímpar} 
+
+
+----
+
+L9 = {w ∈ {0,1}\* | o número de 1's em w é ímpar}
+
+L10 = {w ∈ {0,1}\* | o comprimento de w é ímpar}
+
+L11 = {w ∈ {0,1}\* | contém 001 como subcadeia de w}
+
+
+tags: autômato, projeto, linguagem regular
