@@ -43,13 +43,11 @@ Se **A** é o **conjunto de todas as cadeias que uma máquina M aceita**, dizemo
 
 Assim, dizemos que **M reconhece A** ou que **M aceita A**. 
 
-Uma máquina **pode aceitar diversas cadeias**, mas ela **sempre reconhece apenas uma linguagem**.
-
-Se a máquina **não aceita nenhuma cadeia**, ela ainda reconhece uma linguagem: a **linguagem vazia { }**.
-
 Sendo assim, para **M1** temos:
 
-**A = {w | w termina com um 1 ou termina com um número par de 0's após o último 1.}**
+**A = {w ∈ {0,1}\* | w termina com um 1 ou termina com um número par de 0's após o último 1.}**
+
+- o asterisco inlcui no alfabeto a cadeia vazia **ε**.
 
 
 ----
@@ -86,7 +84,7 @@ Alimentando **M2** com a **cadeia** de entrada **1100**, o processamento acontec
 
 Após fazer alguns testes, é possível perceber que **M2 aceita todas as cadeias que terminam com um 1**. Logo,
 
-**L(M2) = {w | w termina com um 1.}**
+**L(M2) = {w ∈ {0,1}\* | w termina com um 1.}**
 
 
 ----
@@ -125,7 +123,7 @@ Note que, devido ao fato de que o **estado inicial** é também o **estado final
 
 Após fazer alguns testes, é possível perceber que **M3 aceita todas as cadeias que terminam com um 0**. Logo,
 
-**L(M3) = {w | w é a cadeia vazia ε ou termina com um 0.}**
+**L(M3) = {w ∈ {0,1}\* | w é a cadeia vazia ε ou termina com um 0.}**
 
 
 ----
@@ -162,7 +160,7 @@ Alimentando **M4** com a **cadeia** de entrada **abaa**, o processamento acontec
 
 Após fazer alguns testes, é possível perceber que, **M4 aceita todas as cadeias que começam com 'a' e terminam com um 'a'** ou **as cadeias que começam com 'b' e terminam com 'b'**. Logo,
 
-**L(M4) = {w | w é a cadeia que começa e termina com o mesmo símbolo.}**
+**L(M4) = {w ∈ {a,b}\* | w é a cadeia que começa e termina com o mesmo símbolo.}**
 
 
 ----
@@ -219,7 +217,7 @@ Alimentando **M5** com a **cadeia** de entrada **012\<reset>01221**, o processam
 
 Após fazer alguns testes, é possível perceber que, **M5 aceita todas as cadeias em que a soma de todos os números após o último \<reset> seja um número divisível por 3**. Logo,
 
-**L(M5) = {w | a soma dos símbolos em w é 0 módulo 3, exceto que \<reset> zera a soma à esquerda dele.}**
+**L(M5) = {w ∈ {\<reset>, 0, 1, 2}\* | a soma dos símbolos em w é 0 módulo 3, exceto que \<reset> zera a soma à esquerda dele.}**
 
 Podemos observar que, o estado **q0** significa que a **soma até esse estado, mod 3 tem resto 0**. O estado **q1** significa que a **soma até esse estado, mod 3 tem resto 1**. O estado **q2** significa que a **soma até esse estado, mod 3 tem resto 2**.
 
@@ -256,7 +254,16 @@ e fazemos a = 2, então
 **17 mod 100 = 17**
 **δ(q15, 2) = q17**
 
+**L(M6) = {w ∈ {\<reset>, 0, 1, 2}\* | a soma dos símbolos em w é 0 módulo 100, exceto que \<reset> zera a soma à esquerda dele.}**
+
 
 ----
+
+Uma máquina **pode aceitar diversas cadeias**, mas ela **sempre reconhece apenas uma linguagem**.
+
+Se a máquina **não aceita nenhuma cadeia**, ela ainda reconhece uma linguagem: a **linguagem vazia { }**.
+
+**Linguagem vazia != cadeia vazia ε (cadeia de comprimento 0)**
+
 
 tags: autômatos, linguagem, cadeia, aceita, reconhece, transição, laço
