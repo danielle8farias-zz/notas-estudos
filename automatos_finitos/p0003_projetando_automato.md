@@ -155,7 +155,64 @@ Finalmente chegamos ao diagrama de estado de **M9**.
 
 ----
 
-L11 = {w ∈ {0,1}\* | contém 001 como subcadeia de w}
+Considere a linguagem
 
+**L10 = {w ∈ {0,1}\* | contém 001 como subcadeia de w}**
+
+O alfabeto da linguagem é:
+
+**Σ = {0, 1}**
+
+Notamos aqui que devemos reconhecer um padrão, que é a subcadeia **001**. Então vamos montar os **estados** e as **transições** em cima disso.
+
+Então temos o **estado inicial** onde não foi lido nada da cadeia.
+
+![estado incial](img/p0003-16.png)
+
+- O primeiro símbolo que devemos reconhecer é o **primeiro 0**. 
+
+![transição de q para q0](img/p0003-17.png)
+
+Sendo assim, temos a **transição** que reconhece o primeiro símbolo do padrão buscado. 
+
+A seta vai **q para q0**. Até o momento, lemos **um 0**.
+
+- O segundo símbolo que devemos reconhecer é o **segundo 0**. 
+
+![transição de q0 para q00](img/p0003-18.png)
+
+Sendo assim, temos a **transição** que reconhece o segundo símbolo do padrão buscado. 
+
+A seta vai de **q0 para q00**. Até aqui, lemos **dois 0's**.
+
+- O terceiro símbolo que devemos reconhecer é o **1**. 
+
+![transição de q00 para q001](img/p0003-19.png)
+
+Sendo assim, temos a **transição** que reconhece o terceiro símbolo do padrão buscado. 
+
+A seta vai de **q00 para q001**. Até aqui, lemos o **1 após ter lido dois 0's**.
+
+A partir daqui, podemos perceber que não importa o número de 0's ou de 1's lidos, a cadeia já contém a subcadeia que buscamos.
+
+Então podemos marcar o **estado de aceitação** em **q001** e as transições seguintes como um **laço**:
+
+![estado de aceitação q1](img/p0003-20.png)
+
+Caso o **primeiro símbolo lido seja 1**, ele não entra na sequência que fizemos. Por isso, criamos um **laço em q**.
+
+![laço em q para entrada inicial 1](img/p0003-21.png)
+
+Se após ler o primeiro 0, o **segundo símbolo for 1**, ele deve **sair da sequência e retornar ao início**.
+
+![transição de q0 para q](img/p0003-22.png)
+
+Se após ler o segundo 0, o **terceiro símbolo for 0**, ele deve fazer a **transição sem a mudança de estado**, permanecendo em **q00** através do **laço**.
+
+![laço em q00](img/p0003-23.png)
+
+Finalmente chegamos ao diagrama de estado de **M10**.
+
+----
 
 tags: autômato, projeto, linguagem regular
