@@ -33,7 +33,7 @@ Se for lido um **segundo 0**, então temos, **até o momento**, um **número par
 
 Então a seta se vai de **qimpar** para **qpar** (o estado de aceitação).
 
-Os **números de 1's** pouco importa para o estado de aceitação da nossa linguagem.
+Os **números de 1's** pouco importam para o estado de aceitação da nossa linguagem.
 
 Então, quando **houver vários 1's lidos no início** da cadeia e **nenhum 0**, o **número de 0's será par, pois zero é par**.
 
@@ -46,9 +46,9 @@ E **após ter lido um 0** ou **um número ímpar de 0's**, o número de 1's lido
 ![estado qimpar, após um número ímpar de 0's](img/p0003-5.png)
 
 Em seguida, marcamos o estado inicial correspondente à possibilidade
-associada com ter visto 0 símbolos até então (a cadeia vazia ε). 
+associada com ter visto **0 símbolos** até então (a cadeia vazia **ε**). 
 
-Neste caso o estado inicial corresponde ao estado qpar porque 0 é um número par.
+Neste caso o **estado inicial** corresponde ao estado **qpar** porque 0 é um número par.
 
 ![apontando o estado inicial](img/p0003-6.png)
 
@@ -57,14 +57,66 @@ Finalmente chegamos ao diagrama de estado de **M7**.
 
 ----
 
-L8 = {w ∈ {0,1}\* | o número de 1's em w é ímpar} 
+Considere a linguagem
+
+**L8 = {w ∈ {0,1}\* | o número de 1's em w é ímpar}**
+
+Assim como em **M7**, sabemos que a quantidade de 1's pode ser **par** ou **ímpar**. 
+
+Então, temos **2 estados**:
+
+![2 estados](img/p0003-0.png)
+
+E que, para que o autômato reconheça a nossa linguagem, o estado final deve ser em **qimpar**:
+
+![marcando o estado final](img/p0003-7.png)
+
+E que o alfabeto da linguagem é:
+
+**Σ = {0, 1}**
+
+Logo, se a cadeia lida, apresenta **até o momento um único 1**, então temos até agora um **número ímpar de 1's**.
+
+![estado com número ímpar de 1's](img/p0003-8.png)
+
+Por isso temos a **seta** saindo do **estado de qpar** para o **estado de aceitação (qimpar)**.
+
+Se for lido um **segundo 0**, então temos, **até o momento**, um **número par de 1's**.
+
+![estado com número par de 1's](img/p0003-9.png)
+
+Então a seta sai de **qimpar** (o estado de aceitação) para **qpar**.
+
+Os **números de 0's** pouco importa para o estado de aceitação da nossa linguagem.
+
+Então, quando **houver vários 0's lidos no início** da cadeia e **nenhum 1**, o **número de 1's será par, pois zero é par**.
+
+Nenhum 1 lido = zero número de 1's = zero é par
+
+![estado caso seja lido inicialmente 0's](img/p0003-10.png)
+
+E **após ter lido um 1** ou **um número ímpar de 1's**, o número de 0's lido **não interfere** se a linguagem é aceita ou não. Por isso,
+
+![estado qimpar, após um número ímpar de 1's](img/p0003-11.png)
+
+Em seguida, marcamos o estado inicial correspondente à possibilidade
+associada com ter visto **0 símbolos** até então (a cadeia vazia **ε**). 
+
+Neste caso o estado inicial corresponde ao estado **qpar** porque 0 é um número par.
+
+![apontando o estado inicial](img/p0003-12.png)
+
+Finalmente chegamos ao diagrama de estado de **M8**.
 
 
 ----
 
-L9 = {w ∈ {0,1}\* | o número de 1's em w é ímpar}
 
 L10 = {w ∈ {0,1}\* | o comprimento de w é ímpar}
+
+
+
+----
 
 L11 = {w ∈ {0,1}\* | contém 001 como subcadeia de w}
 
