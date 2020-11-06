@@ -15,7 +15,7 @@ Esses processos são mostrados em tempo real.
 
 > Os processos são todos os programas que estão rodando no sistema, inclusive aqueles que fazem o S.O. funcionar.
 
-Para ordenad por CPU, pressione **Shift + p**. Para ordenar por memória, pressione **Shift + m**. **Shift + t** ordena pelo tempo. Com **shift + f** é possível selecionar quais campos gostaria de ver no top.
+Para ordenar por CPU, pressione **Shift + p**. Para ordenar por memória, pressione **Shift + m**. **Shift + t** ordena pelo tempo. Com **shift + f** é possível selecionar quais campos gostaria de ver no top.
 
 Para voltar ao shell, pressione **q**.
 
@@ -71,7 +71,7 @@ São processos que não existem mais no sistema, mas que por algum motivo ainda 
 
 ## 3. Linha CPU(s):
 
-**3.1.** Porcentagem de uso de CPU** por processos do **usuários**:
+**3.1. Porcentagem de uso de CPU** por processos do **usuários**:
 
 ![uso cpu por usuário](img/p0030-10.png)
 
