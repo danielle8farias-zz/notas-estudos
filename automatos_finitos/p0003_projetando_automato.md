@@ -214,5 +214,32 @@ Se após ler o segundo 0, o **terceiro símbolo for 0**, ele deve fazer a **tran
 Finalmente chegamos ao diagrama de estado de **M10**.
 
 ----
+Considere a linguagem
+
+**L11 = {w ∈ {0,1}\* | aceita apenas a cadeia vazia}**
+
+O alfabeto da linguagem é:
+
+**Σ = {0, 1}**
+
+Vamos criar o **estado inicial**:
+
+![estado inicial](img/p0003-24.png)
+
+Como queremos que ele aceite a cadeia vazia **ε**, então o estado inicial também deve ser o de **aceitação (final)**, pois enquanto o autômato não lê nada (cadeia vazia) ele é aceito pela linguagem **L11**.
+
+![estado de aceitação](img/p0003-25.png)
+
+Como o alfabeto é contituído de **0's e 1's**, então devemos fazer a **transição** desses.
+
+A partir do momento em que a cadeia deixa de ser vazia, deve ocorrer a **transição para um estado comum (de não aceitação)**.
+
+![transição de q1 para q2](img/p0003-26.png)
+
+**q2** é o que chamamos de **estado morto**. Preenchemos a transição de **laço** de **q2**.
+
+![laço em q2](img/p0003-27.png)
+
+E assim, chegamos ao diagrama de estado de **M11**.
 
 tags: autômato, projeto, linguagem regular
