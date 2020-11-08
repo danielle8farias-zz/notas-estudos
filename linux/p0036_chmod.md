@@ -15,7 +15,7 @@ $ sudo chmod <permissões> <nome_do_arquivo_ou_diretório>
 
 - **permissões** é substituído por um conjunto de 3 números (sem o uso dos sinais < >) que vão de 0 a 7, pois as alterações das permissões no modo numérico usa a base octal.
 
-> recomendo a leitura sobre [base octal](../bases_numericas/p0002_base_numerica_oct.md) antes de continuar.
+> recomendo a leitura sobre [base octal](../bases_numericas/p0002_base_numerica_oct.md) e [base binária](../bases_numericas/p0001_base_numerica_bin.md) antes de continuar.
 
 - **nome** do diretório ou arquivo sem os sinais **< >**.
 
