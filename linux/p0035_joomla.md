@@ -104,4 +104,4 @@ Se tudo estiver correto, a tela do site vai carregar com o template.
 
 ![template do governo](img/p0035-5.png)
 
-tags: joomla, template, governo, federal, configuração
+tags: joomla, template, governo federal, configuração
