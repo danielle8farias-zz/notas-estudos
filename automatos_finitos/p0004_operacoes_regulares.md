@@ -24,6 +24,14 @@ Seja o alfabeto Σ = {a, b, c, ..., x, y, z}. Se **A** = {legal, ruim} e **B** =
 
 **A U B** = {legal, ruim, homem, mulher}
 
-**B o A** = {homem-legal, mulher-legal, homem-ruim, mulher-ruim}
+- A U B = B U A
+
+**B o A** = {homemlegal, mulherlegal, homemruim, mulherruim}
+
+- observe que não há espaços entre os elementos e a ordem importa.
+- B o A != A o B
 
 **A\*** = {ε, legal, ruim, legal-legal, legal-ruim, ruim-legal, ruim-ruim, legal-legal-legal, legal-legal-ruim, legal-ruim-legal, legal-ruim-ruim}
+
+
+tags: operações regulares, linguagens regulares, concatenação, união, estrela
