@@ -96,8 +96,50 @@ Temos:
 |---|---|---|
 | r | w | x |
 
+Exemplos:
+
+```
+$ sudo chmod 777 arquivo
+```
+
+Aqui temos **todas as permissões** para **todos os usuários e grupos** (evitar ao máximo usar o 777, pois pode deixar o sistema vulnerável a ataques).
+
+![permissão 777](img/p0036-0.png)
+
+```
+$ sudo chmod 400 arquivo
+```
+
+Aqui somente o **dono** tem permissão de **leitura**.
+
+![permissão 400](img/p0036-1.png)
+
+```
+$ sudo chmod 764 arquivo
+```
+
+Aqui o **dono** tem **todas as permissões**, o **grupo** pode **ler e alterar** o arquivo e os demais **usuários** podem apenas **ler**.
+
+![permissão 764](img/p0036-2.png)
+
+```
+$ sudo chmod 755 arquivo
+```
+
+Aqui o **dono** tem **todas as permissões**, o **grupo** e demais **usuários** podem **ler e executar** o arquivo.
+
+![permissão 755](img/p0036-3.png)
+
+```
+$ sudo chmod 421 arquivo
+```
+
+Aqui o **dono** tem permissão de **leitura**, o **grupo** tem permissão de **escrita** e os demais **usuários** podem apenas **executar** o arquivo.
+
+![permissão 421](img/p0036-4.png)
 
 
+----
 
 ## Modo texto
 
@@ -109,4 +151,4 @@ $ sudo chmod <ugoa><+-=><rwxst> <nome_do_arquivo_ou_diretório>
 
 
 
-tags: linux, terminal, alterar, permissões, modo numérico
+tags: linux, terminal, alterar, permissões, modo numérico, 
