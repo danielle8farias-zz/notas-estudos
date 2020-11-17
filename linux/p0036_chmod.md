@@ -96,7 +96,7 @@ Temos:
 |---|---|---|
 | r | w | x |
 
-Exemplos:
+Exemplo 0:
 
 ```
 $ sudo chmod 777 arquivo
@@ -106,6 +106,8 @@ Aqui temos **todas as permissões** para **todos os usuários e grupos** (evitar
 
 ![permissão 777](img/p0036-0.png)
 
+Exemplo 1:
+
 ```
 $ sudo chmod 400 arquivo
 ```
@@ -113,6 +115,8 @@ $ sudo chmod 400 arquivo
 Aqui somente o **dono** tem permissão de **leitura**.
 
 ![permissão 400](img/p0036-1.png)
+
+Exemplo 2:
 
 ```
 $ sudo chmod 764 arquivo
@@ -122,6 +126,8 @@ Aqui o **dono** tem **todas as permissões**, o **grupo** pode **ler e alterar**
 
 ![permissão 764](img/p0036-2.png)
 
+Exemplo 3:
+
 ```
 $ sudo chmod 755 arquivo
 ```
@@ -129,6 +135,8 @@ $ sudo chmod 755 arquivo
 Aqui o **dono** tem **todas as permissões**, o **grupo** e demais **usuários** podem **ler e executar** o arquivo.
 
 ![permissão 755](img/p0036-3.png)
+
+Exemplo 4:
 
 ```
 $ sudo chmod 421 arquivo
@@ -141,14 +149,22 @@ Aqui o **dono** tem permissão de **leitura**, o **grupo** tem permissão de **e
 
 ----
 
-## Modo texto
+## Modo simbólico
 
 ```
-$ sudo chmod <ugoa><+-=><rwxst> <nome_do_arquivo_ou_diretório>
+$ sudo chmod <argumentos> <nome_do_arquivo_ou_diretório>
 ```
 
+Os **argumentos** são:
 
+- **+** adiciona uma permissão a outra já pré-existente.
+- **-** remove uma permissão.
+- **=** substitui uma permissão pré-existente.
 
+- **u**: do inglês, *user*, referece ao dono do arquivo.
+- **g**: do inglês, *group*, referece ao grupo.
+- **o**: do inglês, *other*, referece aos outros usuários.
+- **a**: do inglês, *all*, referece a todos.
 
 
 tags: linux, terminal, alterar, permissões, modo numérico, 
