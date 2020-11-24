@@ -115,6 +115,8 @@ O comando **nice** serve para redefinir a prioridade de um determinado processo.
 
 ![mem livre](img/p0030-19.png)
 
+É o total de espaço que **ainda não foi utilizado de maneira alguma** pela máquina.
+
 **4.3. Memória RAM usada**:
 
 ![mem usada](img/p0030-20.png)
