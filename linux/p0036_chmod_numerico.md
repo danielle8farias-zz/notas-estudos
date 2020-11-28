@@ -147,24 +147,4 @@ Aqui o **dono** tem permissão de **leitura**, o **grupo** tem permissão de **e
 ![permissão 421](img/p0036-4.png)
 
 
-----
-
-## Modo simbólico
-
-```
-$ sudo chmod <argumentos> <nome_do_arquivo_ou_diretório>
-```
-
-Os **argumentos** são:
-
-- **+** adiciona uma permissão a outra já pré-existente.
-- **-** remove uma permissão.
-- **=** substitui uma permissão pré-existente.
-
-- **u**: do inglês, *user*, referece ao dono do arquivo.
-- **g**: do inglês, *group*, referece ao grupo.
-- **o**: do inglês, *other*, referece aos outros usuários.
-- **a**: do inglês, *all*, referece a todos.
-
-
 tags: linux, terminal, alterar, permissões, modo numérico, 
