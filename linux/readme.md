@@ -73,3 +73,5 @@
 34. [Instalação e configuração LAMP (Linux, Apache, MariaDB e PHP) no Linux (Ubuntu e derivados)](p0034_lamp.md)
 
 35. [Instalação do Joomla-3.x](p0035_joomla.md)
+
+36. [Terminal: alterando permissões - Modo numérico](p0036_chmod_numerico.md)

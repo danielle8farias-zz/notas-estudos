@@ -197,6 +197,8 @@
 
 35. [Instalação do Joomla-3.x](linux/p0035_joomla.md)
 
+36. [Terminal: alterando permissões - Modo numérico](linux/p0036_chmod_numerico.md)
+
 
 ---
 
