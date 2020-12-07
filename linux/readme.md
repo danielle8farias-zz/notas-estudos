@@ -75,3 +75,5 @@
 35. [Instalação do Joomla-3.x](p0035_joomla.md)
 
 36. [Terminal: alterando permissões - Modo numérico](p0036_chmod_numerico.md)
+
+37. [Terminal: alterando permissões - Modo simbólico](p0037_chmod_simbolico.md)

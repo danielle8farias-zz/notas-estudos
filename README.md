@@ -199,6 +199,8 @@
 
 36. [Terminal: alterando permissões - Modo numérico](linux/p0036_chmod_numerico.md)
 
+37. [Terminal: alterando permissões - Modo simbólico](linux/p0037_chmod_simbolico.md)
+
 
 ---
 
