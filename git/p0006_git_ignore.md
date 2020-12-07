@@ -1,7 +1,7 @@
 # gitignore: Ignorando arquivos no Git
 
 
-Caso você queira que o git não enxergue determinados arquivos dentro do seu diretório que está sendo rastreado, precisamos criar o seguinte arquivo:
+Caso você queira que o git **não enxergue** determinados arquivos dentro do seu diretório que está sendo rastreado, precisamos criar o seguinte arquivo:
 
 ```
 $ touch .gitignore
@@ -9,8 +9,11 @@ $ touch .gitignore
 
 - **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 - o comando **touch** serve para criar arquivos no Linux pelo terminal.
+- **.gitignore** deve ser o nome do nosso arquivo de texto.
 
-Abrindo esse arquivo, vamos digitar dentro dele o que queremos deixar de fora do repositório. Exemplo:
+Abrindo esse arquivo, vamos digitar dentro dele o que queremos deixar de fora do repositório.
+
+Exemplo:
 
 ![editando arquivo .gitignore](img/p0006-0.png)
 
