@@ -37,7 +37,7 @@ E fazendo o **commit**
 Também é possível fazer o **commit das modificações** através de um **atalho**:
 
 ```
-git commit -am "commit e adição de modificação juntos"
+$ git commit -am 'adição de modificação do arquivo'
 ```
 
 O parâmetro **-a** adiciona todos os arquivos que foram modificados, sem a necessidade de adicionar cada um individualmente.
@@ -51,5 +51,8 @@ Aqui temos vários arquivos modificados
 Usando o atalho
 
 ![usando o atalho](img/p0007-4.png)
+
+**Observação:**
+É importante notar que se houver um arquivo novo (ainda não rastreado pelo **git**) o comando ```git commit -am``` faz a adição do commit **apenas dos arquivos rastreados que foram modificados**.
 
 tags: git, modificado, add, commit -a, commit -am
