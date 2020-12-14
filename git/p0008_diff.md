@@ -9,19 +9,33 @@ $ git diff
 - o símbolo **$** indica que você deve usar o **usuário comum** para fazer essa operação.
 
 Exemplo:
-Supondo que fiz uma alteração no arquivo readme, cujo conteúdo anterior era o texto abaixo:
 
-![texto 1](img/p0008-0.png)
+Temos o arquivo inicial abaixo
 
-Adicionamos mais um trecho, ficando o arquivo assim
+![arquivo html sem as modificações](img/p0008-0.png)
 
-![texto 2](img/p0008-1.png)
+Em seguida, fizemos as seguintes modificações
 
-Assim, ao digitar o comando **diff**, temos:
+![arquivo html com as modificações](img/p0008-1.png)
 
-![git diff](img/p0008-2.png)
+Ao digitar o comando **diff**, temos:
 
-Assim podemos ver (na cor verde) quais partes do arquivo foram modificadas.
+![usando o comando git diff](img/p0008-2.png)
+
+Assim podemos ver (escrito em **verde**) quais partes do arquivo foram **adicionadas**. 
+
+![partes em verde adicionadas no arquivo](img/p0008-3.png)
+
+Em **vermelho**, as partes que foram **retiradas ou modificadas**. 
+
+![partes em verde adicionadas no arquivo](img/p0008-4.png)
+
+E o que está escrito com a cor **branca** aquilo que foi **mantido** (não houve modificação).
+
+![partes em verde adicionadas no arquivo](img/p0008-5.png)
+
+
+
 
 Para verificar as mudanças dos arquivos que estão no **index**, usamos o comando:
 
